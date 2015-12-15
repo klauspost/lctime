@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Yş",
+		"Dş",
+		"Sş",
+		"Çş",
+		"Pş",
+		"În",
+		"Ş"
+	],
+	"abmon": [
+		"Çil",
+		"Sib",
+		"Ada",
+		"Nîs",
+		"Gul",
+		"Hez",
+		"Tîr",
+		"Teb",
+		"Îlo",
+		"Cot",
+		"Mij",
+		"Kan"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%A %d %B %Y %T %Z"
+	],
+	"day": [
+		"Yekşem",
+		"Duşem",
+		"Sêşem",
+		"Çarşem",
+		"Pêncşem",
+		"În",
+		"Şemî"
+	],
+	"mon": [
+		"çile",
+		"sibat",
+		"adar",
+		"nîsan",
+		"gulan",
+		"hezîran",
+		"tîrmeh",
+		"tebax",
+		"îlon",
+		"cotmeh",
+		"mijdar",
+		"kanûn"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

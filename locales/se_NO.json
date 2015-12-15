@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"sotn",
+		"vuos",
+		"maŋ",
+		"gask",
+		"duor",
+		"bear",
+		"láv"
+	],
+	"abmon": [
+		"ođđj",
+		"guov",
+		"njuk",
+		"cuoŋ",
+		"mies",
+		"geas",
+		"suoi",
+		"borg",
+		"čakč",
+		"golg",
+		"skáb",
+		"juov"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%Y-%m-%d"
+	],
+	"d_t_fmt": [
+		"%a, %b %e. b. %Y %T %Z"
+	],
+	"day": [
+		"sotnabeaivi",
+		"vuossárga",
+		"maŋŋebarga",
+		"gaskavahkku",
+		"duorasdat",
+		"bearjadat",
+		"lávvardat"
+	],
+	"mon": [
+		"ođđajagemánu",
+		"guovvamánu",
+		"njukčamánu",
+		"cuoŋománu",
+		"miessemánu",
+		"geassemánu",
+		"suoidnemánu",
+		"borgemánu",
+		"čakčamánu",
+		"golggotmánu",
+		"skábmamánu",
+		"juovlamánu"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

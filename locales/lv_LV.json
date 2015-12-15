@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Sv",
+		"P",
+		"O",
+		"T",
+		"C",
+		"Pk",
+		"S"
+	],
+	"abmon": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"mai",
+		"jūn",
+		"jūl",
+		"aug",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%Y.%m.%d."
+	],
+	"d_t_fmt": [
+		"%A, %Y. gada %e. %B, plkst. %H un %M"
+	],
+	"day": [
+		"svētdiena",
+		"pirmdiena",
+		"otrdiena",
+		"trešdiena",
+		"ceturtdiena",
+		"piektdiena",
+		"sestdiena"
+	],
+	"mon": [
+		"janvāris",
+		"februāris",
+		"marts",
+		"aprīlis",
+		"maijs",
+		"jūnijs",
+		"jūlijs",
+		"augusts",
+		"septembris",
+		"oktobris",
+		"novembris",
+		"decembris"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

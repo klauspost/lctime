@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"ned",
+		"pon",
+		"uto",
+		"sre",
+		"čet",
+		"pet",
+		"sub"
+	],
+	"abmon": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"maj",
+		"jun",
+		"jul",
+		"avg",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y."
+	],
+	"d_t_fmt": [
+		"%A, %d. %B %Y. %T %Z"
+	],
+	"day": [
+		"nedelja",
+		"ponedeljak",
+		"utorak",
+		"sreda",
+		"četvrtak",
+		"petak",
+		"subota"
+	],
+	"mon": [
+		"januar",
+		"februar",
+		"mart",
+		"april",
+		"maj",
+		"juni",
+		"juli",
+		"avgust",
+		"septembar",
+		"oktobar",
+		"novembar",
+		"decembar"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		"%T"
+	]
+}

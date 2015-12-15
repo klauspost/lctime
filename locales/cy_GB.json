@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Sul",
+		"Llu",
+		"Maw",
+		"Mer",
+		"Iau",
+		"Gwe",
+		"Sad"
+	],
+	"abmon": [
+		"Ion",
+		"Chw",
+		"Maw",
+		"Ebr",
+		"Mai",
+		"Meh",
+		"Gor",
+		"Aws",
+		"Med",
+		"Hyd",
+		"Tach",
+		"Rha"
+	],
+	"am_pm": [
+		"AM",
+		"PM"
+	],
+	"d_fmt": [
+		"%d.%m.%y"
+	],
+	"d_t_fmt": [
+		"Dydd %A %d mis %B %Y %T %Z"
+	],
+	"day": [
+		"Sul",
+		"Llun",
+		"Mawrth",
+		"Mercher",
+		"Iau",
+		"Gwener",
+		"Sadwrn"
+	],
+	"mon": [
+		"Ionawr",
+		"Chwefror",
+		"Mawrth",
+		"Ebrill",
+		"Mai",
+		"Mehefin",
+		"Gorffennaf",
+		"Awst",
+		"Medi",
+		"Hydref",
+		"Tachwedd",
+		"Rhagfyr"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		"%l:%M:%S %P %Z"
+	]
+}

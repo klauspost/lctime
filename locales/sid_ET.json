@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Sam",
+		"San",
+		"Mak",
+		"Row",
+		"Ham",
+		"Arb",
+		"Qid"
+	],
+	"abmon": [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apr",
+		"May",
+		"Jun",
+		"Jul",
+		"Aug",
+		"Sep",
+		"Oct",
+		"Nov",
+		"Dec"
+	],
+	"am_pm": [
+		"soodo",
+		"hawwaro"
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%A, %B %e, %Y %r %Z"
+	],
+	"day": [
+		"Sambata",
+		"Sanyo",
+		"Maakisanyo",
+		"Roowe",
+		"Hamuse",
+		"Arbe",
+		"Qidaame"
+	],
+	"mon": [
+		"January",
+		"February",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December"
+	],
+	"t_fmt": [
+		"%I:%M:%S"
+	],
+	"t_fmt_ampm": [
+		"%X %p"
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Lin",
+		"Lun",
+		"Mar",
+		"Miy",
+		"Huw",
+		"Biy",
+		"Sab"
+	],
+	"abmon": [
+		"Ene",
+		"Peb",
+		"Mar",
+		"Abr",
+		"May",
+		"Hun",
+		"Hul",
+		"Ago",
+		"Sep",
+		"Okt",
+		"Nob",
+		"Dis"
+	],
+	"am_pm": [
+		"N.U.",
+		"N.H."
+	],
+	"d_fmt": [
+		"%m/%d/%y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %r %Z"
+	],
+	"day": [
+		"Linggo",
+		"Lunes",
+		"Martes",
+		"Miyerkoles",
+		"Huwebes",
+		"Biyernes",
+		"Sabado"
+	],
+	"mon": [
+		"Enero",
+		"Pebrero",
+		"Marso",
+		"Abril",
+		"Mayo",
+		"Hunyo",
+		"Hulyo",
+		"Agosto",
+		"Septiyembre",
+		"Oktubre",
+		"Nobiyembre",
+		"Disyembre"
+	],
+	"t_fmt": [
+		"%r"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S %p"
+	]
+}

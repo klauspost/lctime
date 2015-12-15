@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"dom",
+		"lûn",
+		"mar",
+		"mer",
+		"zêu",
+		"ven",
+		"sab"
+	],
+	"abmon": [
+		"zen",
+		"fev",
+		"mar",
+		"arv",
+		"maz",
+		"zûg",
+		"lûg",
+		"ago",
+		"set",
+		"ött",
+		"nov",
+		"dix"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"domenega",
+		"lûnedì",
+		"martedì",
+		"mercUrdì",
+		"zêggia",
+		"venardì",
+		"sabbo"
+	],
+	"mon": [
+		"zenâ",
+		"fevrâ",
+		"marzo",
+		"avrî",
+		"mazzo",
+		"zûgno",
+		"lûggio",
+		"agosto",
+		"settembre",
+		"ottobre",
+		"novembre",
+		"dixembre"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

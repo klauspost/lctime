@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Sxe",
+		"Spe",
+		"Sel",
+		"Ske",
+		"Sme",
+		"Sts",
+		"Stq"
+	],
+	"abmon": [
+		"Kwe",
+		"Tsi",
+		"Sqe",
+		"Éwt",
+		"Ell",
+		"Tsp",
+		"Tqw",
+		"Ct̓é",
+		"Qel",
+		"Wél",
+		"U7l",
+		"Tet"
+	],
+	"am_pm": [
+		"AM",
+		"PM"
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %r %Z"
+	],
+	"day": [
+		"Sxetspesq̓t",
+		"Spetkesq̓t",
+		"Selesq̓t",
+		"Skellesq̓t",
+		"Smesesq̓t",
+		"Stselkstesq̓t",
+		"Stqmekstesq̓t"
+	],
+	"mon": [
+		"Pellkwet̓min",
+		"Pelctsipwen̓ten",
+		"Pellsqépts",
+		"Peslléwten",
+		"Pell7ell7é7llqten",
+		"Pelltspéntsk",
+		"Pelltqwelq̓wél̓t",
+		"Pellct̓éxel̓cten",
+		"Pesqelqlélten",
+		"Pesllwélsten",
+		"Pellc7ell7é7llcwten̓",
+		"Pelltetétq̓em"
+	],
+	"t_fmt": [
+		"%r"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S %p"
+	]
+}

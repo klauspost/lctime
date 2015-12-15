@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Ne",
+		"Po",
+		"Út",
+		"St",
+		"Čt",
+		"Pá",
+		"So"
+	],
+	"abmon": [
+		"led",
+		"úno",
+		"bře",
+		"dub",
+		"kvě",
+		"čen",
+		"čec",
+		"srp",
+		"zář",
+		"říj",
+		"lis",
+		"pro"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%-d.%-m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %-d. %B %Y, %H:%M:%S %Z"
+	],
+	"day": [
+		"Neděle",
+		"Pondělí",
+		"Úterý",
+		"Středa",
+		"Čtvrtek",
+		"Pátek",
+		"Sobota"
+	],
+	"mon": [
+		"leden",
+		"únor",
+		"březen",
+		"duben",
+		"květen",
+		"červen",
+		"červenec",
+		"srpen",
+		"září",
+		"říjen",
+		"listopad",
+		"prosinec"
+	],
+	"t_fmt": [
+		"%H:%M:%S"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S"
+	]
+}

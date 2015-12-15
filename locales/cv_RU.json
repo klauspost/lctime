@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"vr",
+		"tn",
+		"yt",
+		"jn",
+		"kş",
+		"er",
+		"šm"
+	],
+	"abmon": [
+		"KĂR",
+		"NAR",
+		"PUŠ",
+		"AKA",
+		"ŞU",
+		"ŞĔR",
+		"UTĂ",
+		"ŞUR",
+		"AVĂ",
+		"JUP",
+		"CÜK",
+		"RAŠ"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T"
+	],
+	"day": [
+		"vyrsarnikun",
+		"tuntikun",
+		"ytlarikun",
+		"junkun",
+		"kĕşnernikun",
+		"ernekun",
+		"šămatkun"
+	],
+	"mon": [
+		"kărlac",
+		"narăs",
+		"puš",
+		"aka",
+		"şu",
+		"şĕrtme",
+		"ută",
+		"şurla",
+		"avăn",
+		"jupa",
+		"cük",
+		"raštav"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

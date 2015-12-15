@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Nia",
+		"Pan",
+		"Aŭt",
+		"Sie",
+		"Čać",
+		"Pia",
+		"Sub"
+	],
+	"abmon": [
+		"Stu",
+		"Lut",
+		"Sak",
+		"Kra",
+		"Tra",
+		"Čer",
+		"Lip",
+		"Žni",
+		"Vie",
+		"Kas",
+		"Lis",
+		"Śni"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T"
+	],
+	"day": [
+		"Niadziela",
+		"Paniadziełak",
+		"Aŭtorak",
+		"Sierada",
+		"Čaćvier",
+		"Piatnica",
+		"Subota"
+	],
+	"mon": [
+		"Studzień",
+		"Luty",
+		"Sakavik",
+		"Krasavik",
+		"Travień",
+		"Červień",
+		"Lipień",
+		"Žnivień",
+		"Vierasień",
+		"Kastryčnik",
+		"Listapad",
+		"Śniežań"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Jed",
+		"Jel",
+		"Jem",
+		"Jerc",
+		"Jerd",
+		"Jeh",
+		"Jes"
+	],
+	"abmon": [
+		"J-guer",
+		"T-arree",
+		"Mayrnt",
+		"Avrril",
+		"Boaldyn",
+		"M-souree",
+		"J-souree",
+		"Luanistyn",
+		"M-fouyir",
+		"J-fouyir",
+		"M.Houney",
+		"M.Nollick"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"Jedoonee",
+		"Jelhein",
+		"Jemayrt",
+		"Jercean",
+		"Jerdein",
+		"Jeheiney",
+		"Jesarn"
+	],
+	"mon": [
+		"Jerrey-geuree",
+		"Toshiaght-arree",
+		"Mayrnt",
+		"Averil",
+		"Boaldyn",
+		"Mean-souree",
+		"Jerrey-souree",
+		"Luanistyn",
+		"Mean-fouyir",
+		"Jerrey-fouyir",
+		"Mee Houney",
+		"Mee ny Nollick"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"sul",
+		"lun",
+		"meu",
+		"mer",
+		"yao",
+		"gwe",
+		"sad"
+	],
+	"abmon": [
+		"Gen",
+		"C'hw",
+		"Meu",
+		"Ebr",
+		"Mae",
+		"Eve",
+		"Gou",
+		"Eos",
+		"Gwe",
+		"Her",
+		"Du",
+		"Ker"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"D'ar %A %d a viz %B %Y"
+	],
+	"day": [
+		"sul",
+		"lun",
+		"meurzh",
+		"merc'her",
+		"yaou",
+		"gwener",
+		"sadorn"
+	],
+	"mon": [
+		"Genver",
+		"C'hwevrer",
+		"Meurzh",
+		"Ebrel",
+		"Mae",
+		"Mezheven",
+		"Gouere",
+		"Eost",
+		"Gwengolo",
+		"Here",
+		"Du",
+		"Kerzu"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		"%Ie%M:%S %p"
+	]
+}

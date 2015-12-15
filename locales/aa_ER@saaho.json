@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Nab",
+		"San",
+		"Sal",
+		"Rab",
+		"Cam",
+		"Jum",
+		"Qun"
+	],
+	"abmon": [
+		"Qun",
+		"Nah",
+		"Cig",
+		"Agd",
+		"Cax",
+		"Qas",
+		"Qad",
+		"Leq",
+		"Way",
+		"Dit",
+		"Xim",
+		"Kax"
+	],
+	"am_pm": [
+		"saaku",
+		"carra"
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%A, %B %e, %Y %r %Z"
+	],
+	"day": [
+		"Naba Sambat",
+		"Sani",
+		"Salus",
+		"Rabuq",
+		"Camus",
+		"Jumqata",
+		"Qunxa Sambat"
+	],
+	"mon": [
+		"Qunxa Garablu",
+		"Naharsi Kudo",
+		"Ciggilta Kudo",
+		"Agda Baxisso",
+		"Caxah Alsa",
+		"Qasa Dirri",
+		"Qado Dirri",
+		"Leqeeni",
+		"Waysu",
+		"Diteli",
+		"Ximoli",
+		"Kaxxa Garablu"
+	],
+	"t_fmt": [
+		"%I:%M:%S"
+	],
+	"t_fmt_ampm": [
+		"%X %p"
+	]
+}

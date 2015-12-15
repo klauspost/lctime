@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"lhd",
+		"lts",
+		"tlt",
+		"lrb",
+		"lkm",
+		"zom",
+		"sab"
+	],
+	"abmon": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"mey",
+		"jon",
+		"jol",
+		"aog",
+		"sep",
+		"okt",
+		"nov",
+		"des"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"alahady",
+		"alatsinainy",
+		"talata",
+		"alarobia",
+		"alakamisy",
+		"zoma",
+		"sabotsy"
+	],
+	"mon": [
+		"janoary",
+		"febroary",
+		"martsa",
+		"aprily",
+		"mey",
+		"jona",
+		"jolay",
+		"aogositra",
+		"septambra",
+		"oktobra",
+		"novambra",
+		"desambra"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

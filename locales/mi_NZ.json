@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Ta",
+		"Ma",
+		"Tū",
+		"We",
+		"Tāi",
+		"Pa",
+		"Hā"
+	],
+	"abmon": [
+		"Kohi",
+		"Hui",
+		"Pou",
+		"Pae",
+		"Hara",
+		"Pipi",
+		"Hōngoi",
+		"Here",
+		"Mahu",
+		"Whi-nu",
+		"Whi-ra",
+		"Haki"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"Te %A, te %d o %B, %Y %T %Z"
+	],
+	"day": [
+		"Rātapu",
+		"Mane",
+		"Tūrei",
+		"Wenerei",
+		"Tāite",
+		"Paraire",
+		"Hātarei"
+	],
+	"mon": [
+		"Kohi-tātea",
+		"Hui-tanguru",
+		"Poutū-te-rangi",
+		"Paenga-whāwhā",
+		"Haratua",
+		"Pipiri",
+		"Hōngoingoi",
+		"Here-turi-kōkā",
+		"Mahuru",
+		"Whiringa-ā-nuku",
+		"Whiringa-ā-rangi",
+		"Hakihea"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

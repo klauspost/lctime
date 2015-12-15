@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Dom",
+		"Seg",
+		"Ter",
+		"Qua",
+		"Qui",
+		"Sex",
+		"Sáb"
+	],
+	"abmon": [
+		"Jan",
+		"Fev",
+		"Mar",
+		"Abr",
+		"Mai",
+		"Jun",
+		"Jul",
+		"Ago",
+		"Set",
+		"Out",
+		"Nov",
+		"Dez"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d-%m-%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"domingo",
+		"segunda",
+		"terça",
+		"quarta",
+		"quinta",
+		"sexta",
+		"sábado"
+	],
+	"mon": [
+		"janeiro",
+		"fevereiro",
+		"março",
+		"abril",
+		"maio",
+		"junho",
+		"julho",
+		"agosto",
+		"setembro",
+		"outubro",
+		"novembro",
+		"dezembro"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

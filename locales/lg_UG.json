@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Sab",
+		"Bal",
+		"Lw2",
+		"Lw3",
+		"Lw4",
+		"Lw5",
+		"Lw6"
+	],
+	"abmon": [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apu",
+		"Maa",
+		"Jun",
+		"Jul",
+		"Agu",
+		"Seb",
+		"Oki",
+		"Nov",
+		"Des"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"Sabiiti",
+		"Balaza",
+		"Lwakubiri",
+		"Lwakusatu",
+		"Lwakuna",
+		"Lwakutaano",
+		"Lwamukaaga"
+	],
+	"mon": [
+		"Janwaliyo",
+		"Febwaliyo",
+		"Marisi",
+		"Apuli",
+		"Maayi",
+		"Juuni",
+		"Julaai",
+		"Agusito",
+		"Sebuttemba",
+		"Okitobba",
+		"Novemba",
+		"Desemba"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

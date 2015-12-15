@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Son",
+		"Mma",
+		"Bed",
+		"Rar",
+		"Ne",
+		"Hla",
+		"Moq"
+	],
+	"abmon": [
+		"Phe",
+		"Hla",
+		"TlH",
+		"Mme",
+		"Mot",
+		"Jan",
+		"Upu",
+		"Pha",
+		"Leo",
+		"Mph",
+		"Pud",
+		"Tsh"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%a %-e %b %Y %T %Z"
+	],
+	"day": [
+		"Sontaha",
+		"Mantaha",
+		"Labobedi",
+		"Laboraro",
+		"Labone",
+		"Labohlano",
+		"Moqebelo"
+	],
+	"mon": [
+		"Pherekgong",
+		"Hlakola",
+		"Tlhakubele",
+		"Mmese",
+		"Motsheanong",
+		"Phupjane",
+		"Phupu",
+		"Phato",
+		"Leotse",
+		"Mphalane",
+		"Pudungwana",
+		"Tshitwe"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

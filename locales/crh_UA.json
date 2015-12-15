@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Baz",
+		"Ber",
+		"Sal",
+		"Çar",
+		"Caq",
+		"Cum",
+		"Cer"
+	],
+	"abmon": [
+		"Yan",
+		"Fev",
+		"Mar",
+		"Apr",
+		"May",
+		"İyn",
+		"İyl",
+		"Avg",
+		"Sen",
+		"Okt",
+		"Noy",
+		"Dek"
+	],
+	"am_pm": [
+		"ÜE",
+		"ÜS"
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T"
+	],
+	"day": [
+		"Bazar",
+		"Bazarertesi",
+		"Salı",
+		"Çarşembe",
+		"Cumaaqşamı",
+		"Cuma",
+		"Cumaertesi"
+	],
+	"mon": [
+		"Yanvar",
+		"Fevral",
+		"Mart",
+		"Aprel",
+		"Mayıs",
+		"İyun",
+		"İyul",
+		"Avgust",
+		"Sentâbr",
+		"Oktâbr",
+		"Noyabr",
+		"Dekabr"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S %p"
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"ken",
+		"man",
+		"tus",
+		"lel",
+		"tas",
+		"pel",
+		"sat"
+	],
+	"abmon": [
+		"eni",
+		"chk",
+		"xam",
+		"kwe",
+		"tai",
+		"nip",
+		"lai",
+		"win",
+		"tah",
+		"puk",
+		"kun",
+		"mux"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"kentuwei",
+		"manteke",
+		"tusteke",
+		"lelai",
+		"tasteke",
+		"pelaiteke",
+		"sateteke"
+	],
+	"mon": [
+		"enikwsi",
+		"chkwali",
+		"xamokhwite",
+		"kwetayoxe",
+		"tainipen",
+		"kichinipen",
+		"lainipen",
+		"winaminke",
+		"kichitahkok",
+		"puksit",
+		"wini",
+		"muxkotae"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

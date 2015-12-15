@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"lp",
+		"p1",
+		"p2",
+		"p3",
+		"p4",
+		"p5",
+		"p6"
+	],
+	"abmon": [
+		"1g",
+		"2g",
+		"3g",
+		"4g",
+		"5g",
+		"6g",
+		"7g",
+		"8g",
+		"9g",
+		"10g",
+		"11g",
+		"12g"
+	],
+	"am_pm": [
+		"téng-po͘",
+		"ē-po͘"
+	],
+	"d_fmt": [
+		"%F"
+	],
+	"d_t_fmt": [
+		"%Y %b %d (%a) %H:%M:%S %Z"
+	],
+	"day": [
+		"lé-pài-ji̍t",
+		"pài-it",
+		"pài-jī",
+		"pài-saⁿ",
+		"pài-sì",
+		"pài-gō͘",
+		"pài-la̍k"
+	],
+	"mon": [
+		"1goe̍h",
+		"2goe̍h",
+		"3goe̍h",
+		"4goe̍h",
+		"5goe̍h",
+		"6goe̍h",
+		"7goe̍h",
+		"8goe̍h",
+		"9goe̍h",
+		"10goe̍h",
+		"11goe̍h",
+		"12goe̍h"
+	],
+	"t_fmt": [
+		"%r"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S %p"
+	]
+}

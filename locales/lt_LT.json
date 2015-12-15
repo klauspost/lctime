@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Sk",
+		"Pr",
+		"An",
+		"Tr",
+		"Kt",
+		"Pn",
+		"Št"
+	],
+	"abmon": [
+		"Sau",
+		"Vas",
+		"Kov",
+		"Bal",
+		"Geg",
+		"Bir",
+		"Lie",
+		"Rgp",
+		"Rgs",
+		"Spa",
+		"Lap",
+		"Grd"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%Y.%m.%d"
+	],
+	"d_t_fmt": [
+		"%Y m. %B %d d. %T"
+	],
+	"day": [
+		"Sekmadienis",
+		"Pirmadienis",
+		"Antradienis",
+		"Trečiadienis",
+		"Ketvirtadienis",
+		"Penktadienis",
+		"Šeštadienis"
+	],
+	"mon": [
+		"sausio",
+		"vasario",
+		"kovo",
+		"balandžio",
+		"gegužės",
+		"birželio",
+		"liepos",
+		"rugpjūčio",
+		"rugsėjo",
+		"spalio",
+		"lapkričio",
+		"gruodžio"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

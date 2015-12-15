@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"dom",
+		"llu",
+		"mar",
+		"mié",
+		"xue",
+		"vie",
+		"sáb"
+	],
+	"abmon": [
+		"xin",
+		"feb",
+		"mar",
+		"abr",
+		"may",
+		"xun",
+		"xnt",
+		"ago",
+		"set",
+		"och",
+		"pay",
+		"avi"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"domingu",
+		"llunes",
+		"martes",
+		"miércoles",
+		"xueves",
+		"vienres",
+		"sábadu"
+	],
+	"mon": [
+		"xineru",
+		"febreru",
+		"marzu",
+		"abril",
+		"mayu",
+		"xunu",
+		"xunetu",
+		"agostu",
+		"setiembre",
+		"ochobre",
+		"payares",
+		"avientu"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

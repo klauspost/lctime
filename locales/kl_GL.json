@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"sab",
+		"ata",
+		"mar",
+		"pin",
+		"sis",
+		"tal",
+		"arf"
+	],
+	"abmon": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"maj",
+		"jun",
+		"jul",
+		"aug",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d %b %Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"sabaat",
+		"ataasinngorneq",
+		"marlunngorneq",
+		"pingasunngorneq",
+		"sisamanngorneq",
+		"tallimanngorneq",
+		"arfininngorneq"
+	],
+	"mon": [
+		"januari",
+		"februari",
+		"martsi",
+		"aprili",
+		"maji",
+		"juni",
+		"juli",
+		"augustusi",
+		"septemberi",
+		"oktoberi",
+		"novemberi",
+		"decemberi"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

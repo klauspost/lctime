@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Dil",
+		"Wix",
+		"Qib",
+		"Rob",
+		"Kam",
+		"Jim",
+		"San"
+	],
+	"abmon": [
+		"Ama",
+		"Gur",
+		"Bit",
+		"Elb",
+		"Cam",
+		"Wax",
+		"Ado",
+		"Hag",
+		"Ful",
+		"Onk",
+		"Sad",
+		"Mud"
+	],
+	"am_pm": [
+		"WD",
+		"WB"
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%A, %B %e, %Y %r %Z"
+	],
+	"day": [
+		"Dilbata",
+		"Wiixata",
+		"Qibxata",
+		"Roobii",
+		"Kamiisa",
+		"Jimaata",
+		"Sanbata"
+	],
+	"mon": [
+		"Amajjii",
+		"Guraandhala",
+		"Bitooteessa",
+		"Elba",
+		"Caamsa",
+		"Waxabajjii",
+		"Adooleessa",
+		"Hagayya",
+		"Fuulbana",
+		"Onkololeessa",
+		"Sadaasa",
+		"Muddee"
+	],
+	"t_fmt": [
+		"%I:%M:%S"
+	],
+	"t_fmt_ampm": [
+		"%X %p"
+	]
+}

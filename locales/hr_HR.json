@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Ned",
+		"Pon",
+		"Uto",
+		"Sri",
+		"Čet",
+		"Pet",
+		"Sub"
+	],
+	"abmon": [
+		"Sij",
+		"Vel",
+		"Ožu",
+		"Tra",
+		"Svi",
+		"Lip",
+		"Srp",
+		"Kol",
+		"Ruj",
+		"Lis",
+		"Stu",
+		"Pro"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T"
+	],
+	"day": [
+		"Nedjelja",
+		"Ponedjeljak",
+		"Utorak",
+		"Srijeda",
+		"Četvrtak",
+		"Petak",
+		"Subota"
+	],
+	"mon": [
+		"Siječanj",
+		"Veljača",
+		"Ožujak",
+		"Travanj",
+		"Svibanj",
+		"Lipanj",
+		"Srpanj",
+		"Kolovoz",
+		"Rujan",
+		"Listopad",
+		"Studeni",
+		"Prosinac"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"baz",
+		"ber",
+		"çax",
+		"çər",
+		"cax",
+		"cüm",
+		"şnb"
+	],
+	"abmon": [
+		"Yan",
+		"Fev",
+		"Mar",
+		"Apr",
+		"May",
+		"İyn",
+		"İyl",
+		"Avq",
+		"Sen",
+		"Okt",
+		"Noy",
+		"Dek"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%A, %d %B %Y %T"
+	],
+	"day": [
+		"bazar günü",
+		"bazar ertəsi",
+		"çərşənbə axşamı",
+		"çərşənbə",
+		"cümə axşamı",
+		"cümə",
+		"şənbə"
+	],
+	"mon": [
+		"yanvar",
+		"fevral",
+		"mart",
+		"aprel",
+		"may",
+		"iyun",
+		"iyul",
+		"avqust",
+		"sentyabr",
+		"oktyabr",
+		"noyabr",
+		"dekabr"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

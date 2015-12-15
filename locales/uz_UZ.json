@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Yak",
+		"Du",
+		"Se",
+		"Cho",
+		"Pay",
+		"Ju",
+		"Sha"
+	],
+	"abmon": [
+		"Yan",
+		"Fev",
+		"Mar",
+		"Apr",
+		"May",
+		"Iyn",
+		"Iyl",
+		"Avg",
+		"Sen",
+		"Okt",
+		"Noy",
+		"Dek"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"%T, %d %B, %Y yil, %A"
+	],
+	"day": [
+		"Yakshanba",
+		"Dushanba",
+		"Seshanba",
+		"Chorshanba",
+		"Payshanba",
+		"Juma",
+		"Shanba"
+	],
+	"mon": [
+		"Yanvar",
+		"Fevral",
+		"Mart",
+		"Aprel",
+		"May",
+		"Iyun",
+		"Iyul",
+		"Avgust",
+		"Sentyabr",
+		"Oktyabr",
+		"Noyabr",
+		"Dekabr"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

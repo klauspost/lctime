@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Du",
+		"Lu",
+		"Ma",
+		"Mi",
+		"Jo",
+		"Vi",
+		"Sb"
+	],
+	"abmon": [
+		"ian",
+		"feb",
+		"mar",
+		"apr",
+		"mai",
+		"iun",
+		"iul",
+		"aug",
+		"sep",
+		"oct",
+		"nov",
+		"dec"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %z"
+	],
+	"day": [
+		"duminică",
+		"luni",
+		"marţi",
+		"miercuri",
+		"joi",
+		"vineri",
+		"sâmbătă"
+	],
+	"mon": [
+		"ianuarie",
+		"februarie",
+		"martie",
+		"aprilie",
+		"mai",
+		"iunie",
+		"iulie",
+		"august",
+		"septembrie",
+		"octombrie",
+		"noiembrie",
+		"decembrie"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"abday": [
+		"dew",
+		"aaɓ",
+		"maw",
+		"nje",
+		"naa",
+		"mwd",
+		"hbi"
+	],
+	"abmon": [
+		"sii",
+		"col",
+		"mbo",
+		"see",
+		"duu",
+		"kor",
+		"mor",
+		"juk",
+		"slt",
+		"yar",
+		"jol",
+		"bow"
+	],
+	"am_pm": [
+		"subaka",
+		"kikiiɗe"
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %R %Z"
+	],
+	"day": [
+		"dewo",
+		"aaɓnde",
+		"mawbaare",
+		"njeslaare",
+		"naasaande",
+		"mawnde",
+		"hoore-biir"
+	],
+	"mon": [
+		"siilo",
+		"colte",
+		"mbooy",
+		"seeɗto",
+		"duujal",
+		"korse",
+		"morso",
+		"juko",
+		"siilto",
+		"yarkomaa",
+		"jolal",
+		"bowte"
+	],
+	"t_fmt": [
+		"%R"
+	],
+	"t_fmt_ampm": null
+}

@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Sun",
+		"Mon",
+		"Tue",
+		"Wed",
+		"Thu",
+		"Fri",
+		"Sat"
+	],
+	"abmon": [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apr",
+		"May",
+		"Jun",
+		"July",
+		"Aug",
+		"Sep",
+		"Oct",
+		"Nov",
+		"Dec"
+	],
+	"am_pm": [
+		"uluchelo",
+		"akasuba"
+	],
+	"d_fmt": [
+		"%m/%d/%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %R %Z"
+	],
+	"day": [
+		"Pa Mulungu",
+		"Palichimo",
+		"Palichibuli",
+		"Palichitatu",
+		"Palichine",
+		"Palichisano",
+		"Pachibelushi"
+	],
+	"mon": [
+		"Januari",
+		"Februari",
+		"Machi",
+		"Epreo",
+		"Mei",
+		"Juni",
+		"Julai",
+		"Ogasti",
+		"Septemba",
+		"Oktoba",
+		"Novemba",
+		"Disemba"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S %p"
+	]
+}

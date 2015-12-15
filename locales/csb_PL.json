@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"nie",
+		"pòn",
+		"wtó",
+		"str",
+		"czw",
+		"pią",
+		"sob"
+	],
+	"abmon": [
+		"stë",
+		"gro",
+		"stm",
+		"łżë",
+		"môj",
+		"cze",
+		"lëp",
+		"zél",
+		"séw",
+		"ruj",
+		"lës",
+		"gòd"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%Y-%m-%d"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"niedzela",
+		"pòniedzôłk",
+		"wtórk",
+		"strzoda",
+		"czwiôrtk",
+		"piątk",
+		"sobòta"
+	],
+	"mon": [
+		"stëcznik",
+		"gromicznik",
+		"strumiannik",
+		"łżëkwiôt",
+		"môj",
+		"czerwińc",
+		"lëpinc",
+		"zélnik",
+		"séwnik",
+		"rujan",
+		"lëstopadnik",
+		"gòdnik"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

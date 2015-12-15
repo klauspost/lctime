@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Min",
+		"Sav",
+		"Ila",
+		"Qit",
+		"Sis",
+		"Tal",
+		"Maq"
+	],
+	"abmon": [
+		"Sñt",
+		"Sñs",
+		"Pan",
+		"Qil",
+		"Sup",
+		"Iġñ",
+		"Itc",
+		"Tiñ",
+		"Ami",
+		"Sik",
+		"Nip",
+		"Siq"
+	],
+	"am_pm": [
+		"AM",
+		"PM"
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %r %Z"
+	],
+	"day": [
+		"Minġuiqsioiq",
+		"Savałłiq",
+		"Ilaqtchiioiq",
+		"Qitchiioiq",
+		"Sisamiioiq",
+		"Tallimmiioiq",
+		"Maqinġuoiq"
+	],
+	"mon": [
+		"Siqiññaatchiaq",
+		"Siqiññaasrugruk",
+		"Paniqsiqsiivik",
+		"Qilġich Tatqiat",
+		"Suppivik",
+		"Iġñivik",
+		"Itchavik",
+		"Tiññivik",
+		"Amiġaiqsivik",
+		"Sikkuvik",
+		"Nippivik",
+		"Siqiñġiḷaq"
+	],
+	"t_fmt": [
+		"%r"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S %p"
+	]
+}

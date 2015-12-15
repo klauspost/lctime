@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Son",
+		"Moš",
+		"Bed",
+		"Rar",
+		"Ne",
+		"Hla",
+		"Mok"
+	],
+	"abmon": [
+		"Jan",
+		"Feb",
+		"Mat",
+		"Apr",
+		"Mei",
+		"Jun",
+		"Jul",
+		"Ago",
+		"Set",
+		"Okt",
+		"Nof",
+		"Dis"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"LaMorena",
+		"Mošupologo",
+		"Labobedi",
+		"Laboraro",
+		"Labone",
+		"Labohlano",
+		"Mokibelo"
+	],
+	"mon": [
+		"Janaware",
+		"Febereware",
+		"Matšhe",
+		"Aprele",
+		"Mei",
+		"June",
+		"Julae",
+		"Agostose",
+		"Setemere",
+		"Oktobere",
+		"Nofemere",
+		"Disemere"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

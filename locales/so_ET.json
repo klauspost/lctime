@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Axa",
+		"Isn",
+		"Sal",
+		"Arb",
+		"Kha",
+		"Jim",
+		"Sab"
+	],
+	"abmon": [
+		"Kob",
+		"Lab",
+		"Sad",
+		"Afr",
+		"Sha",
+		"Lix",
+		"Tod",
+		"Sid",
+		"Sag",
+		"Tob",
+		"KIT",
+		"LIT"
+	],
+	"am_pm": [
+		"subaxnimo",
+		"galabnimo"
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%A, %B %e, %Y %r %Z"
+	],
+	"day": [
+		"Axad",
+		"Isniin",
+		"Salaaso",
+		"Arbaco",
+		"Khamiis",
+		"Jimco",
+		"Sabti"
+	],
+	"mon": [
+		"Bisha Koobaad",
+		"Bisha Labaad",
+		"Bisha Saddexaad",
+		"Bisha Afraad",
+		"Bisha Shanaad",
+		"Bisha Lixaad",
+		"Bisha Todobaad",
+		"Bisha Sideedaad",
+		"Bisha Sagaalaad",
+		"Bisha Tobnaad",
+		"Bisha Kow iyo Tobnaad",
+		"Bisha Laba iyo Tobnaad"
+	],
+	"t_fmt": [
+		"%I:%M:%S"
+	],
+	"t_fmt_ampm": [
+		"%X %p"
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Swo",
+		"Mus",
+		"Vhi",
+		"Rar",
+		"ṋa",
+		"Ṱan",
+		"Mug"
+	],
+	"abmon": [
+		"Pha",
+		"Luh",
+		"Fam",
+		"Lam",
+		"Shu",
+		"Lwi",
+		"Lwa",
+		"Ngu",
+		"Khu",
+		"Tsh",
+		"Ḽar",
+		"Nye"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d/%m/%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"Swondaha",
+		"Musumbuluwo",
+		"Ḽavhuvhili",
+		"Ḽavhuraru",
+		"Ḽavhuṋa",
+		"Ḽavhuṱanu",
+		"Mugivhela"
+	],
+	"mon": [
+		"Phando",
+		"Luhuhi",
+		"Ṱhafamuhwe",
+		"Lambamai",
+		"Shundunthule",
+		"Fulwi",
+		"Fulwana",
+		"Ṱhangule",
+		"Khubvumedzi",
+		"Tshimedzi",
+		"Ḽara",
+		"Nyendavhusiku"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

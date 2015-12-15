@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Mwe",
+		"Mbe",
+		"Kab",
+		"Gtu",
+		"Kan",
+		"Gnu",
+		"Gnd"
+	],
+	"abmon": [
+		"Mut",
+		"Gas",
+		"Wer",
+		"Mat",
+		"Gic",
+		"Kam",
+		"Nya",
+		"Kan",
+		"Nze",
+		"Ukw",
+		"Ugu",
+		"Uku"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"Ku cyumweru",
+		"Kuwa mbere",
+		"Kuwa kabiri",
+		"Kuwa gatatu",
+		"Kuwa kane",
+		"Kuwa gatanu",
+		"Kuwa gatandatu"
+	],
+	"mon": [
+		"Mutarama",
+		"Gashyantare",
+		"Werurwe",
+		"Mata",
+		"Gicuransi",
+		"Kamena",
+		"Nyakanga",
+		"Kanama",
+		"Nzeli",
+		"Ukwakira",
+		"Ugushyingo",
+		"Ukuboza"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

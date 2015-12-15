@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"su",
+		"ma",
+		"ti",
+		"ke",
+		"to",
+		"pe",
+		"la"
+	],
+	"abmon": [
+		"tammi",
+		"helmi",
+		"maalis",
+		"huhti",
+		"touko",
+		"kesä",
+		"heinä",
+		"elo",
+		"syys",
+		"loka",
+		"marras",
+		"joulu"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %e. %Bta %Y %H.%M.%S"
+	],
+	"day": [
+		"sunnuntai",
+		"maanantai",
+		"tiistai",
+		"keskiviikko",
+		"torstai",
+		"perjantai",
+		"lauantai"
+	],
+	"mon": [
+		"tammikuu",
+		"helmikuu",
+		"maaliskuu",
+		"huhtikuu",
+		"toukokuu",
+		"kesäkuu",
+		"heinäkuu",
+		"elokuu",
+		"syyskuu",
+		"lokakuu",
+		"marraskuu",
+		"joulukuu"
+	],
+	"t_fmt": [
+		"%H.%M.%S"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

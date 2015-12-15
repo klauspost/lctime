@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"dib",
+		"alt",
+		"tal",
+		"all",
+		"alx",
+		"ajj",
+		"gaa"
+	],
+	"abmon": [
+		"san",
+		"fee",
+		"mar",
+		"awr",
+		"me",
+		"suw",
+		"sul",
+		"uut",
+		"sep",
+		"okt",
+		"now",
+		"des"
+	],
+	"am_pm": [
+		"",
+		""
+	],
+	"d_fmt": [
+		"%d.%m.%Y"
+	],
+	"d_t_fmt": [
+		"%a %d %b %Y %T %Z"
+	],
+	"day": [
+		"dib'eer",
+		"altine",
+		"talaata",
+		"allarba",
+		"alxames",
+		"ajjuma",
+		"gaawu"
+	],
+	"mon": [
+		"sanwiy'e",
+		"feebriy'e",
+		"mars",
+		"awril",
+		"me",
+		"suwen",
+		"sulet",
+		"uut",
+		"septaambar",
+		"oktoobar",
+		"nowaambar",
+		"desaambar"
+	],
+	"t_fmt": [
+		"%T"
+	],
+	"t_fmt_ampm": [
+		""
+	]
+}

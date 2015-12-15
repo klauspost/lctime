@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"Lah",
+		"Lit",
+		"Tal",
+		"Lar",
+		"Alh",
+		"Jum",
+		"Asa"
+	],
+	"abmon": [
+		"Jan",
+		"Fab",
+		"Mar",
+		"Afr",
+		"May",
+		"Yun",
+		"Yul",
+		"Agu",
+		"Sat",
+		"Okt",
+		"Nuw",
+		"Dis"
+	],
+	"am_pm": [
+		"AM",
+		"PM"
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"ranar %A, %d ga %B cikin %r %Z"
+	],
+	"day": [
+		"Lahadi",
+		"Litini",
+		"Talata",
+		"Laraba",
+		"Alhamis",
+		"Juma'a",
+		"Asabar"
+	],
+	"mon": [
+		"Janairu",
+		"Fabrairu",
+		"Maris",
+		"Afrilu",
+		"Mayu",
+		"Yuni",
+		"Yuli",
+		"Agusta",
+		"Satumba",
+		"Oktoba",
+		"Nuwamba",
+		"Disamba"
+	],
+	"t_fmt": [
+		"%r"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S %p"
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"abday": [
+		"SUN",
+		"MON",
+		"TUE",
+		"WED",
+		"THU",
+		"FRI",
+		"SAT"
+	],
+	"abmon": [
+		"JAN",
+		"FEB",
+		"MAR",
+		"APR",
+		"MAY",
+		"JUN",
+		"JUL",
+		"AUG",
+		"SEP",
+		"OCT",
+		"NOV",
+		"DEC"
+	],
+	"am_pm": [
+		"AM",
+		"PM"
+	],
+	"d_fmt": [
+		"%d/%m/%y"
+	],
+	"d_t_fmt": [
+		"ọjọ́ %A, %d oṣù %B ọdún %Y %T %Z"
+	],
+	"day": [
+		"Àìkú",
+		"Ajé",
+		"Ìṣẹ́gun",
+		"Ọjọ́rú",
+		"Ọjọ́bọ̀",
+		"Ẹ̀tì",
+		"Àbámẹ́ta"
+	],
+	"mon": [
+		"Jánúárì",
+		"Fẹ́búárì",
+		"Máàṣì",
+		"Épírì",
+		"Méè",
+		"Júùnù",
+		"Júláì",
+		"Ọ́ọ́gọsì",
+		"Sẹ̀tẹ̀ńbà",
+		"Ọtóbà",
+		"Nòfẹ̀ńbà",
+		"Dìsẹ̀ńbà"
+	],
+	"t_fmt": [
+		"%r"
+	],
+	"t_fmt_ampm": [
+		"%I:%M:%S %p"
+	]
+}
