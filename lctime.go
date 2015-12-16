@@ -60,7 +60,6 @@ package lctime
 import (
 	"encoding/json"
 	"errors"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
@@ -72,7 +71,6 @@ var (
 	// ErrCorruptLocale is returned if a given locale file is corrupted.
 	ErrCorruptLocale = errors.New("Corrupted locale")
 
-	localeDir  = filepath.Join(os.Getenv("GOPATH"), "src", "github.com", "variadico", "lctime", "locales")
 	localeName string
 	localeData map[string][]string
 )
@@ -98,7 +96,7 @@ func SetLocale(lc string) error {
 	// trim off ".UTF-8" suffix. All locales are UTF-8.
 	lc = strings.Split(lc, ".")[0]
 
-	bys, err := ioutil.ReadFile(filepath.Join(localeDir, lc+".json"))
+	bys, err := getAsset("locales/" + lc + ".json")
 	if err != nil {
 		localeName = ""
 		localeData = make(map[string][]string)
@@ -122,20 +120,15 @@ func GetLocale() string {
 
 // GetLocales returns a slice of available locales.
 func GetLocales() []string {
-	lcs := make([]string, 0, 8)
+	lcs := assetNames()
 
-	filepath.Walk(localeDir, func(p string, fi os.FileInfo, err error) error {
-		if err != nil {
-			return err
-		}
+	names := make([]string, 0, len(lcs))
+	for _, lc := range lcs {
+		lf := filepath.Base(lc)
+		ext := filepath.Ext(lf)
 
-		if filepath.Ext(fi.Name()) != ".json" {
-			return nil
-		}
+		names = append(names, strings.TrimSuffix(lf, ext))
+	}
 
-		lcs = append(lcs, strings.TrimSuffix(fi.Name(), ".json"))
-		return nil
-	})
-
-	return lcs
+	return names
 }
