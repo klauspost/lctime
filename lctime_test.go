@@ -1,10 +1,6 @@
 package lctime
 
-import (
-	"os"
-	"path/filepath"
-	"testing"
-)
+import "testing"
 
 const (
 	gotWant    = "got '%v', want '%v'"
@@ -13,14 +9,6 @@ const (
 )
 
 func TestSetLocale(t *testing.T) {
-	fp := filepath.Join(localeDir, "bad.json")
-	fd, err := os.Create(fp)
-	if err != nil {
-		t.Error(err)
-	}
-	fd.Close()
-	defer os.Remove(fp)
-
 	tests := []struct {
 		input string
 		want  error
@@ -34,7 +22,6 @@ func TestSetLocale(t *testing.T) {
 		{"es_MX", nil},
 		{"", ErrNoLocale},
 		{"eu_FR@euro", nil},
-		{"bad", ErrCorruptLocale},
 	}
 
 	for i, test := range tests {
