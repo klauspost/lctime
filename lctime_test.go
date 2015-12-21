@@ -1,6 +1,12 @@
 package lctime
 
-import "testing"
+import (
+	"os"
+	"path/filepath"
+	"sort"
+	"strings"
+	"testing"
+)
 
 const (
 	gotWant    = "got '%v', want '%v'"
@@ -51,6 +57,46 @@ func TestGetLocale(t *testing.T) {
 
 		if got := GetLocale(); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
+		}
+	}
+}
+
+func TestGetLocales(t *testing.T) {
+	want := make([]string, 0, 8)
+	err := filepath.Walk("internal/locales", func(p string, fi os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+
+		if fi.IsDir() || fi.Name()[0] == '.' {
+			return nil
+		}
+
+		fiName := fi.Name()
+		if filepath.Ext(fiName) != ".json" {
+			return nil
+		}
+
+		want = append(want, strings.TrimSuffix(fiName, filepath.Ext(fiName)))
+		return nil
+	})
+	if err != nil {
+		t.Fatal("Locale walk:", err)
+	}
+
+	got := GetLocales()
+
+	sort.Strings(got)
+	sort.Strings(want)
+
+	if len(got) != len(want) {
+		t.Error("Unexpected locale length")
+		t.Fatalf(gotWant, len(got), len(want))
+	}
+
+	for i := range want {
+		if got[i] != want[i] {
+			t.Errorf(gotWantIdx, i, got[i], want[i])
 		}
 	}
 }
