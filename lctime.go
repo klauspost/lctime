@@ -63,6 +63,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/variadico/lctime/internal/locales"
 )
 
 var (
@@ -96,7 +98,7 @@ func SetLocale(lc string) error {
 	// trim off ".UTF-8" suffix. All locales are UTF-8.
 	lc = strings.Split(lc, ".")[0]
 
-	bys, err := getAsset("locales/" + lc + ".json")
+	bys, err := locale.Asset(lc + ".json")
 	if err != nil {
 		localeName = ""
 		localeData = make(map[string][]string)
@@ -120,14 +122,11 @@ func GetLocale() string {
 
 // GetLocales returns a slice of available locales.
 func GetLocales() []string {
-	lcs := assetNames()
+	lcs := locale.AssetNames()
 
 	names := make([]string, 0, len(lcs))
 	for _, lc := range lcs {
-		lf := filepath.Base(lc)
-		ext := filepath.Ext(lf)
-
-		names = append(names, strings.TrimSuffix(lf, ext))
+		names = append(names, strings.TrimSuffix(lc, filepath.Ext(lc)))
 	}
 
 	return names
