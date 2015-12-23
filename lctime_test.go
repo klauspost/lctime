@@ -28,6 +28,8 @@ func TestSetLocale(t *testing.T) {
 		{"es_MX", nil},
 		{"", ErrNoLocale},
 		{"nan_TW@latin", nil},
+		{"eo", nil},
+		{"sr_RS.UTF-8@latin", nil},
 	}
 
 	for i, test := range tests {
@@ -50,6 +52,8 @@ func TestGetLocale(t *testing.T) {
 		{"nan_TW@latin", "nan_TW@latin"},
 		{"en_US", "en_US"},
 		{"es_MX", "es_MX"},
+		{"eo", "eo"},
+		{"sr_RS.UTF-8@latin", "sr_RS@latin"},
 	}
 
 	for i, test := range tests {
@@ -97,6 +101,26 @@ func TestGetLocales(t *testing.T) {
 	for i := range want {
 		if got[i] != want[i] {
 			t.Errorf(gotWantIdx, i, got[i], want[i])
+		}
+	}
+}
+
+func TestRemoveCodeset(t *testing.T) {
+	tests := []struct {
+		input string
+		want  string
+	}{
+		{"", ""},
+		{"es", "es"},
+		{"es_MX", "es_MX"},
+		{"es_MX.UTF-8", "es_MX"},
+		{"es_MX.UTF-8@foo", "es_MX@foo"},
+		{"uz_UZ@cyrillic", "uz_UZ@cyrillic"},
+	}
+
+	for i, test := range tests {
+		if got := removeCodeset(test.input); got != test.want {
+			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
 }

@@ -109,8 +109,8 @@ func init() {
 
 // SetLocale activates the given locale.
 func SetLocale(id string) error {
-	// trim off ".UTF-8" suffix. All locales are UTF-8.
-	id = strings.Split(id, ".")[0]
+	// All locales use UTF-8.
+	id = removeCodeset(id)
 
 	bys, err := locale.Asset(id + ".json")
 	if err != nil {
@@ -141,4 +141,29 @@ func GetLocales() []string {
 	}
 
 	return names
+}
+
+// cleanID takes in a valid locale ID and returns the same ID, except without
+// the codeset. A valid locale ID is defined like this:
+// [language[_territory][.codeset][@modifier]]
+func removeCodeset(id string) string {
+	dot, at := -1, -1
+
+	for i := 0; i < len(id); i++ {
+		if id[i] == '.' {
+			dot = i
+		} else if id[i] == '@' {
+			at = i
+		}
+	}
+
+	if dot == at || dot == -1 {
+		return id
+	}
+
+	if at == -1 {
+		return id[:dot]
+	}
+
+	return id[:dot] + id[at:]
 }
