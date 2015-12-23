@@ -41,14 +41,11 @@
 // bo_CN.json
 // bo_IN.json
 // br_FR.json
-// br_FR@euro.json
 // brx_IN.json
 // bs_BA.json
 // byn_ER.json
 // ca_AD.json
 // ca_ES.json
-// ca_ES@euro.json
-// ca_ES@valencia.json
 // ca_FR.json
 // ca_IT.json
 // crh_UA.json
@@ -58,20 +55,15 @@
 // cy_GB.json
 // da_DK.json
 // de_AT.json
-// de_AT@euro.json
 // de_BE.json
-// de_BE@euro.json
 // de_CH.json
 // de_DE.json
-// de_DE@euro.json
 // de_LI.json
 // de_LU.json
-// de_LU@euro.json
 // dv_MV.json
 // dz_BT.json
 // el_CY.json
 // el_GR.json
-// el_GR@euro.json
 // en_AG.json
 // en_AU.json
 // en_BW.json
@@ -80,7 +72,6 @@
 // en_GB.json
 // en_HK.json
 // en_IE.json
-// en_IE@euro.json
 // en_IN.json
 // en_NG.json
 // en_NZ.json
@@ -101,7 +92,6 @@
 // es_DO.json
 // es_EC.json
 // es_ES.json
-// es_ES@euro.json
 // es_GT.json
 // es_HN.json
 // es_MX.json
@@ -116,34 +106,24 @@
 // es_VE.json
 // et_EE.json
 // eu_ES.json
-// eu_ES@euro.json
 // eu_FR.json
-// eu_FR@euro.json
 // fa_IR.json
 // ff_SN.json
 // fi_FI.json
-// fi_FI@euro.json
 // fil_PH.json
 // fo_FO.json
 // fr_BE.json
-// fr_BE@euro.json
 // fr_CA.json
 // fr_CH.json
 // fr_FR.json
-// fr_FR@euro.json
 // fr_LU.json
-// fr_LU@euro.json
 // fur_IT.json
 // fy_NL.json
 // ga_IE.json
-// ga_IE@euro.json
 // gd_GB.json
 // gez_ER.json
-// gez_ER@abegede.json
 // gez_ET.json
-// gez_ET@abegede.json
 // gl_ES.json
-// gl_ES@euro.json
 // gu_IN.json
 // gv_GB.json
 // ha_NG.json
@@ -163,7 +143,6 @@
 // is_IS.json
 // it_CH.json
 // it_IT.json
-// it_IT@euro.json
 // iu_CA.json
 // iw_IL.json
 // ja_JP.json
@@ -201,9 +180,7 @@
 // ne_NP.json
 // nl_AW.json
 // nl_BE.json
-// nl_BE@euro.json
 // nl_NL.json
-// nl_NL@euro.json
 // nn_NO.json
 // nr_ZA.json
 // nso_ZA.json
@@ -219,7 +196,6 @@
 // ps_AF.json
 // pt_BR.json
 // pt_PT.json
-// pt_PT@euro.json
 // ro_RO.json
 // ru_RU.json
 // ru_UA.json
@@ -247,7 +223,6 @@
 // ss_ZA.json
 // st_ZA.json
 // sv_FI.json
-// sv_FI@euro.json
 // sv_SE.json
 // sw_KE.json
 // sw_TZ.json
@@ -278,7 +253,6 @@
 // ve_ZA.json
 // vi_VN.json
 // wa_BE.json
-// wa_BE@euro.json
 // wae_CH.json
 // wal_ET.json
 // wo_SN.json
@@ -373,7 +347,7 @@ func posixJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "POSIX.json", size: 636, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "POSIX.json", size: 636, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -393,7 +367,7 @@ func aa_djJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "aa_DJ.json", size: 663, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "aa_DJ.json", size: 663, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -413,7 +387,7 @@ func aa_erJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "aa_ER.json", size: 674, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "aa_ER.json", size: 674, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -433,7 +407,7 @@ func aa_erSaahoJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "aa_ER@saaho.json", size: 678, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "aa_ER@saaho.json", size: 678, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -453,7 +427,7 @@ func aa_etJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "aa_ET.json", size: 665, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "aa_ET.json", size: 665, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -473,7 +447,7 @@ func af_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "af_ZA.json", size: 616, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "af_ZA.json", size: 616, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -493,7 +467,7 @@ func am_etJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "am_ET.json", size: 849, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "am_ET.json", size: 849, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -513,7 +487,7 @@ func an_esJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "an_ES.json", size: 610, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "an_ES.json", size: 610, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -533,7 +507,7 @@ func ar_aeJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_AE.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_AE.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -553,7 +527,7 @@ func ar_bhJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_BH.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_BH.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -573,7 +547,7 @@ func ar_dzJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_DZ.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_DZ.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -593,7 +567,7 @@ func ar_egJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_EG.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_EG.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -613,7 +587,7 @@ func ar_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_IN.json", size: 772, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_IN.json", size: 772, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -633,7 +607,7 @@ func ar_iqJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_IQ.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_IQ.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -653,7 +627,7 @@ func ar_joJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_JO.json", size: 958, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_JO.json", size: 958, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -673,7 +647,7 @@ func ar_kwJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_KW.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_KW.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -693,7 +667,7 @@ func ar_lbJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_LB.json", size: 958, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_LB.json", size: 958, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -713,7 +687,7 @@ func ar_lyJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_LY.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_LY.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -733,7 +707,7 @@ func ar_maJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_MA.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_MA.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -753,7 +727,7 @@ func ar_omJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_OM.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_OM.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -773,7 +747,7 @@ func ar_qaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_QA.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_QA.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -793,7 +767,7 @@ func ar_saJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_SA.json", size: 762, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_SA.json", size: 762, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -813,7 +787,7 @@ func ar_sdJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_SD.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_SD.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -833,7 +807,7 @@ func ar_syJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_SY.json", size: 958, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_SY.json", size: 958, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -853,7 +827,7 @@ func ar_tnJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_TN.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_TN.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -873,7 +847,7 @@ func ar_yeJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ar_YE.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ar_YE.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -893,7 +867,7 @@ func as_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "as_IN.json", size: 1202, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "as_IN.json", size: 1202, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -913,7 +887,7 @@ func ast_esJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ast_ES.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ast_ES.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -933,7 +907,7 @@ func az_azJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "az_AZ.json", size: 647, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "az_AZ.json", size: 647, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -953,7 +927,7 @@ func be_byJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "be_BY.json", size: 814, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "be_BY.json", size: 814, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -973,7 +947,7 @@ func be_byLatinJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "be_BY@latin.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "be_BY@latin.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -993,7 +967,7 @@ func bem_zmJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "bem_ZM.json", size: 659, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "bem_ZM.json", size: 659, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1013,7 +987,7 @@ func ber_dzJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ber_DZ.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ber_DZ.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1033,7 +1007,7 @@ func ber_maJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ber_MA.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ber_MA.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1053,7 +1027,7 @@ func bg_bgJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "bg_BG.json", size: 777, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "bg_BG.json", size: 777, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1073,7 +1047,7 @@ func bho_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "bho_IN.json", size: 1105, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "bho_IN.json", size: 1105, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1093,7 +1067,7 @@ func bn_bdJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "bn_BD.json", size: 1117, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "bn_BD.json", size: 1117, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1113,7 +1087,7 @@ func bn_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "bn_IN.json", size: 1213, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "bn_IN.json", size: 1213, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1133,7 +1107,7 @@ func bo_cnJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "bo_CN.json", size: 1565, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "bo_CN.json", size: 1565, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1153,7 +1127,7 @@ func bo_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "bo_IN.json", size: 1565, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "bo_IN.json", size: 1565, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1173,27 +1147,7 @@ func br_frJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "br_FR.json", size: 606, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _br_frEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x84\x90\xc1\x4e\xf3\x30\x10\x84\xcf\xc9\x53\x58\x96\x56\xb9\x54\x7d\x80\xde\xfe\x9f\x56\x05\x21\x9f\xe0\x82\x10\x8a\x5c\xbc\x34\x48\xb1\x5d\x39\xb1\xab\x06\xf1\xee\x24\xd8\xeb\x26\x70\xe0\x36\xde\x19\xcd\x58\xdf\x47\x59\x70\x79\x50\xf2\xc2\x37\xec\xb9\x2c\x0a\xde\xf9\x96\xaf\x26\xd1\x7a\x13\x85\x46\x4f\xc2\x45\x71\x91\x36\x8a\xe3\x19\xa3\xe8\xa4\xe2\x65\xf1\xb2\xfa\x6e\xd3\xd6\x50\xdb\x1e\x53\xc9\x4d\xd5\x9c\xa3\x12\x54\xb7\x3b\xa4\x3a\x21\x53\xcb\x2e\x24\xb1\xb7\x94\xb1\x5d\xba\xd0\xd2\x2d\x7d\x62\x9b\x22\xf7\xe3\x81\xa6\x75\x7d\xd2\x34\x1d\x5d\xb2\x54\xfd\xa6\x7b\xb2\x40\xad\x41\xaf\xe1\xe9\x6a\xf6\x73\x7b\x5b\x49\xc7\xe0\x1f\x03\xc5\x24\x0b\xef\x03\x83\xff\x6c\x16\xfe\x83\x95\x1b\x9a\x8c\xeb\xb5\x6a\x66\xcc\x7c\x86\x66\xe8\x3a\x72\xb3\xce\x50\xf5\x12\x5c\xa0\xd0\xc4\x0e\x83\xa3\xa7\x98\x6d\x8c\x0c\xb1\xfd\x41\x51\xe0\xd0\x60\x20\xf0\x23\x4a\x74\x98\x69\xf6\x19\xa7\x39\xda\xd6\x66\xa6\xf8\x0b\xea\xe0\xe9\x5b\x0b\x38\xf0\xb8\x38\xd7\x52\x5f\x91\xc3\x1d\x82\xd8\xc0\x03\x83\xd3\x14\x2a\x3f\xbf\x02\x00\x00\xff\xff\x77\x60\x21\x2b\x5e\x02\x00\x00")
-
-func br_frEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_br_frEuroJson,
-		"br_FR@euro.json",
-	)
-}
-
-func br_frEuroJson() (*asset, error) {
-	bytes, err := br_frEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "br_FR@euro.json", size: 606, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "br_FR.json", size: 606, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1213,7 +1167,7 @@ func brx_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "brx_IN.json", size: 1170, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "brx_IN.json", size: 1170, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1233,7 +1187,7 @@ func bs_baJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "bs_BA.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "bs_BA.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1253,7 +1207,7 @@ func byn_erJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "byn_ER.json", size: 934, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "byn_ER.json", size: 934, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1273,7 +1227,7 @@ func ca_adJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ca_AD.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ca_AD.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1293,47 +1247,7 @@ func ca_esJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ca_ES.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _ca_esEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x54\x91\x5d\x6a\xc4\x20\x14\x85\x9f\x93\x55\x88\xe0\xdb\xc0\xbc\x77\x1d\xf3\xd2\x96\x12\x34\xde\x11\x43\xd4\xe2\xcf\x40\x28\x5d\x4f\x17\xd2\x8d\x8d\x8c\xd7\x9b\xe4\xe9\x9c\xeb\x09\xf7\x98\xcf\x9f\x71\xe0\x52\x69\xb9\xf1\x37\xf6\x39\x0e\x03\xd7\x86\x5f\x5e\xba\xa2\x66\xd4\x19\x75\x41\x7d\xa0\x26\x3e\x0e\x5f\x97\xd7\x1a\x17\x7c\x5f\x63\xc0\xb7\xfc\x0e\xaa\x19\x27\x63\x33\x52\xc5\x7e\x62\x9b\x59\x8a\xef\x06\x5b\xa5\x09\xcd\x24\xc0\xfe\x30\xa3\xf1\xa1\x37\xc3\x5e\xed\xa6\x6f\xd7\xab\x5b\xda\x23\x3d\xdd\x5d\xee\x91\xd0\x57\xe1\xae\x62\xdb\xc3\x7c\x8a\x25\x13\x9a\x09\xc5\xc4\x3b\x13\x37\x26\x3e\xe8\xbb\x03\x1f\x5b\x1c\x78\x03\x78\x07\xbb\xae\xc5\xa7\x3e\xd4\x7f\xcc\xfb\x00\x73\x04\x9a\x96\x50\xc8\x3f\xc0\xeb\x43\x94\x92\x54\x19\x7a\xd7\x19\x22\x44\xc2\x18\x81\xb8\xc5\xff\x3f\x62\x69\x57\xa2\x69\x08\xe7\x46\x3c\x6d\xd8\x91\xa6\x4c\x50\xc1\xd5\x7d\x44\xb6\xd0\x50\xe9\x1e\xa2\x8a\xb8\x4d\x78\xb7\x33\xad\xdb\xe9\x78\x92\xee\xf0\x06\x35\x19\x7f\x9f\x01\x00\x00\xff\xff\xc5\x16\xdb\x3c\x5d\x02\x00\x00")
-
-func ca_esEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_ca_esEuroJson,
-		"ca_ES@euro.json",
-	)
-}
-
-func ca_esEuroJson() (*asset, error) {
-	bytes, err := ca_esEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "ca_ES@euro.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _ca_esValenciaJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x54\x91\x5d\x6a\xc4\x20\x14\x85\x9f\x93\x55\x88\xe0\xdb\xc0\xbc\x77\x1d\xf3\xd2\x96\x12\x34\xde\x11\x43\xd4\xe2\xcf\x40\x28\x5d\x4f\x17\xd2\x8d\x8d\x8c\xd7\x9b\xe4\xe9\x9c\xeb\x09\xf7\x98\xcf\x9f\x71\xe0\x52\x69\xb9\xf1\x37\xf6\x39\x0e\x03\xd7\x86\x5f\x5e\xba\xa2\x66\xd4\x19\x75\x41\x7d\xa0\x26\x3e\x0e\x5f\x97\xd7\x1a\x17\x7c\x5f\x63\xc0\xb7\xfc\x0e\xaa\x19\x27\x63\x33\x52\xc5\x7e\x62\x9b\x59\x8a\xef\x06\x5b\xa5\x09\xcd\x24\xc0\xfe\x30\xa3\xf1\xa1\x37\xc3\x5e\xed\xa6\x6f\xd7\xab\x5b\xda\x23\x3d\xdd\x5d\xee\x91\xd0\x57\xe1\xae\x62\xdb\xc3\x7c\x8a\x25\x13\x9a\x09\xc5\xc4\x3b\x13\x37\x26\x3e\xe8\xbb\x03\x1f\x5b\x1c\x78\x03\x78\x07\xbb\xae\xc5\xa7\x3e\xd4\x7f\xcc\xfb\x00\x73\x04\x9a\x96\x50\xc8\x3f\xc0\xeb\x43\x94\x92\x54\x19\x7a\xd7\x19\x22\x44\xc2\x18\x81\xb8\xc5\xff\x3f\x62\x69\x57\xa2\x69\x08\xe7\x46\x3c\x6d\xd8\x91\xa6\x4c\x50\xc1\xd5\x7d\x44\xb6\xd0\x50\xe9\x1e\xa2\x8a\xb8\x4d\x78\xb7\x33\xad\xdb\xe9\x78\x92\xee\xf0\x06\x35\x19\x7f\x9f\x01\x00\x00\xff\xff\xc5\x16\xdb\x3c\x5d\x02\x00\x00")
-
-func ca_esValenciaJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_ca_esValenciaJson,
-		"ca_ES@valencia.json",
-	)
-}
-
-func ca_esValenciaJson() (*asset, error) {
-	bytes, err := ca_esValenciaJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "ca_ES@valencia.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ca_ES.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1353,7 +1267,7 @@ func ca_frJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ca_FR.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ca_FR.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1373,7 +1287,7 @@ func ca_itJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ca_IT.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ca_IT.json", size: 605, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1393,7 +1307,7 @@ func crh_uaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "crh_UA.json", size: 632, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "crh_UA.json", size: 632, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1413,7 +1327,7 @@ func cs_czJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cs_CZ.json", size: 648, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "cs_CZ.json", size: 648, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1433,7 +1347,7 @@ func csb_plJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "csb_PL.json", size: 657, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "csb_PL.json", size: 657, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1453,7 +1367,7 @@ func cv_ruJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cv_RU.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "cv_RU.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1473,7 +1387,7 @@ func cy_gbJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cy_GB.json", size: 626, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "cy_GB.json", size: 626, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1493,7 +1407,7 @@ func da_dkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "da_DK.json", size: 608, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "da_DK.json", size: 608, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1513,27 +1427,7 @@ func de_atJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "de_AT.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _de_atEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\xc1\x4e\xc3\x30\x0c\x86\xcf\xed\x53\x44\x91\x72\xdb\x5e\x80\x1b\x12\xe2\x30\x69\x70\xd8\x2e\x03\xa1\x2a\xa5\x61\x44\x34\x69\xd5\xb9\x20\x86\x78\x9b\xbd\xc9\x5e\x0c\x6f\xb1\xdd\x85\xdd\xfe\xf8\x73\x6d\xeb\xeb\x4f\x59\x68\x5b\x37\xf6\x5b\xdf\xa8\xe7\xb2\x28\xf4\xaa\x8b\x7a\x76\x0a\x4b\x0e\x77\xde\x51\xc5\x03\x55\x18\xdd\x0f\x84\x56\x36\xe8\xb2\x78\x99\x9d\xa7\x05\xc4\x34\x6d\x71\x3c\x70\xab\xab\x69\xca\xf1\x30\xa4\x74\xdb\x53\x58\x5a\x9f\xc2\x62\x8c\x1c\x5a\xea\x19\xb7\xb4\xc1\xf5\x29\x3c\x7e\xd0\x15\x0f\xdd\x27\x9d\xe3\xf6\xb2\x3c\x54\x7d\xe0\xe5\x89\x32\x6a\xaa\xb7\x00\x8c\xcc\x66\x6e\xc2\xdc\x34\x13\x84\x0c\x5b\x65\x1a\x65\x6a\x65\x36\xca\xac\x95\x79\x92\xbe\x4c\x54\x04\xbb\x15\x59\x92\xd1\x57\xdc\x4d\xc4\x03\x7c\x75\xaf\xef\x62\x2e\xba\x61\xa2\x28\xd0\xcb\x03\x25\x9e\x09\xed\xfa\xa7\x11\xbf\x13\x93\x1c\x4f\x2e\xf7\x22\xd3\xb7\xd7\x3a\x25\xb5\x5e\x84\x8e\x3b\x10\xa7\xe0\x82\x4c\x43\xb3\x9d\x3c\xd0\xee\x05\x42\xc5\xe9\x45\xb7\xe5\xb6\xd6\x59\xb9\xb2\xe1\xe2\x1f\x20\x29\x7f\xff\x02\x00\x00\xff\xff\x6a\x90\xe7\xa7\x66\x02\x00\x00")
-
-func de_atEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_de_atEuroJson,
-		"de_AT@euro.json",
-	)
-}
-
-func de_atEuroJson() (*asset, error) {
-	bytes, err := de_atEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "de_AT@euro.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "de_AT.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1553,27 +1447,7 @@ func de_beJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "de_BE.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _de_beEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\xc1\x4e\xc3\x30\x0c\x86\xcf\xed\x53\x44\x91\x72\xdb\x5e\x80\x1b\x12\xe2\x30\x69\x70\xd8\x2e\x03\xa1\xca\xa5\x61\x44\xd4\x69\x95\xb9\x20\x86\x78\x1b\xde\x84\x17\x23\x5b\x1c\x77\x11\xb7\xdf\xf9\x2c\xdb\xfa\xf2\x55\x57\x1a\xda\x0e\x3e\xf5\x95\x7a\xac\xab\x4a\x6f\x06\xaf\x17\xa7\xb0\xce\xe1\xc6\x59\x7e\x71\xc4\x2f\x19\xdd\x06\x46\x1b\x40\x5d\x57\x4f\x8b\xf3\x34\x8c\x98\xa7\xad\x20\x77\xda\x96\x87\xfc\xfe\x84\x94\xae\x47\x0e\x6b\x70\x29\xac\x26\x9f\x43\xcf\x3d\xd3\x9e\x17\xd8\x31\x85\xfb\x37\x3e\xe2\x6e\x78\xe7\x6b\xec\x51\x76\x63\x33\x62\xde\x9d\x68\x46\x5d\xf3\x82\x94\x91\xd9\x2d\x0d\x2e\x4d\x37\x43\x2a\x30\x28\xd3\x29\xd3\x2a\xb3\x53\x66\xab\xcc\x83\xf4\x15\x9e\x3c\xc1\x5e\x5c\x49\x8e\xba\xfc\x61\x26\x8e\xe8\x63\x78\x7e\x15\x71\xde\x86\x99\x46\x7f\x4e\x8a\xe8\xf0\x4c\x78\x57\x69\x71\x82\x20\x22\x83\x14\x27\x99\x47\xb1\xe9\xfa\xff\x3e\x25\xf5\x4e\x8c\x4e\x07\x12\xa9\x64\xb1\xb5\x41\xd4\x0e\x52\x44\xbd\x17\x28\x3a\x4e\x15\x1f\x57\xea\xda\x16\xcf\x0d\xe0\xc5\x27\x44\x52\x7f\xff\x05\x00\x00\xff\xff\x64\x01\x32\x42\x66\x02\x00\x00")
-
-func de_beEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_de_beEuroJson,
-		"de_BE@euro.json",
-	)
-}
-
-func de_beEuroJson() (*asset, error) {
-	bytes, err := de_beEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "de_BE@euro.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "de_BE.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1593,7 +1467,7 @@ func de_chJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "de_CH.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "de_CH.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1613,27 +1487,7 @@ func de_deJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "de_DE.json", size: 607, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _de_deEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\xc1\x4e\xc3\x30\x0c\x86\xcf\xed\x53\x44\x91\x72\x9b\xf6\x00\xdc\x90\xaa\x1d\x26\x0d\x0e\xdd\x65\x20\x54\xb9\x34\x8c\x88\x26\xa9\x32\x17\xc4\x10\x6f\xc3\x9b\xf0\x62\x74\x8b\xe3\x36\xe2\xe4\xdf\xf9\x52\x3b\xfa\xfa\x55\x16\x12\xda\x0e\x3e\xe5\x8d\x78\x2c\x8b\x42\xd6\x5e\xae\x2e\x75\x47\xb5\x32\xd4\x53\xad\xe8\x7c\x13\x62\xad\x41\x96\xc5\xd3\xea\x3a\xc6\x7a\x97\xc6\x6c\xc1\xd1\x3d\xdd\xd2\x80\xdf\x1f\xfa\xe4\x76\xa0\xb0\x03\x1a\xba\x1d\x5d\x0a\x3d\xdd\x19\x8f\x34\x5f\x0f\x31\xdc\xbf\x61\x0c\x77\xfe\x9d\x9e\xa2\xcf\xbc\xdb\x36\x83\x4d\xbb\x23\x4d\xa8\x6b\x5e\x2c\x26\xa4\xba\xb5\xb2\x6b\x75\x98\x21\x66\x18\x84\xea\x84\x6a\x85\x3a\x08\xb5\x17\xea\x81\xef\x2d\x05\x39\x87\x70\x4c\x96\xe6\x5c\x19\xed\x4e\x33\x31\x88\x1f\xfe\xf9\x35\x59\x73\x4e\x87\x99\x6e\x82\x36\xdc\xd4\x60\xaf\x84\x76\xe5\x16\x47\x08\x2c\x32\x70\x73\x91\x79\x66\x9b\xa6\xff\xef\x93\x53\x6f\xd8\xe8\x78\x42\x96\x8a\xda\xb6\x3a\xb0\x5a\xcf\xcd\xa4\x77\x81\x26\xc7\xb1\xa3\xc7\xe5\xba\xf6\xd9\x71\x03\x76\xf1\x13\x26\x52\x7e\xff\x05\x00\x00\xff\xff\x0d\xe1\x42\x17\x5f\x02\x00\x00")
-
-func de_deEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_de_deEuroJson,
-		"de_DE@euro.json",
-	)
-}
-
-func de_deEuroJson() (*asset, error) {
-	bytes, err := de_deEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "de_DE@euro.json", size: 607, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "de_DE.json", size: 607, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1653,7 +1507,7 @@ func de_liJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "de_LI.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "de_LI.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1673,27 +1527,7 @@ func de_luJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "de_LU.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _de_luEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\xc1\x4e\xc3\x30\x0c\x86\xcf\xed\x53\x44\x91\x72\xdb\x5e\x80\x1b\x12\xe2\x30\x69\x70\xd8\x2e\x03\xa1\xca\xa5\x61\x44\xd4\x69\x95\xb9\x20\x86\x78\x1b\xde\x84\x17\x23\x5b\x1c\x77\x11\xb7\xdf\xf9\x2c\xdb\xfa\xf2\x55\x57\x1a\xda\x0e\x3e\xf5\x95\x7a\xac\xab\x4a\x6f\x06\xaf\x17\xa7\xb0\xce\xe1\xc6\x59\x7e\x71\xc4\x2f\x19\xdd\x06\x46\x1b\x40\x5d\x57\x4f\x8b\xf3\x34\x8c\x98\xa7\xad\x20\x77\xda\x96\x87\xfc\xfe\x84\x94\xae\x47\x0e\x6b\x70\x29\xac\x26\x9f\x43\xcf\x3d\xd3\x9e\x17\xd8\x31\x85\xfb\x37\x3e\xe2\x6e\x78\xe7\x6b\xec\x51\x76\x63\x33\x62\xde\x9d\x68\x46\x5d\xf3\x82\x94\x91\xd9\x2d\x0d\x2e\x4d\x37\x43\x2a\x30\x28\xd3\x29\xd3\x2a\xb3\x53\x66\xab\xcc\x83\xf4\x15\x9e\x3c\xc1\x5e\x5c\x49\x8e\xba\xfc\x61\x26\x8e\xe8\x63\x78\x7e\x15\x71\xde\x86\x99\x46\x7f\x4e\x8a\xe8\xf0\x4c\x78\x57\x69\x71\x82\x20\x22\x83\x14\x27\x99\x47\xb1\xe9\xfa\xff\x3e\x25\xf5\x4e\x8c\x4e\x07\x12\xa9\x64\xb1\xb5\x41\xd4\x0e\x52\x44\xbd\x17\x28\x3a\x4e\x15\x1f\x57\xea\xda\x16\xcf\x0d\xe0\xc5\x27\x44\x52\x7f\xff\x05\x00\x00\xff\xff\x64\x01\x32\x42\x66\x02\x00\x00")
-
-func de_luEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_de_luEuroJson,
-		"de_LU@euro.json",
-	)
-}
-
-func de_luEuroJson() (*asset, error) {
-	bytes, err := de_luEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "de_LU@euro.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "de_LU.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1713,7 +1547,7 @@ func dv_mvJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "dv_MV.json", size: 1018, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "dv_MV.json", size: 1018, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1733,7 +1567,7 @@ func dz_btJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "dz_BT.json", size: 1565, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "dz_BT.json", size: 1565, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1753,7 +1587,7 @@ func el_cyJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "el_CY.json", size: 870, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "el_CY.json", size: 870, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1773,27 +1607,7 @@ func el_grJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "el_GR.json", size: 870, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _el_grEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x6c\x52\x4d\x4b\xc3\x40\x10\x3d\x27\xbf\x62\x09\xcc\xad\xd0\x7b\xff\x81\x07\x4f\x9e\xaa\x48\x49\x09\xde\xa2\xa5\xf4\x22\x22\xb4\xb6\x3d\x56\x10\xbc\x54\x2a\x16\x2a\x9e\xac\x25\x91\x22\xfd\x90\xfc\x83\x99\xbf\xe4\xec\xba\x99\x6e\xd2\x90\xcb\xcb\x9b\x99\x9d\xb7\xef\xed\x9d\xef\x05\x61\x3b\x0a\x6f\x83\x86\xba\xf0\x3d\x2f\xc0\x17\x1a\xd3\x20\xa8\x19\xfc\x8c\x6b\x1a\x5b\xfc\x4e\x03\xdc\xe4\x98\xf9\x91\xc5\x73\x5c\xe3\x5e\x70\x22\xb3\x0b\x4c\x30\x0d\x7c\xef\xb2\x66\x56\xc4\x37\xd7\xb2\x62\xca\xa5\x5f\xdb\xf6\xc1\xe3\xa9\xc5\x33\xfc\x94\xf1\x27\xea\x0b\x66\x5e\x56\x4f\x31\xa3\x89\x4c\xff\xff\xed\x64\x66\x82\xdf\xb2\x7e\x4d\x7d\x8b\xdf\x70\x2b\x72\x5f\x31\xc3\xe5\xe1\x7a\xb8\x15\x89\x71\xab\x13\xe7\x12\xa9\x2f\x77\xda\x33\xb2\x2d\x51\xeb\x2a\xee\xe5\x2d\x10\xd5\x21\xae\x43\xf3\x50\xec\x15\xca\xa1\x82\x48\x41\x5b\x41\x53\x41\x57\xc1\xb9\xf4\x95\xbd\xc6\x0d\xdb\xb1\xc5\x2f\xd7\x73\x1a\xe1\x92\x2b\x89\xe3\xfd\x8a\xb9\x1f\xd7\x7f\x6d\x96\xc3\xcd\x71\x89\x7b\x36\xcd\x65\x12\x7d\x06\x0d\xf9\x74\x3e\x53\x36\x2c\xd8\xce\x94\xbf\x84\x7b\xb3\x5c\xd6\x51\x3e\xec\xec\x58\xaf\x60\x79\x19\x3d\xb8\x69\x31\x57\x55\x9b\x59\x41\x2e\x67\x52\xc4\x15\xee\xca\x9d\x85\x7f\x9b\x69\x05\xb7\x2b\x9d\xc6\xf9\xea\xdd\x34\xd4\xd2\x85\x37\x59\x6b\xcb\x38\xac\xb4\xa4\xca\x64\x4f\x8f\x47\xbc\x79\x07\x15\xfd\xe6\x4d\x94\x2a\xd6\xa2\x62\xbe\xdd\x02\xdd\x0a\xe3\xc3\xeb\x81\x93\x06\x9c\x36\xe0\x4c\x41\x47\x37\xf9\xf7\x7f\x01\x00\x00\xff\xff\xe2\x89\x6d\xa9\x66\x03\x00\x00")
-
-func el_grEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_el_grEuroJson,
-		"el_GR@euro.json",
-	)
-}
-
-func el_grEuroJson() (*asset, error) {
-	bytes, err := el_grEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "el_GR@euro.json", size: 870, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "el_GR.json", size: 870, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1813,7 +1627,7 @@ func en_agJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_AG.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_AG.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1833,7 +1647,7 @@ func en_auJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_AU.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_AU.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1853,7 +1667,7 @@ func en_bwJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_BW.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_BW.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1873,7 +1687,7 @@ func en_caJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_CA.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_CA.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1893,7 +1707,7 @@ func en_dkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_DK.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_DK.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1913,7 +1727,7 @@ func en_gbJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_GB.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_GB.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1933,7 +1747,7 @@ func en_hkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_HK.json", size: 653, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_HK.json", size: 653, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1953,27 +1767,7 @@ func en_ieJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_IE.json", size: 616, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _en_ieEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\xc1\x4a\xc4\x30\x10\x86\xcf\xed\x53\x84\x40\x6e\x0b\x7b\xf7\xb6\x20\x7b\x28\x54\x85\x2d\x88\x8a\x94\xb4\x89\xee\xc2\x66\x5b\xb2\x89\x10\xc4\x77\x77\xea\x4c\xa6\x1b\xbc\x7d\x7f\xfe\x74\x26\x7c\xfd\xae\x2b\xa9\x07\xa3\x93\xbc\x13\x6f\x75\x55\xc9\x43\xbc\xc8\xcd\x02\xed\x44\xd0\x45\x8b\xf0\x6c\x0d\x9d\x1c\x23\xc2\xde\x9f\x10\x0e\x3a\xc8\xba\x7a\xdf\xfc\x4d\x73\xf0\x25\x4d\x6b\x34\x0d\xd9\xdb\x81\xc6\x6a\x8f\xb0\x9b\x7d\x3e\x49\x08\x4d\x5e\xdd\xc4\x33\xdd\x89\x9f\x34\xdf\xce\x08\x8f\x63\x40\x78\x98\xbe\x10\xee\xed\xc8\xab\x5d\x3f\xbb\xbc\x7a\xd7\x62\xff\xd4\xe6\xda\xf4\x1f\x2e\xe4\x5a\x99\xad\x72\x5b\x95\xd6\x32\x14\xb5\x16\xca\x08\x35\x08\xf5\x22\x54\x27\xd4\x2b\xdf\x2b\x54\x99\xfc\x76\xb0\xc5\x0c\xc2\xae\x1c\x40\xda\xe5\x26\x82\x3a\xbf\x26\xf0\xc7\x0c\x0a\xa3\x5f\x12\x2d\x2a\x2d\x46\xed\x13\x9b\xf4\x6b\x02\x9d\xe3\x91\x85\x9e\xce\xff\x95\x5a\x76\x9a\x58\x6a\xbc\x06\xf6\x1a\xac\x1b\xac\x67\xbb\x13\x07\x30\x7c\x53\x81\x66\x4c\xf4\xbc\xd2\x56\x57\x1c\xf7\xda\xad\xff\x61\x69\xea\x9f\xdf\x00\x00\x00\xff\xff\xe6\xf1\x0f\xe5\x68\x02\x00\x00")
-
-func en_ieEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_en_ieEuroJson,
-		"en_IE@euro.json",
-	)
-}
-
-func en_ieEuroJson() (*asset, error) {
-	bytes, err := en_ieEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "en_IE@euro.json", size: 616, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_IE.json", size: 616, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1993,7 +1787,7 @@ func en_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_IN.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_IN.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2013,7 +1807,7 @@ func en_ngJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_NG.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_NG.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2033,7 +1827,7 @@ func en_nzJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_NZ.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_NZ.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2053,7 +1847,7 @@ func en_phJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_PH.json", size: 655, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_PH.json", size: 655, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2073,7 +1867,7 @@ func en_sgJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_SG.json", size: 624, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_SG.json", size: 624, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2093,7 +1887,7 @@ func en_usJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_US.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_US.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2113,7 +1907,7 @@ func en_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_ZA.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_ZA.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2133,7 +1927,7 @@ func en_zmJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_ZM.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_ZM.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2153,7 +1947,7 @@ func en_zwJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "en_ZW.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "en_ZW.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2173,7 +1967,7 @@ func eoJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "eo.json", size: 618, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "eo.json", size: 618, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2193,7 +1987,7 @@ func eo_usJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "eo_US.json", size: 633, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "eo_US.json", size: 633, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2213,7 +2007,7 @@ func es_arJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_AR.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_AR.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2233,7 +2027,7 @@ func es_boJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_BO.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_BO.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2253,7 +2047,7 @@ func es_clJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_CL.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_CL.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2273,7 +2067,7 @@ func es_coJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_CO.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_CO.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2293,7 +2087,7 @@ func es_crJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_CR.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_CR.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2313,7 +2107,7 @@ func es_cuJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_CU.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_CU.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2333,7 +2127,7 @@ func es_doJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_DO.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_DO.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2353,7 +2147,7 @@ func es_ecJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_EC.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_EC.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2373,27 +2167,7 @@ func es_esJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_ES.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _es_esEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x5c\x91\x41\x6e\xc3\x20\x10\x45\xd7\xf6\x29\x10\x12\xbb\x48\xd9\xf7\x1c\xd9\xb4\x55\x65\x81\x21\x15\x15\x30\x11\xc6\x96\xd2\xaa\x87\xe9\xb2\xe7\xc8\xc5\x3a\x29\xcc\x24\x64\xf7\xc6\x1f\xcf\xc7\xcf\x5f\xe3\x20\xb5\xb1\xfa\x2c\x9f\xc4\xeb\x38\x0c\xd2\x42\x94\xbb\x2b\x84\x35\x55\x88\x3a\x37\xf0\x97\xdf\x4a\x1f\xab\xab\xb0\xf9\x06\xcb\xe5\xc7\xc8\x71\x78\xdb\xfd\xef\x8b\x90\x68\x9f\x4b\xed\xc4\xd1\x99\x87\x7d\xda\xd0\x62\xac\x6f\x7b\x13\x41\x68\x67\xde\xa1\x15\xb8\x53\x05\x98\x4b\x85\x04\x5b\x05\xeb\x67\xae\x8e\xd3\x29\x52\x75\x4d\x29\xb2\xd3\x31\x16\x8a\x94\xdd\xab\xb8\x57\xe7\x5b\x58\xba\x58\x0b\x65\x85\x32\x42\x3d\x0b\x75\x10\xea\x85\xcf\x75\xa2\x7c\xa2\xdb\xa1\x2c\xb7\xf0\xe7\x15\x66\x34\x96\x67\x08\x34\xa3\xb7\x8d\x18\xd5\x65\x7e\xe9\xaa\x4f\x5b\xa0\x9a\xde\x5f\x06\x36\x98\x79\xc0\x9a\x4f\x60\x8f\x3e\xb0\x49\x60\x95\x9e\x31\x10\xa2\xce\xa5\xdc\x8c\x16\xef\x22\xee\x64\xb1\x2b\x0f\x28\xf7\x3e\x43\xc5\x6d\x6c\x37\xec\x75\x1d\xba\xc7\x93\x8e\x77\x3f\x01\x93\xf1\xfb\x2f\x00\x00\xff\xff\x83\x6a\xbd\x2b\x67\x02\x00\x00")
-
-func es_esEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_es_esEuroJson,
-		"es_ES@euro.json",
-	)
-}
-
-func es_esEuroJson() (*asset, error) {
-	bytes, err := es_esEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "es_ES@euro.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_ES.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2413,7 +2187,7 @@ func es_gtJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_GT.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_GT.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2433,7 +2207,7 @@ func es_hnJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_HN.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_HN.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2453,7 +2227,7 @@ func es_mxJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_MX.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_MX.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2473,7 +2247,7 @@ func es_niJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_NI.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_NI.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2493,7 +2267,7 @@ func es_paJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_PA.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_PA.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2513,7 +2287,7 @@ func es_peJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_PE.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_PE.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2533,7 +2307,7 @@ func es_prJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_PR.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_PR.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2553,7 +2327,7 @@ func es_pyJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_PY.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_PY.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2573,7 +2347,7 @@ func es_svJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_SV.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_SV.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2593,7 +2367,7 @@ func es_usJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_US.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_US.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2613,7 +2387,7 @@ func es_uyJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_UY.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_UY.json", size: 615, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2633,7 +2407,7 @@ func es_veJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "es_VE.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "es_VE.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2653,7 +2427,7 @@ func et_eeJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "et_EE.json", size: 629, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "et_EE.json", size: 629, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2673,27 +2447,7 @@ func eu_esJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "eu_ES.json", size: 639, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _eu_esEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x54\x91\x41\x6e\xc3\x20\x14\x44\xd7\xf6\x29\x90\x25\x76\x4e\x0e\xd0\x73\x64\xd3\x56\x95\x35\x16\x34\x45\x36\x10\xfd\x80\xd4\x50\xf5\xee\xa5\x31\x1f\xe3\xdd\x0c\x33\x7c\xbe\x9f\x7f\xfa\x6e\xc0\xac\xf0\x18\x5e\xc4\x7b\xdf\x75\x83\xb9\x9e\x87\xf1\x5f\x60\x65\x41\x2c\x52\x11\x9e\x3b\x9e\xa3\x35\x8b\xbe\xfb\x18\x9f\xd3\xac\x77\x3c\x2d\x52\x28\xcd\x70\xdf\x84\x05\x95\x69\x37\xc3\x27\x45\xe8\x05\x9b\x88\xa9\xdc\xc2\x1c\x37\x61\x88\x23\xe2\xeb\x09\xdc\xd1\xf5\x69\x3b\xdd\x2c\x3f\xbd\xa5\x1c\xa9\xe9\xd3\x06\x8e\x24\x46\x21\x5f\xcf\x7a\xf1\x42\xce\xa4\x9d\x90\x0a\x7b\x31\x1c\xaa\x8f\x93\xb4\x27\xa9\x84\xbc\x08\xf9\x56\x4b\x2d\x2f\x38\xa5\x79\x97\x7b\xd0\xab\xfe\xd2\xae\xf1\xa0\xd0\xc6\x48\x4b\x8d\x7d\xf6\xd7\xd8\xb8\xfc\x99\x6b\x71\x2b\x28\xba\x19\xa1\x2e\x76\xa4\x0a\x22\xc3\xd5\xcc\x16\xd5\x64\xbe\xe1\xdb\xa3\x32\xa6\x26\x31\x08\x4c\x2d\xb3\x36\x6e\xc7\xbd\xdf\xcf\xc8\x53\x88\xa8\xd8\x6b\x90\xc9\x1b\x54\xf6\xe4\x77\xfc\x4e\xc5\xba\xe5\x11\xde\xe5\x70\x3c\xc1\x36\xbf\x27\x27\xfd\xef\x5f\x00\x00\x00\xff\xff\x60\x97\xba\x7f\x7f\x02\x00\x00")
-
-func eu_esEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_eu_esEuroJson,
-		"eu_ES@euro.json",
-	)
-}
-
-func eu_esEuroJson() (*asset, error) {
-	bytes, err := eu_esEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "eu_ES@euro.json", size: 639, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "eu_ES.json", size: 639, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2713,27 +2467,7 @@ func eu_frJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "eu_FR.json", size: 639, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _eu_frEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x54\x91\x41\x6e\xc3\x20\x14\x44\xd7\xf6\x29\x90\x25\x76\x4e\x0e\xd0\x73\x64\xd3\x56\x95\x35\x16\x34\x45\x36\x10\xfd\x80\xd4\x50\xf5\xee\xa5\x31\x1f\xe3\xdd\x0c\x33\x7c\xbe\x9f\x7f\xfa\x6e\xc0\xac\xf0\x18\x5e\xc4\x7b\xdf\x75\x83\xb9\x9e\x87\xf1\x5f\x60\x65\x41\x2c\x52\x11\x9e\x3b\x9e\xa3\x35\x8b\xbe\xfb\x18\x9f\xd3\xac\x77\x3c\x2d\x52\x28\xcd\x70\xdf\x84\x05\x95\x69\x37\xc3\x27\x45\xe8\x05\x9b\x88\xa9\xdc\xc2\x1c\x37\x61\x88\x23\xe2\xeb\x09\xdc\xd1\xf5\x69\x3b\xdd\x2c\x3f\xbd\xa5\x1c\xa9\xe9\xd3\x06\x8e\x24\x46\x21\x5f\xcf\x7a\xf1\x42\xce\xa4\x9d\x90\x0a\x7b\x31\x1c\xaa\x8f\x93\xb4\x27\xa9\x84\xbc\x08\xf9\x56\x4b\x2d\x2f\x38\xa5\x79\x97\x7b\xd0\xab\xfe\xd2\xae\xf1\xa0\xd0\xc6\x48\x4b\x8d\x7d\xf6\xd7\xd8\xb8\xfc\x99\x6b\x71\x2b\x28\xba\x19\xa1\x2e\x76\xa4\x0a\x22\xc3\xd5\xcc\x16\xd5\x64\xbe\xe1\xdb\xa3\x32\xa6\x26\x31\x08\x4c\x2d\xb3\x36\x6e\xc7\xbd\xdf\xcf\xc8\x53\x88\xa8\xd8\x6b\x90\xc9\x1b\x54\xf6\xe4\x77\xfc\x4e\xc5\xba\xe5\x11\xde\xe5\x70\x3c\xc1\x36\xbf\x27\x27\xfd\xef\x5f\x00\x00\x00\xff\xff\x60\x97\xba\x7f\x7f\x02\x00\x00")
-
-func eu_frEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_eu_frEuroJson,
-		"eu_FR@euro.json",
-	)
-}
-
-func eu_frEuroJson() (*asset, error) {
-	bytes, err := eu_frEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "eu_FR@euro.json", size: 639, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "eu_FR.json", size: 639, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2753,7 +2487,7 @@ func fa_irJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fa_IR.json", size: 861, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fa_IR.json", size: 861, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2773,7 +2507,7 @@ func ff_snJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ff_SN.json", size: 617, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ff_SN.json", size: 617, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2793,27 +2527,7 @@ func fi_fiJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fi_FI.json", size: 671, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _fi_fiEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x5c\x91\x4d\x6e\x84\x30\x0c\x85\xd7\x70\x0a\x84\x94\xdd\x88\x03\x74\xd9\x55\x37\x5d\x75\x35\xaa\x2a\xe4\x0a\xaa\xc9\x24\x4e\x10\x24\x95\x50\xd5\xdb\xf4\x26\xbd\xd8\x90\x1f\x3b\x99\x59\xd9\x1f\x0f\x3b\xf6\xf3\x4f\xdb\xf4\xf0\x39\xc1\xde\x3f\x75\xef\x6d\xd3\xf4\x9b\xef\x4f\x21\x22\xa4\xe8\x64\x8a\x6a\xce\x6c\x53\x5c\x32\x6b\xe8\xdb\xe6\xe3\x14\xdb\xa0\x35\xd4\xc6\x01\x62\xae\xbc\xcc\x9a\x52\x04\xd0\x72\xcb\x9f\xfd\x85\x7a\x3b\xeb\x95\xa5\x67\xb6\xff\x3f\xaa\x93\x86\xf2\x59\x67\x7d\xdb\xf7\x5c\xaf\xad\x02\xea\xba\xae\x90\xbf\x5e\xad\xd7\x9e\x27\xc2\x71\x41\x9a\x28\xe9\x24\x4d\xe3\x17\x3a\x92\xc4\x34\x08\x1c\xc4\xb9\x88\xee\x4e\x86\x4e\xcc\x43\x27\x9e\xdd\x91\x9c\x3b\xf1\x32\x88\xd7\x41\xbc\xf1\xdf\xb5\x79\xc6\x78\xe3\xa0\xac\x6b\xa0\xa0\x93\x72\x63\x38\x16\x55\xf2\x5b\x4a\x45\x9b\x3b\xbb\x16\x75\x99\xd7\x6b\x55\xa9\xc1\x27\xca\x4f\x3e\x1a\xad\xbc\xaf\xbc\x66\x4a\x76\x17\x31\x38\xce\x14\x4d\x67\x8a\xbe\x57\x6d\x82\xf5\x8c\x87\xfb\x9c\x87\x03\x30\x84\x1b\x54\xaf\x85\x33\x30\xc6\x4b\x04\xca\x33\xdf\x5b\xfa\xe0\x61\x14\x47\xc0\xea\x5c\x87\xd2\xfe\xde\x02\x00\x00\xff\xff\xfe\xbc\x14\x57\x9f\x02\x00\x00")
-
-func fi_fiEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_fi_fiEuroJson,
-		"fi_FI@euro.json",
-	)
-}
-
-func fi_fiEuroJson() (*asset, error) {
-	bytes, err := fi_fiEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "fi_FI@euro.json", size: 671, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fi_FI.json", size: 671, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2833,7 +2547,7 @@ func fil_phJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fil_PH.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fil_PH.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2853,7 +2567,7 @@ func fo_foJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fo_FO.json", size: 644, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fo_FO.json", size: 644, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2873,27 +2587,7 @@ func fr_beJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fr_BE.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _fr_beEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\x41\x6e\x83\x30\x10\x45\xd7\x70\x0a\x0b\xc9\xbb\x48\xd9\xf7\x1c\xd9\xb4\x55\x85\x06\x3c\x51\x8d\x18\x1c\x39\x06\x29\xaa\x7a\xa0\x9c\xa1\x4b\x2e\x56\x53\x8f\x87\xb8\xd9\xfd\x99\x3f\xfa\x1f\x9e\xbf\xea\xaa\x81\xce\xc0\xad\x79\x51\xef\x75\x55\x35\xc6\x52\x73\xd8\xc4\x38\x4f\x49\x10\x78\x16\xc8\x62\xc0\x39\x89\x05\xf9\xe6\x0a\xd4\xd4\xd5\xc7\xe1\x2f\x8d\xdc\x94\xd3\x06\xe0\x83\xf3\x7a\x5f\xfe\xc5\xc1\x92\x73\xc1\x72\x6e\xae\x1c\x66\xde\x80\x5b\x7f\xb8\x01\x2f\x49\xb8\x3e\x24\x31\x39\x4e\x34\xeb\xbd\x97\x76\x6a\x2f\x94\xdb\x93\x9d\x2d\xd3\x9e\x29\x64\x4b\x9b\xa3\xa6\xa3\xbe\xed\x66\x28\x6c\x50\xda\x28\xdd\x29\xfd\xaa\xf4\x49\xe9\x37\xb9\x2b\x48\xc1\xd4\x7f\xa2\xe0\x32\x56\xfe\x50\x24\xfa\xde\x63\x9e\x22\xb7\x2c\x23\x39\xb3\x1b\x11\xdf\xa6\xb9\xa3\xe4\xb7\xd8\x8c\x7d\x63\xe8\x65\x8a\x2d\x57\x01\x69\xc7\x27\x94\x76\x67\x39\x8e\x18\x76\x9e\x41\x80\x06\xa4\xce\xa3\x60\x75\x32\x44\xb4\x0f\xd6\xc6\x37\x8d\xfc\x81\x25\xaa\x53\xb1\x6e\x81\x1e\x1e\x20\x3a\xf5\xf7\x6f\x00\x00\x00\xff\xff\x49\xdf\xe2\xa2\x64\x02\x00\x00")
-
-func fr_beEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_fr_beEuroJson,
-		"fr_BE@euro.json",
-	)
-}
-
-func fr_beEuroJson() (*asset, error) {
-	bytes, err := fr_beEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "fr_BE@euro.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fr_BE.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2913,7 +2607,7 @@ func fr_caJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fr_CA.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fr_CA.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2933,7 +2627,7 @@ func fr_chJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fr_CH.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fr_CH.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2953,27 +2647,7 @@ func fr_frJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fr_FR.json", size: 635, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _fr_frEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x94\x91\xc1\x6e\x83\x30\x0c\x86\xcf\xf0\x14\x11\x52\x6e\xd5\x7a\xdf\x73\xf4\xd2\x4d\x13\x32\xc4\xd5\x52\xe1\xa4\x4a\x03\xd2\x34\xed\x81\x78\x86\x1d\x79\xb1\x85\x61\x07\x98\x76\xe9\xed\x73\xfe\xc4\x36\x1f\x9f\x65\x51\x41\x63\xe0\xa3\x7a\x56\xaf\x65\x51\x54\xc6\xd2\x53\x75\x98\xa9\xeb\x1d\x13\x41\x10\x42\xa1\x2b\xf6\x4c\x03\xca\xbd\x3b\xa4\xb7\x65\xf1\x76\xf8\x6d\x4a\xde\x49\xd3\x2b\xb8\x81\xef\x5c\xa6\x71\x08\x6b\xdf\xfb\x42\x30\x04\xdb\xc9\xa1\xe5\x09\xbd\x75\x99\x3a\x7e\x02\x7e\xfa\x8e\x3c\x0d\x6f\x91\x4f\x7d\x2b\xe4\xbc\x0c\x32\xd3\xd8\xae\xdb\x50\x7d\x23\xd9\x66\xc9\x25\x32\xf5\x85\xa2\x44\xda\x1c\x35\x1d\xf5\x79\x0d\xe3\x2e\x06\xa5\x8d\xd2\x8d\xd2\x67\xa5\x4f\x4a\xbf\xe4\x7b\x3b\x81\xe0\xda\x77\xcc\x12\x8d\xcd\x5f\x9b\x11\x43\x1b\x50\xaa\xa4\x52\x30\xb9\x34\x6b\x90\x7c\xce\xcc\x33\xfe\xf8\xb4\x18\x36\x46\x73\xf5\x88\xd3\x0e\xe3\xbf\x56\x91\x9a\x80\xd9\xac\xcf\x45\x92\xbb\x89\x66\xc1\x4b\xc9\x0b\xee\x55\x9d\x76\xc7\x35\xd0\xe6\x07\xa4\xa4\xfc\xfa\x09\x00\x00\xff\xff\x0f\x2b\x14\x1d\x7b\x02\x00\x00")
-
-func fr_frEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_fr_frEuroJson,
-		"fr_FR@euro.json",
-	)
-}
-
-func fr_frEuroJson() (*asset, error) {
-	bytes, err := fr_frEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "fr_FR@euro.json", size: 635, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fr_FR.json", size: 635, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2993,27 +2667,7 @@ func fr_luJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fr_LU.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _fr_luEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\x41\x6e\x83\x30\x10\x45\xd7\x70\x0a\x0b\xc9\xbb\x28\x07\xe8\x39\xb2\x49\xab\x0a\x0d\x78\xa2\x1a\x31\x38\x72\x0c\x52\x55\xf5\x40\x39\x43\x97\x5c\xac\xa6\x1e\x0f\x71\xb3\xfb\x33\x7f\xf4\x3f\x3c\x7f\xd5\x55\x03\x9d\x81\xcf\xe6\x45\xbd\xd5\x55\xd5\x18\x4b\xcd\x61\x13\xe3\x3c\x25\x41\xe0\x59\x20\x8b\x01\xe7\x24\x16\xe4\x9b\x1b\x50\x53\x57\xef\x87\xbf\x34\x72\x53\x4e\x1b\x80\x0f\x2e\xeb\x7d\xf9\x17\x07\x4b\xce\x05\xcb\xb9\xb9\x72\x98\x79\x03\x6e\xfd\xe1\x06\xbc\x26\xe1\xfa\x90\xc4\xe4\x38\xd1\xac\xf7\x5e\xda\xa9\xbd\x52\x6e\x4f\x76\xb6\x4c\x7b\xa1\x90\x2d\x6d\x8e\x9a\x8e\xfa\xbc\x9b\xa1\xb0\x41\x69\xa3\x74\xa7\xf4\x59\xe9\x93\xd2\xaf\x72\x57\x90\x82\xa9\xff\x40\xc1\x65\xac\xfc\xa1\x48\xf4\xbd\xc7\x3c\x45\x6e\x59\x46\x72\x66\x37\x22\xbe\x4d\x73\x47\xc9\x6f\xb1\x19\xfb\xc6\xd0\xcb\x14\x5b\x6e\x02\xd2\x8e\x4f\x28\xed\xce\x72\x1c\x31\xec\x3c\x83\x00\x0d\x48\x9d\x47\xc1\xea\x64\x88\x68\x1f\xac\x8d\x6f\x1a\xf9\x03\x4b\x54\xa7\x62\xdd\x02\x3d\x3c\x40\x74\xea\xef\xdf\x00\x00\x00\xff\xff\x7a\x49\x2a\xb4\x64\x02\x00\x00")
-
-func fr_luEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_fr_luEuroJson,
-		"fr_LU@euro.json",
-	)
-}
-
-func fr_luEuroJson() (*asset, error) {
-	bytes, err := fr_luEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "fr_LU@euro.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fr_LU.json", size: 612, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3033,7 +2687,7 @@ func fur_itJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fur_IT.json", size: 602, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fur_IT.json", size: 602, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3053,7 +2707,7 @@ func fy_nlJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "fy_NL.json", size: 608, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "fy_NL.json", size: 608, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3073,27 +2727,7 @@ func ga_ieJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ga_IE.json", size: 699, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _ga_ieEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x6c\x91\xb1\x4e\xc3\x30\x10\x86\xe7\xe4\x29\x4e\x91\xbc\x55\x7d\x00\x36\x20\x54\x42\x2a\x2c\xed\x02\x08\x45\x17\xd9\x60\x4b\xb1\x83\x8c\x19\x2a\xc4\xc3\x74\xec\xcc\xd6\xd5\x2f\x46\x1c\xe7\x1c\xa7\x62\xfb\xcf\xff\xe9\xf7\xaf\xef\xbe\xcb\xa2\xc2\x96\xe3\xa1\xba\x82\x97\xb2\x28\xaa\xba\xd7\xb2\x5a\x05\xb5\xfd\x42\x13\xd5\x83\x3f\x2a\xeb\xa2\xbe\xf5\x27\xe4\x51\xd6\x83\xb4\x51\x5e\xf7\xca\x88\x28\x77\xe8\x64\x55\x16\xaf\xab\x31\x59\xf7\x86\x92\xef\x28\x6e\x23\xb0\x95\x29\xd9\x3a\x9c\x32\x54\x1b\xc5\x8d\xc0\x6e\xb2\x85\x72\xd3\xe6\xbd\x3f\xab\xe9\x75\xeb\xcf\x54\x6c\xe3\x7f\xa9\x6e\x9d\xe9\x1d\x92\x7a\xec\xbb\x2e\xb5\xd1\xcd\x87\xa6\x36\xd1\x26\x8b\x37\x6f\xda\x91\xc5\xf8\x9a\xe9\x35\x3b\xcc\xa6\x5b\xd8\x08\x8c\x03\x6b\x81\x3d\x01\xdb\x03\x7b\x4e\x7b\x19\x45\x7f\x82\x40\xd2\xa0\x7a\x97\x89\x16\x0c\x48\x95\x99\xc7\x9c\x6b\x98\x47\xb6\xd8\x67\x2b\x68\x97\x33\xc8\x8c\x74\x98\x03\x6d\x54\xd6\x50\x87\x25\xef\x90\x9f\x31\xb7\xf8\x2f\x75\x2b\xfc\xd1\xcc\xe8\x1d\xa6\x1f\x46\xfe\x22\xc1\xbc\xb8\x01\x7e\x52\x5e\x08\x80\x91\x3f\xd2\x87\xb5\x50\x56\x20\x97\x17\xcf\xe1\x32\x89\x41\x38\xce\x00\x88\xba\x2f\x29\xef\x17\xcf\x0d\xea\xec\x76\x83\x53\xfe\xfc\x05\x00\x00\xff\xff\x4d\x76\x96\x96\xbb\x02\x00\x00")
-
-func ga_ieEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_ga_ieEuroJson,
-		"ga_IE@euro.json",
-	)
-}
-
-func ga_ieEuroJson() (*asset, error) {
-	bytes, err := ga_ieEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "ga_IE@euro.json", size: 699, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ga_IE.json", size: 699, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3113,7 +2747,7 @@ func gd_gbJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "gd_GB.json", size: 693, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "gd_GB.json", size: 693, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3133,27 +2767,7 @@ func gez_erJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "gez_ER.json", size: 836, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _gez_erAbegedeJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\xbc\x51\x41\x4b\xf4\x30\x14\x3c\xb7\xbf\xe2\xa3\x90\xdb\xc2\xde\xf7\xf6\x79\xf3\xe0\xc9\x8b\xab\x48\xa9\x54\x6f\xd1\x45\xf6\x22\x22\xac\xb7\x97\xa4\x85\x15\x59\xa8\x82\x10\x91\x42\x41\x16\x0a\xba\x47\x7f\xcc\xfc\x13\x93\xd2\x24\xed\x5d\x16\x42\x60\x32\x2f\xf3\xe6\xcd\xbb\x8f\xa3\x24\xbb\xc8\xb3\xbb\x64\xf6\xef\x2c\x8e\xa2\x04\xb2\x86\x7c\x84\xda\x25\x93\x0e\x52\x0b\xf9\x04\xb5\x75\x50\x83\x04\xc8\xb3\x9f\x10\x35\xd4\xc6\xc1\x35\xe8\x25\xb0\xea\x19\xb4\x85\xd0\x3d\x14\x2b\xa8\x2f\xd0\x6b\x12\x47\xe7\x93\xae\x2f\xbf\xb9\xf6\x7d\x0b\xdd\x7d\x6f\xfa\x62\xd9\x40\xb4\xe6\x38\xe5\x0a\x05\x05\x29\xa9\x21\x8d\x5a\xd5\xc3\xa2\x84\xdc\x40\x7c\x04\x93\x06\xaa\x66\xe0\xaa\x02\x91\xfb\xbb\xee\x5e\xda\xd0\x88\xcc\xf1\x52\xda\xfa\xf4\xd0\x76\x69\x07\xae\x56\x5d\x02\xda\x8f\xc0\xd3\x05\x0f\x23\xfc\x18\x0f\x20\x9f\xc6\x1b\xe8\x1b\x62\xe7\x8a\xf3\xf4\x8a\x2f\x5d\x31\xcb\xa7\x8c\x4f\xd9\x3c\x90\xcb\x11\xfd\x1f\x65\xcd\x0e\x50\xbe\xb3\x4b\x73\xd9\x01\x6c\x9a\xa5\x91\xb3\x6f\x73\x7b\xdd\xda\xeb\xd4\x0b\xec\x75\x87\x83\xb1\xfe\x7a\x89\x56\x7a\xdf\x7b\x1c\x67\x7f\x38\x63\x47\x33\x76\x3c\x22\xd3\x8c\x87\x4d\xb3\x13\x1b\xfd\xc2\x16\xc4\x0f\xf1\x6f\x00\x00\x00\xff\xff\xc7\x2b\xfc\x65\x44\x03\x00\x00")
-
-func gez_erAbegedeJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_gez_erAbegedeJson,
-		"gez_ER@abegede.json",
-	)
-}
-
-func gez_erAbegedeJson() (*asset, error) {
-	bytes, err := gez_erAbegedeJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "gez_ER@abegede.json", size: 836, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "gez_ER.json", size: 836, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3173,27 +2787,7 @@ func gez_etJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "gez_ET.json", size: 869, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _gez_etAbegedeJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\xbc\x52\xbd\x4a\x03\x41\x18\xac\xef\x9e\x42\x0e\xb6\x0b\xa4\x4f\xa7\x9d\x85\x95\x8d\x51\x24\x44\xa2\xdd\x6a\x90\x34\x22\x82\xc1\xe6\xdb\xdd\x5b\x50\x24\xe2\x5f\x20\xa2\x11\xff\x02\x41\x93\x32\x0f\x33\x6f\xe2\xee\xb1\x7b\x9b\x0d\xda\x58\xd8\x2c\x37\xdf\x0c\xf3\xfd\xcc\x1d\xa7\x49\xd6\xdc\x69\x35\x8f\xb2\xda\xd2\x56\x9a\x24\x19\xe4\x10\xb2\x0b\x35\xcd\x2a\x05\xa4\x31\xe4\x05\xd4\xc8\xc3\x01\x48\x80\x4a\xf6\x1d\x62\x08\xd5\xf3\xf0\x1c\x74\x13\x58\x75\x09\x1a\x41\x0c\x1c\x14\xa7\x50\x5f\xa0\xdb\x2c\x4d\xb6\x2b\x45\x5f\x7e\xb0\x5f\xf6\xcd\xcf\x20\x7b\x50\xaf\x4e\xac\x73\xeb\x4c\x1e\xd2\x5d\x61\x35\x73\x50\x3e\x41\xf7\x40\x2f\x9e\xbd\x0f\x13\xe6\x5d\xe3\x13\xbe\x49\x05\x4a\x3e\x23\xa7\xb9\xe1\x27\xd6\x44\x4c\x02\x2b\x4d\x8b\xb1\x87\x57\x10\x1f\xa0\xbe\xdf\xe5\xd3\xea\x0d\xf4\xc3\xf3\x46\x9b\x87\xe1\x67\x10\x8f\xa0\xf2\x0e\x7d\x2b\x16\x53\x2f\x6e\x35\xf6\x78\xc7\x8b\x59\xab\xca\x78\x95\xd5\x03\xd9\x89\xe8\x65\xe8\x21\x5b\x81\x7e\x60\xbb\xe6\x01\x5d\x17\x77\xd4\xc6\xce\xd6\xea\xf6\x39\xb4\xcf\x66\x69\xf0\xaf\xe9\xcd\xad\xf5\x53\x7c\x50\xe6\xc2\x6f\x0b\x21\x46\xc5\x5f\xa2\x34\x2b\xfe\x2d\x4d\x3b\x50\x1c\xa8\xbd\xbf\x30\xab\x8e\x16\x92\x85\xd2\x71\xdd\x45\x1c\x15\x7d\xd0\xae\xe8\x56\x8d\x23\x5a\xad\xb1\xb5\x1a\x5b\x8f\xc8\x46\x93\x87\x1f\x82\x6d\xd8\x84\xda\x56\x90\x9e\xa4\xdf\x01\x00\x00\xff\xff\xd2\x2c\x81\xd7\x65\x03\x00\x00")
-
-func gez_etAbegedeJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_gez_etAbegedeJson,
-		"gez_ET@abegede.json",
-	)
-}
-
-func gez_etAbegedeJson() (*asset, error) {
-	bytes, err := gez_etAbegedeJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "gez_ET@abegede.json", size: 869, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "gez_ET.json", size: 869, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3213,27 +2807,7 @@ func gl_esJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "gl_ES.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _gl_esEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x5c\x90\x4d\x4a\x04\x31\x10\x85\xd7\xdd\xa7\x08\x81\xec\x06\x66\xef\x4e\x18\x5c\xf9\xb3\x70\x90\x51\x91\x26\x99\x44\x69\xe8\x74\x49\x77\x22\x8c\xe2\x61\x5c\xba\xf4\x0c\x7d\x31\x33\xa6\xaa\x32\x71\xf7\x2a\xaf\x78\xaf\xf2\x7d\xb4\x8d\xd4\xc6\xea\x83\x3c\x13\x8f\x6d\xd3\xc8\x0d\x78\xb9\x3a\x8a\xcb\x38\x66\x71\xa5\x27\x14\xcb\x37\xaa\x1d\xbc\x65\x71\xe7\x70\xe9\x76\xf9\x32\xb2\x6d\x9e\x56\x7f\x79\x1e\x46\xca\xdb\x69\xdc\xb8\x70\xe6\x5f\xde\xb9\xa1\x60\xdd\x63\x6e\x5c\x7e\x48\x0d\xb8\xf4\x02\xd8\xe0\x42\x16\x37\x11\xc5\x35\x5d\xb1\x71\x7b\xee\xf6\xdd\xab\xa7\xee\xec\x92\x65\xbb\x67\x1f\xc8\x52\x76\xad\xfc\x5a\x1d\x8a\x19\x2a\x5b\x0b\x65\x85\x32\x42\xdd\x0b\xb5\x15\xea\x81\xf7\x2a\x52\xfd\x48\xd7\x25\x5a\x33\x7f\x2f\xb8\xb9\x10\xdb\xc3\x44\x63\xc2\x46\x32\x81\xe3\xe7\x23\x3b\x6d\x81\x2a\x6a\x78\xae\x9f\x80\x01\x4e\x65\x4a\x35\xef\xc0\x1c\xfb\x81\x49\x42\x41\xc9\x72\x18\x80\x69\xce\xa1\x00\x75\xde\x50\x5e\xa2\x1a\x79\x48\x64\x4f\xac\x84\x37\x4f\x78\x60\x4d\x6a\x5b\x3d\x77\xda\x9f\xf0\x4f\x4e\xfb\xf9\x1b\x00\x00\xff\xff\x2c\xf0\xaf\xe6\x63\x02\x00\x00")
-
-func gl_esEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_gl_esEuroJson,
-		"gl_ES@euro.json",
-	)
-}
-
-func gl_esEuroJson() (*asset, error) {
-	bytes, err := gl_esEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "gl_ES@euro.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "gl_ES.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3253,7 +2827,7 @@ func gu_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "gu_IN.json", size: 1045, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "gu_IN.json", size: 1045, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3273,7 +2847,7 @@ func gv_gbJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "gv_GB.json", size: 722, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "gv_GB.json", size: 722, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3293,7 +2867,7 @@ func ha_ngJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ha_NG.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ha_NG.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3313,7 +2887,7 @@ func he_ilJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "he_IL.json", size: 731, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "he_IL.json", size: 731, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3333,7 +2907,7 @@ func hi_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "hi_IN.json", size: 1111, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "hi_IN.json", size: 1111, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3353,7 +2927,7 @@ func hne_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "hne_IN.json", size: 982, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "hne_IN.json", size: 982, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3373,7 +2947,7 @@ func hr_hrJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "hr_HR.json", size: 624, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "hr_HR.json", size: 624, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3393,7 +2967,7 @@ func hsb_deJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "hsb_DE.json", size: 610, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "hsb_DE.json", size: 610, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3413,7 +2987,7 @@ func ht_htJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ht_HT.json", size: 610, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ht_HT.json", size: 610, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3433,7 +3007,7 @@ func hu_huJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "hu_HU.json", size: 659, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "hu_HU.json", size: 659, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3453,7 +3027,7 @@ func hy_amJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "hy_AM.json", size: 843, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "hy_AM.json", size: 843, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3473,7 +3047,7 @@ func i18nJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "i18n.json", size: 475, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "i18n.json", size: 475, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3493,7 +3067,7 @@ func iaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ia.json", size: 619, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ia.json", size: 619, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3513,7 +3087,7 @@ func id_idJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "id_ID.json", size: 599, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "id_ID.json", size: 599, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3533,7 +3107,7 @@ func ig_ngJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ig_NG.json", size: 666, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ig_NG.json", size: 666, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3553,7 +3127,7 @@ func ik_caJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ik_CA.json", size: 727, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ik_CA.json", size: 727, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3573,7 +3147,7 @@ func is_isJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "is_IS.json", size: 667, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "is_IS.json", size: 667, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3593,7 +3167,7 @@ func it_chJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "it_CH.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "it_CH.json", size: 627, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3613,27 +3187,7 @@ func it_itJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "it_IT.json", size: 625, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _it_itEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x5c\x91\x41\x6a\xc4\x30\x0c\x45\xd7\xc9\x29\x4c\xc0\xbb\x81\xd9\xf7\x1c\xb3\x99\x96\x12\xe4\x58\x13\x02\xb1\x35\x24\x9e\x40\x5b\x7a\xa3\xde\xa2\x17\xab\x5a\x5b\x4a\xdc\xdd\xff\xfa\x42\x3f\x79\xfe\x68\x9b\x0e\x9c\x87\xb7\xee\xc9\xbc\xb4\x4d\xd3\x79\x0a\xdd\xe9\x57\xcc\x8f\x98\x45\x80\xa5\x08\x2c\x62\x9c\x28\x8b\x0d\xcb\xce\x0a\xae\x6b\x9b\xd7\xd3\xdf\xb5\x40\x51\xae\x8d\xb2\x70\x43\xf7\xef\x1a\xdc\xe5\x2c\x8c\x72\xf6\x21\xd5\x65\x02\x63\x29\x5a\x31\x65\x41\xa9\x88\x48\x5b\x16\x7e\x1a\xb4\x3a\xf4\xf7\x20\xd5\x39\x95\xc8\xf7\xb7\x90\x24\xb2\xfe\x6c\xc3\xd9\x5e\xf7\x30\x55\x31\x18\xeb\x8d\x75\xc6\x5e\x8d\xbd\x18\xfb\xac\x7b\x15\x26\x8c\xd3\x00\xca\x0a\xfd\xf7\x97\xfe\x61\x3a\x38\x5c\x06\x9a\x77\xcf\xec\xb6\xdd\x31\x40\x5c\xd4\x31\x45\x48\x24\x6d\x35\xc6\x08\x02\x9d\x51\xba\x45\x1d\xb7\xbd\x93\x12\x9d\x66\x54\xa8\xfa\x4a\xcc\x75\x8c\xa4\x68\x67\x99\x33\xdd\x35\xed\x80\x13\x06\xb7\xa0\x62\x26\x35\x8c\xfa\x10\x31\xef\xec\xca\x67\xd6\xe8\x2e\xd5\xb8\x87\x70\x78\x10\x4e\xda\xcf\x9f\x00\x00\x00\xff\xff\x56\xf7\x4a\x3f\x71\x02\x00\x00")
-
-func it_itEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_it_itEuroJson,
-		"it_IT@euro.json",
-	)
-}
-
-func it_itEuroJson() (*asset, error) {
-	bytes, err := it_itEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "it_IT@euro.json", size: 625, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "it_IT.json", size: 625, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3653,7 +3207,7 @@ func iu_caJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "iu_CA.json", size: 806, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "iu_CA.json", size: 806, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3673,7 +3227,7 @@ func iw_ilJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "iw_IL.json", size: 731, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "iw_IL.json", size: 731, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3693,7 +3247,7 @@ func ja_jpJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ja_JP.json", size: 680, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ja_JP.json", size: 680, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3713,7 +3267,7 @@ func ka_geJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ka_GE.json", size: 1039, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ka_GE.json", size: 1039, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3733,7 +3287,7 @@ func kk_kzJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kk_KZ.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "kk_KZ.json", size: 768, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3753,7 +3307,7 @@ func kl_glJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kl_GL.json", size: 663, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "kl_GL.json", size: 663, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3773,7 +3327,7 @@ func km_khJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "km_KH.json", size: 1032, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "km_KH.json", size: 1032, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3793,7 +3347,7 @@ func kn_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kn_IN.json", size: 952, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "kn_IN.json", size: 952, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3813,7 +3367,7 @@ func ko_krJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ko_KR.json", size: 666, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ko_KR.json", size: 666, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3833,7 +3387,7 @@ func kok_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kok_IN.json", size: 1142, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "kok_IN.json", size: 1142, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3853,7 +3407,7 @@ func ks_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ks_IN.json", size: 886, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ks_IN.json", size: 886, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3873,7 +3427,7 @@ func ks_inDevanagariJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ks_IN@devanagari.json", size: 1150, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ks_IN@devanagari.json", size: 1150, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3893,7 +3447,7 @@ func ku_trJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ku_TR.json", size: 606, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ku_TR.json", size: 606, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3913,7 +3467,7 @@ func kw_gbJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kw_GB.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "kw_GB.json", size: 651, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3933,7 +3487,7 @@ func ky_kgJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ky_KG.json", size: 764, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ky_KG.json", size: 764, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3953,7 +3507,7 @@ func lb_luJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "lb_LU.json", size: 619, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "lb_LU.json", size: 619, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3973,7 +3527,7 @@ func lg_ugJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "lg_UG.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "lg_UG.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3993,7 +3547,7 @@ func lij_itJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "lij_IT.json", size: 623, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "lij_IT.json", size: 623, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4013,7 +3567,7 @@ func lo_laJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "lo_LA.json", size: 867, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "lo_LA.json", size: 867, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4033,7 +3587,7 @@ func lt_ltJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "lt_LT.json", size: 662, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "lt_LT.json", size: 662, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4053,7 +3607,7 @@ func lv_lvJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "lv_LV.json", size: 659, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "lv_LV.json", size: 659, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4073,7 +3627,7 @@ func mai_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "mai_IN.json", size: 1111, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "mai_IN.json", size: 1111, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4093,7 +3647,7 @@ func mg_mgJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "mg_MG.json", size: 620, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "mg_MG.json", size: 620, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4113,7 +3667,7 @@ func mhr_ruJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "mhr_RU.json", size: 764, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "mhr_RU.json", size: 764, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4133,7 +3687,7 @@ func mi_nzJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "mi_NZ.json", size: 694, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "mi_NZ.json", size: 694, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4153,7 +3707,7 @@ func mk_mkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "mk_MK.json", size: 786, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "mk_MK.json", size: 786, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4173,7 +3727,7 @@ func ml_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ml_IN.json", size: 1066, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ml_IN.json", size: 1066, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4193,7 +3747,7 @@ func mn_mnJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "mn_MN.json", size: 841, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "mn_MN.json", size: 841, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4213,7 +3767,7 @@ func mr_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "mr_IN.json", size: 1142, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "mr_IN.json", size: 1142, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4233,7 +3787,7 @@ func ms_myJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ms_MY.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ms_MY.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4253,7 +3807,7 @@ func mt_mtJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "mt_MT.json", size: 675, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "mt_MT.json", size: 675, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4273,7 +3827,7 @@ func my_mmJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "my_MM.json", size: 1032, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "my_MM.json", size: 1032, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4293,7 +3847,7 @@ func nan_twLatinJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "nan_TW@latin.json", size: 656, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "nan_TW@latin.json", size: 656, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4313,7 +3867,7 @@ func nb_noJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "nb_NO.json", size: 638, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "nb_NO.json", size: 638, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4333,7 +3887,7 @@ func ne_npJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ne_NP.json", size: 1111, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ne_NP.json", size: 1111, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4353,7 +3907,7 @@ func nl_awJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "nl_AW.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "nl_AW.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4373,27 +3927,7 @@ func nl_beJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "nl_BE.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _nl_beEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\x51\x6e\xc3\x20\x0c\x86\x9f\x93\x53\xa0\x48\xbc\xb5\x17\xd8\x39\xfa\xb2\x4d\x53\xe4\x0c\x5a\x91\x05\x88\x08\xa4\x6a\xa6\xdd\x7d\x6c\x36\x0e\x51\x9f\xfc\xff\xfc\xd8\x46\x1f\xdf\x6d\xd3\xc1\xa0\xe0\xd1\xbd\x88\xf7\xb6\x69\xba\xcd\x77\xa7\xbf\x6a\x01\xab\x32\x58\xef\x74\xae\xa8\xae\x01\xeb\x06\x5d\xdb\x7c\x9c\xfe\xc7\x58\xef\xca\x98\x11\x1c\xe6\x57\x3d\xd0\xc0\x10\x51\xc0\x4c\xad\x56\xd3\xec\x31\xb9\x22\x26\xba\x93\x6e\x28\x16\x3d\xa3\xf0\x5f\xd4\xee\xfc\x4a\x2f\xd1\x9f\xbc\xda\xf6\xb3\x2d\xab\x31\x2d\x91\xea\xaf\x36\x96\x48\xaa\xb3\xb4\x67\xf9\xd8\xc3\x78\x88\x41\x48\x25\xe4\x20\xe4\xab\x90\x17\x21\xdf\xf8\x5e\xcd\xc7\x29\xb8\x15\x46\xb0\x1b\x65\xdc\xc2\xe6\xee\x75\xe5\x54\xee\xd1\x81\xed\x1a\xcc\xc8\x66\x83\x88\x11\xad\x3a\x32\x4c\x10\x0c\x73\x0c\xbb\xcb\x9b\x2b\x9c\x66\x7a\x06\xca\x6a\x32\x8c\x34\x2d\x31\x2d\xcc\x35\x6a\x3b\xe8\xc0\x74\x3d\x9b\x4c\xb8\x8a\x32\x66\x74\xf4\xc0\x23\xb1\xcb\xe1\xb8\x07\x5b\xfd\x43\x4e\xda\x9f\xdf\x00\x00\x00\xff\xff\x29\x93\x48\x29\x61\x02\x00\x00")
-
-func nl_beEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_nl_beEuroJson,
-		"nl_BE@euro.json",
-	)
-}
-
-func nl_beEuroJson() (*asset, error) {
-	bytes, err := nl_beEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "nl_BE@euro.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "nl_BE.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4413,27 +3947,7 @@ func nl_nlJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "nl_NL.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _nl_nlEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\x51\x6e\xc3\x20\x0c\x86\x9f\x93\x53\xa0\x48\xbc\xb5\x17\xd8\x39\xfa\xb2\x4d\x53\xe4\x0c\x5a\x91\x05\x88\x08\xa4\x6a\xa6\xdd\x7d\x6c\x36\x0e\x51\x9f\xfc\xff\xfc\xd8\x46\x1f\xdf\x6d\xd3\xc1\xa0\xe0\xd1\xbd\x88\xf7\xb6\x69\xba\xcd\x77\xa7\xbf\x6a\x01\xab\x32\x58\xef\x74\xae\xa8\xae\x01\xeb\x06\x5d\xdb\x7c\x9c\xfe\xc7\x58\xef\xca\x98\x11\x1c\xe6\x57\x3d\xd0\xc0\x10\x51\xc0\x4c\xad\x56\xd3\xec\x31\xb9\x22\x26\xba\x93\x6e\x28\x16\x3d\xa3\xf0\x5f\xd4\xee\xfc\x4a\x2f\xd1\x9f\xbc\xda\xf6\xb3\x2d\xab\x31\x2d\x91\xea\xaf\x36\x96\x48\xaa\xb3\xb4\x67\xf9\xd8\xc3\x78\x88\x41\x48\x25\xe4\x20\xe4\xab\x90\x17\x21\xdf\xf8\x5e\xcd\xc7\x29\xb8\x15\x46\xb0\x1b\x65\xdc\xc2\xe6\xee\x75\xe5\x54\xee\xd1\x81\xed\x1a\xcc\xc8\x66\x83\x88\x11\xad\x3a\x32\x4c\x10\x0c\x73\x0c\xbb\xcb\x9b\x2b\x9c\x66\x7a\x06\xca\x6a\x32\x8c\x34\x2d\x31\x2d\xcc\x35\x6a\x3b\xe8\xc0\x74\x3d\x9b\x4c\xb8\x8a\x32\x66\x74\xf4\xc0\x23\xb1\xcb\xe1\xb8\x07\x5b\xfd\x43\x4e\xda\x9f\xdf\x00\x00\x00\xff\xff\x29\x93\x48\x29\x61\x02\x00\x00")
-
-func nl_nlEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_nl_nlEuroJson,
-		"nl_NL@euro.json",
-	)
-}
-
-func nl_nlEuroJson() (*asset, error) {
-	bytes, err := nl_nlEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "nl_NL@euro.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "nl_NL.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4453,7 +3967,7 @@ func nn_noJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "nn_NO.json", size: 636, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "nn_NO.json", size: 636, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4473,7 +3987,7 @@ func nr_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "nr_ZA.json", size: 635, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "nr_ZA.json", size: 635, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4493,7 +4007,7 @@ func nso_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "nso_ZA.json", size: 629, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "nso_ZA.json", size: 629, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4513,7 +4027,7 @@ func oc_frJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "oc_FR.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "oc_FR.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4533,7 +4047,7 @@ func om_etJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "om_ET.json", size: 653, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "om_ET.json", size: 653, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4553,7 +4067,7 @@ func om_keJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "om_KE.json", size: 653, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "om_KE.json", size: 653, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4573,7 +4087,7 @@ func or_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "or_IN.json", size: 931, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "or_IN.json", size: 931, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4593,7 +4107,7 @@ func os_ruJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "os_RU.json", size: 790, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "os_RU.json", size: 790, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4613,7 +4127,7 @@ func pa_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "pa_IN.json", size: 1039, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "pa_IN.json", size: 1039, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4633,7 +4147,7 @@ func pa_pkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "pa_PK.json", size: 797, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "pa_PK.json", size: 797, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4653,7 +4167,7 @@ func pap_anJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "pap_AN.json", size: 625, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "pap_AN.json", size: 625, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4673,7 +4187,7 @@ func pl_plJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "pl_PL.json", size: 637, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "pl_PL.json", size: 637, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4693,7 +4207,7 @@ func ps_afJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ps_AF.json", size: 774, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ps_AF.json", size: 774, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4713,7 +4227,7 @@ func pt_brJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "pt_BR.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "pt_BR.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4733,27 +4247,7 @@ func pt_ptJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "pt_PT.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _pt_ptEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x54\x91\xcf\x4a\xc4\x30\x10\xc6\xcf\xed\x53\x84\x40\x6e\xbb\x2f\xe0\x4d\x58\x3c\x2c\xa8\x88\xbd\xac\x22\x65\x42\x62\x2d\x34\x89\xc4\x44\xfc\x83\x0f\xe3\x69\x1f\xa4\x2f\x66\xdc\x64\x26\x9b\xdb\x6f\xfa\x0d\xdf\x84\x5f\xbf\xfb\x8e\x83\x54\xf0\xc9\x2f\xd8\x63\xdf\x75\x7c\xe7\x0c\xdf\xfc\xc3\xbd\x9e\x32\x0c\xda\x67\xb8\x8b\x80\x30\xe3\xce\x47\x81\xf5\x57\xf2\xbe\x7b\xda\x9c\xea\x8c\xb3\x58\xb7\x07\x9b\x37\xae\xf4\x7b\x86\x6b\x28\x75\x97\xd2\xe3\x97\x52\xb7\x8f\x16\x61\x29\x3b\x93\xc3\x4b\x21\xc3\x6d\x2c\x70\xe3\x4a\xe1\x4e\x7f\xd1\x69\x33\xbe\x1a\x3c\x9d\x53\x8c\xd4\xf8\x6c\x02\x46\x42\x6d\x85\xd9\x8a\x43\x0d\x43\x13\x03\x13\x8a\x09\xc9\xc4\x81\x89\x81\x89\x07\xda\x6b\x3c\xcd\xb6\xbe\x6e\x8a\x56\x01\xf9\x5a\x8f\x64\x0a\x7c\xa8\xd6\x2c\x72\x12\x47\x98\xd4\x81\x72\x78\xa2\x75\xa7\x67\xef\xc8\x9f\xf6\x75\x4c\x16\xd7\xa3\x23\x91\xf3\x42\x2a\x1d\xb9\x7c\x21\x5c\x10\x93\xcf\xb7\x50\x95\x6a\x23\xb1\x30\x79\x8d\x34\x24\xb7\x67\x51\x12\x9c\xa7\xf2\xc4\xd6\xd5\xd0\x7c\x1e\xc1\x9c\xfd\x81\x94\xf4\x3f\x7f\x01\x00\x00\xff\xff\x74\x82\xdb\x01\x63\x02\x00\x00")
-
-func pt_ptEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_pt_ptEuroJson,
-		"pt_PT@euro.json",
-	)
-}
-
-func pt_ptEuroJson() (*asset, error) {
-	bytes, err := pt_ptEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "pt_PT@euro.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "pt_PT.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4773,7 +4267,7 @@ func ro_roJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ro_RO.json", size: 613, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ro_RO.json", size: 613, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4793,7 +4287,7 @@ func ru_ruJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ru_RU.json", size: 803, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ru_RU.json", size: 803, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4813,7 +4307,7 @@ func ru_uaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ru_UA.json", size: 788, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ru_UA.json", size: 788, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4833,7 +4327,7 @@ func rw_rwJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "rw_RW.json", size: 654, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "rw_RW.json", size: 654, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4853,7 +4347,7 @@ func sa_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sa_IN.json", size: 1174, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sa_IN.json", size: 1174, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4873,7 +4367,7 @@ func sc_itJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sc_IT.json", size: 629, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sc_IT.json", size: 629, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4893,7 +4387,7 @@ func sd_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sd_IN.json", size: 842, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sd_IN.json", size: 842, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4913,7 +4407,7 @@ func sd_inDevanagariJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sd_IN@devanagari.json", size: 1142, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sd_IN@devanagari.json", size: 1142, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4933,7 +4427,7 @@ func sd_pkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sd_PK.json", size: 821, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sd_PK.json", size: 821, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4953,7 +4447,7 @@ func se_noJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "se_NO.json", size: 730, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "se_NO.json", size: 730, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4973,7 +4467,7 @@ func shs_caJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "shs_CA.json", size: 773, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "shs_CA.json", size: 773, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4993,7 +4487,7 @@ func si_lkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "si_LK.json", size: 1064, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "si_LK.json", size: 1064, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5013,7 +4507,7 @@ func sid_etJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sid_ET.json", size: 632, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "sid_ET.json", size: 632, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5033,7 +4527,7 @@ func sk_skJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sk_SK.json", size: 631, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sk_SK.json", size: 631, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5053,7 +4547,7 @@ func sl_siJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sl_SI.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sl_SI.json", size: 611, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5073,7 +4567,7 @@ func so_djJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "so_DJ.json", size: 735, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "so_DJ.json", size: 735, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5093,7 +4587,7 @@ func so_etJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "so_ET.json", size: 737, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "so_ET.json", size: 737, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5113,7 +4607,7 @@ func so_keJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "so_KE.json", size: 737, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "so_KE.json", size: 737, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5133,7 +4627,7 @@ func so_soJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "so_SO.json", size: 737, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "so_SO.json", size: 737, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5153,7 +4647,7 @@ func sq_alJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sq_AL.json", size: 649, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sq_AL.json", size: 649, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5173,7 +4667,7 @@ func sq_mkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sq_MK.json", size: 649, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sq_MK.json", size: 649, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5193,7 +4687,7 @@ func sr_meJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sr_ME.json", size: 785, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sr_ME.json", size: 785, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5213,7 +4707,7 @@ func sr_rsJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sr_RS.json", size: 779, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sr_RS.json", size: 779, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5233,7 +4727,7 @@ func sr_rsLatinJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sr_RS@latin.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sr_RS@latin.json", size: 614, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5253,7 +4747,7 @@ func ss_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ss_ZA.json", size: 650, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ss_ZA.json", size: 650, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5273,7 +4767,7 @@ func st_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "st_ZA.json", size: 633, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "st_ZA.json", size: 633, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5293,27 +4787,7 @@ func sv_fiJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sv_FI.json", size: 621, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _sv_fiEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\x41\x4e\xc4\x20\x14\x86\xd7\xed\x29\x08\x09\xbb\x09\x07\x70\xe9\xca\x8d\x2b\x57\x13\x63\x1a\x2a\x74\x42\x2d\xd0\x00\x35\x31\xc6\xe3\x78\x85\xb9\x40\x2f\x26\x1d\x1e\x8f\xd6\xd9\x7d\x3f\x3f\x7d\x8f\x7c\xfd\x6e\x1b\x2a\x7a\x29\xbe\xe8\x03\x79\x6d\x9b\x86\x86\xf5\x6a\xe9\x69\x23\xb3\xfe\x02\x45\x1d\x32\x38\x0b\x10\x9d\xcf\x30\x78\x95\x61\x5a\xaf\x9e\xb6\xcd\xdb\xe9\x36\xd0\x38\x5b\x06\x8e\x02\xa6\x0c\xaa\x87\xc1\x02\x3e\x16\xb3\x2f\x27\x63\x86\x71\xb1\x05\x26\xb8\xb3\x5c\x32\x04\x35\xc3\x23\x3e\x62\x06\xeb\x3e\x33\x48\xf5\x8e\xab\x4d\x37\x9b\xb2\x3a\xb7\xa5\x92\xdd\x60\x62\xa9\x98\xe4\xcc\x70\x76\xae\x65\x3c\xd4\x82\x30\xc5\x09\x7b\x24\xec\x4c\xd8\x13\x67\xcf\x9c\xbd\xe0\xdd\xa3\x2d\x29\x2e\x55\x18\x86\xe4\x0c\x39\x69\xab\xe7\xce\xd7\x90\xec\x21\x6f\x02\xb7\x00\x4b\x8e\x06\x17\xe1\x35\x5a\xf4\x35\x25\x95\x01\x5d\xea\xe9\xde\xa6\x46\x9d\x1a\x7d\x2e\x21\x6a\x74\x1a\x95\xe9\x95\x47\xb3\x0e\x43\xb2\xbb\xab\x92\xe2\x9c\xe0\x79\x47\x5b\xff\x04\xdd\xca\x4e\x98\xdd\x9f\x48\x4d\xfb\xf3\x17\x00\x00\xff\xff\xbf\x54\x51\x1f\x6d\x02\x00\x00")
-
-func sv_fiEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_sv_fiEuroJson,
-		"sv_FI@euro.json",
-	)
-}
-
-func sv_fiEuroJson() (*asset, error) {
-	bytes, err := sv_fiEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "sv_FI@euro.json", size: 621, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sv_FI.json", size: 621, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5333,7 +4807,7 @@ func sv_seJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sv_SE.json", size: 620, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sv_SE.json", size: 620, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5353,7 +4827,7 @@ func sw_keJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sw_KE.json", size: 647, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sw_KE.json", size: 647, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5373,7 +4847,7 @@ func sw_tzJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sw_TZ.json", size: 647, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "sw_TZ.json", size: 647, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5393,7 +4867,7 @@ func ta_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ta_IN.json", size: 988, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ta_IN.json", size: 988, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5413,7 +4887,7 @@ func ta_lkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ta_LK.json", size: 988, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ta_LK.json", size: 988, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5433,7 +4907,7 @@ func te_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "te_IN.json", size: 1155, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "te_IN.json", size: 1155, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5453,7 +4927,7 @@ func tg_tjJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tg_TJ.json", size: 792, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "tg_TJ.json", size: 792, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5473,7 +4947,7 @@ func th_thJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "th_TH.json", size: 975, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "th_TH.json", size: 975, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5493,7 +4967,7 @@ func ti_erJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ti_ER.json", size: 854, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "ti_ER.json", size: 854, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5513,7 +4987,7 @@ func ti_etJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ti_ET.json", size: 878, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "ti_ET.json", size: 878, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5533,7 +5007,7 @@ func tig_erJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tig_ER.json", size: 884, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "tig_ER.json", size: 884, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5553,7 +5027,7 @@ func tk_tmJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tk_TM.json", size: 619, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "tk_TM.json", size: 619, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5573,7 +5047,7 @@ func tl_phJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tl_PH.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "tl_PH.json", size: 630, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5593,7 +5067,7 @@ func tn_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tn_ZA.json", size: 655, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "tn_ZA.json", size: 655, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5613,7 +5087,7 @@ func tr_cyJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tr_CY.json", size: 631, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "tr_CY.json", size: 631, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5633,7 +5107,7 @@ func tr_trJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tr_TR.json", size: 631, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "tr_TR.json", size: 631, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5653,7 +5127,7 @@ func ts_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ts_ZA.json", size: 663, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ts_ZA.json", size: 663, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5673,7 +5147,7 @@ func tt_ruJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tt_RU.json", size: 784, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "tt_RU.json", size: 784, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5693,7 +5167,7 @@ func tt_ruIqtelifJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "tt_RU@iqtelif.json", size: 652, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "tt_RU@iqtelif.json", size: 652, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5713,7 +5187,7 @@ func ug_cnJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ug_CN.json", size: 790, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ug_CN.json", size: 790, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5733,7 +5207,7 @@ func ug_cnLatinJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ug_CN@latin.json", size: 592, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ug_CN@latin.json", size: 592, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5753,7 +5227,7 @@ func uk_uaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "uk_UA.json", size: 795, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "uk_UA.json", size: 795, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5773,7 +5247,7 @@ func unm_usJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "unm_US.json", size: 636, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "unm_US.json", size: 636, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5793,7 +5267,7 @@ func ur_inJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ur_IN.json", size: 814, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ur_IN.json", size: 814, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5813,7 +5287,7 @@ func ur_pkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ur_PK.json", size: 797, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ur_PK.json", size: 797, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5833,7 +5307,7 @@ func uz_uzJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "uz_UZ.json", size: 608, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "uz_UZ.json", size: 608, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5853,7 +5327,7 @@ func uz_uzCyrillicJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "uz_UZ@cyrillic.json", size: 780, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "uz_UZ@cyrillic.json", size: 780, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5873,7 +5347,7 @@ func ve_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ve_ZA.json", size: 673, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "ve_ZA.json", size: 673, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5893,7 +5367,7 @@ func vi_vnJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vi_VN.json", size: 730, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "vi_VN.json", size: 730, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5913,27 +5387,7 @@ func wa_beJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "wa_BE.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _wa_beEuroJson = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x64\x91\xcf\x4a\xc3\x40\x10\xc6\xcf\xc9\x53\x2c\x81\xb9\x15\x7a\xcf\xad\x9e\x14\x0c\x08\x7a\xa9\x22\x21\xed\x4e\x65\x6b\x26\x29\xf9\x27\x22\x3e\x8e\x07\x2f\x9e\xfa\x06\x79\x31\x77\xbb\x3b\xb3\x06\x6f\xbf\xe5\xfb\xfa\x4d\xf9\xe5\x23\x4d\xb2\x6a\xa7\xab\xf7\x2c\x57\x4f\x69\x92\x64\xda\x50\xb6\x72\x50\xb7\x8d\x07\x9a\xbf\xba\x40\x06\x3d\xe8\xe3\xe8\x61\x9a\xbf\x43\xab\x47\xca\xd2\xe4\x79\x75\xd9\x23\xfb\x5b\xde\x3b\x56\xbe\x70\xc0\x49\xf6\x7a\x4f\xd5\xc4\xc3\xf6\x7e\x18\x6e\x18\xea\xd0\x79\x6b\xf9\xc0\xe0\xa1\xdd\x07\x68\xe6\x73\x98\xd4\xb8\x97\xe3\x54\x9e\x88\x8f\x6f\x0a\x9f\xdf\x15\x1c\xeb\xf2\x40\x03\xc7\xa0\xd7\x40\x6b\xd8\xc6\x70\xf8\x1b\xdf\x1a\x05\x1b\x05\x5a\x69\x0b\x57\x0a\xb6\x0a\x1e\x14\x3c\x4a\x7b\x21\x0d\x5f\x1a\x14\x71\xda\x44\x75\xc2\x06\xbb\x57\xc3\x2f\x6b\x90\xd1\x39\x94\x96\xd5\x68\x31\x5c\x58\x6a\x6c\xa6\xf9\x47\x54\x76\xcc\xce\x66\xd4\x69\xfe\xf9\x1c\x45\xe8\x58\xe3\x80\x22\x75\xec\x7b\x14\xb1\x86\x76\x28\x72\xe7\x33\x3f\x9c\xe0\x18\x59\xc9\x97\x47\xf8\x73\x0b\x55\x70\x9d\x43\x91\xc3\xfd\x22\x2c\x2b\x8a\x9f\x02\x6e\x7c\x43\xc1\xc9\x95\xd2\xcf\xdf\x00\x00\x00\xff\xff\xb6\x11\x5f\xd3\x7a\x02\x00\x00")
-
-func wa_beEuroJsonBytes() ([]byte, error) {
-	return bindataRead(
-		_wa_beEuroJson,
-		"wa_BE@euro.json",
-	)
-}
-
-func wa_beEuroJson() (*asset, error) {
-	bytes, err := wa_beEuroJsonBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "wa_BE@euro.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "wa_BE.json", size: 634, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5953,7 +5407,7 @@ func wae_chJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "wae_CH.json", size: 646, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "wae_CH.json", size: 646, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5973,7 +5427,7 @@ func wal_etJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "wal_ET.json", size: 840, mode: os.FileMode(420), modTime: time.Unix(1450154949, 0)}
+	info := bindataFileInfo{name: "wal_ET.json", size: 840, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5993,7 +5447,7 @@ func wo_snJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "wo_SN.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "wo_SN.json", size: 609, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6013,7 +5467,7 @@ func xh_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "xh_ZA.json", size: 657, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "xh_ZA.json", size: 657, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6033,7 +5487,7 @@ func yi_usJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "yi_US.json", size: 862, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "yi_US.json", size: 862, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6053,7 +5507,7 @@ func yo_ngJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "yo_NG.json", size: 736, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "yo_NG.json", size: 736, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6073,7 +5527,7 @@ func yue_hkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "yue_HK.json", size: 713, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "yue_HK.json", size: 713, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6093,7 +5547,7 @@ func zh_cnJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "zh_CN.json", size: 711, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "zh_CN.json", size: 711, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6113,7 +5567,7 @@ func zh_hkJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "zh_HK.json", size: 703, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "zh_HK.json", size: 703, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6133,7 +5587,7 @@ func zh_sgJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "zh_SG.json", size: 765, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "zh_SG.json", size: 765, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6153,7 +5607,7 @@ func zh_twJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "zh_TW.json", size: 692, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "zh_TW.json", size: 692, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6173,7 +5627,7 @@ func zu_zaJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "zu_ZA.json", size: 655, mode: os.FileMode(420), modTime: time.Unix(1449997891, 0)}
+	info := bindataFileInfo{name: "zu_ZA.json", size: 655, mode: os.FileMode(420), modTime: time.Unix(1450899703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6271,14 +5725,11 @@ var _bindata = map[string]func() (*asset, error){
 	"bo_CN.json": bo_cnJson,
 	"bo_IN.json": bo_inJson,
 	"br_FR.json": br_frJson,
-	"br_FR@euro.json": br_frEuroJson,
 	"brx_IN.json": brx_inJson,
 	"bs_BA.json": bs_baJson,
 	"byn_ER.json": byn_erJson,
 	"ca_AD.json": ca_adJson,
 	"ca_ES.json": ca_esJson,
-	"ca_ES@euro.json": ca_esEuroJson,
-	"ca_ES@valencia.json": ca_esValenciaJson,
 	"ca_FR.json": ca_frJson,
 	"ca_IT.json": ca_itJson,
 	"crh_UA.json": crh_uaJson,
@@ -6288,20 +5739,15 @@ var _bindata = map[string]func() (*asset, error){
 	"cy_GB.json": cy_gbJson,
 	"da_DK.json": da_dkJson,
 	"de_AT.json": de_atJson,
-	"de_AT@euro.json": de_atEuroJson,
 	"de_BE.json": de_beJson,
-	"de_BE@euro.json": de_beEuroJson,
 	"de_CH.json": de_chJson,
 	"de_DE.json": de_deJson,
-	"de_DE@euro.json": de_deEuroJson,
 	"de_LI.json": de_liJson,
 	"de_LU.json": de_luJson,
-	"de_LU@euro.json": de_luEuroJson,
 	"dv_MV.json": dv_mvJson,
 	"dz_BT.json": dz_btJson,
 	"el_CY.json": el_cyJson,
 	"el_GR.json": el_grJson,
-	"el_GR@euro.json": el_grEuroJson,
 	"en_AG.json": en_agJson,
 	"en_AU.json": en_auJson,
 	"en_BW.json": en_bwJson,
@@ -6310,7 +5756,6 @@ var _bindata = map[string]func() (*asset, error){
 	"en_GB.json": en_gbJson,
 	"en_HK.json": en_hkJson,
 	"en_IE.json": en_ieJson,
-	"en_IE@euro.json": en_ieEuroJson,
 	"en_IN.json": en_inJson,
 	"en_NG.json": en_ngJson,
 	"en_NZ.json": en_nzJson,
@@ -6331,7 +5776,6 @@ var _bindata = map[string]func() (*asset, error){
 	"es_DO.json": es_doJson,
 	"es_EC.json": es_ecJson,
 	"es_ES.json": es_esJson,
-	"es_ES@euro.json": es_esEuroJson,
 	"es_GT.json": es_gtJson,
 	"es_HN.json": es_hnJson,
 	"es_MX.json": es_mxJson,
@@ -6346,34 +5790,24 @@ var _bindata = map[string]func() (*asset, error){
 	"es_VE.json": es_veJson,
 	"et_EE.json": et_eeJson,
 	"eu_ES.json": eu_esJson,
-	"eu_ES@euro.json": eu_esEuroJson,
 	"eu_FR.json": eu_frJson,
-	"eu_FR@euro.json": eu_frEuroJson,
 	"fa_IR.json": fa_irJson,
 	"ff_SN.json": ff_snJson,
 	"fi_FI.json": fi_fiJson,
-	"fi_FI@euro.json": fi_fiEuroJson,
 	"fil_PH.json": fil_phJson,
 	"fo_FO.json": fo_foJson,
 	"fr_BE.json": fr_beJson,
-	"fr_BE@euro.json": fr_beEuroJson,
 	"fr_CA.json": fr_caJson,
 	"fr_CH.json": fr_chJson,
 	"fr_FR.json": fr_frJson,
-	"fr_FR@euro.json": fr_frEuroJson,
 	"fr_LU.json": fr_luJson,
-	"fr_LU@euro.json": fr_luEuroJson,
 	"fur_IT.json": fur_itJson,
 	"fy_NL.json": fy_nlJson,
 	"ga_IE.json": ga_ieJson,
-	"ga_IE@euro.json": ga_ieEuroJson,
 	"gd_GB.json": gd_gbJson,
 	"gez_ER.json": gez_erJson,
-	"gez_ER@abegede.json": gez_erAbegedeJson,
 	"gez_ET.json": gez_etJson,
-	"gez_ET@abegede.json": gez_etAbegedeJson,
 	"gl_ES.json": gl_esJson,
-	"gl_ES@euro.json": gl_esEuroJson,
 	"gu_IN.json": gu_inJson,
 	"gv_GB.json": gv_gbJson,
 	"ha_NG.json": ha_ngJson,
@@ -6393,7 +5827,6 @@ var _bindata = map[string]func() (*asset, error){
 	"is_IS.json": is_isJson,
 	"it_CH.json": it_chJson,
 	"it_IT.json": it_itJson,
-	"it_IT@euro.json": it_itEuroJson,
 	"iu_CA.json": iu_caJson,
 	"iw_IL.json": iw_ilJson,
 	"ja_JP.json": ja_jpJson,
@@ -6431,9 +5864,7 @@ var _bindata = map[string]func() (*asset, error){
 	"ne_NP.json": ne_npJson,
 	"nl_AW.json": nl_awJson,
 	"nl_BE.json": nl_beJson,
-	"nl_BE@euro.json": nl_beEuroJson,
 	"nl_NL.json": nl_nlJson,
-	"nl_NL@euro.json": nl_nlEuroJson,
 	"nn_NO.json": nn_noJson,
 	"nr_ZA.json": nr_zaJson,
 	"nso_ZA.json": nso_zaJson,
@@ -6449,7 +5880,6 @@ var _bindata = map[string]func() (*asset, error){
 	"ps_AF.json": ps_afJson,
 	"pt_BR.json": pt_brJson,
 	"pt_PT.json": pt_ptJson,
-	"pt_PT@euro.json": pt_ptEuroJson,
 	"ro_RO.json": ro_roJson,
 	"ru_RU.json": ru_ruJson,
 	"ru_UA.json": ru_uaJson,
@@ -6477,7 +5907,6 @@ var _bindata = map[string]func() (*asset, error){
 	"ss_ZA.json": ss_zaJson,
 	"st_ZA.json": st_zaJson,
 	"sv_FI.json": sv_fiJson,
-	"sv_FI@euro.json": sv_fiEuroJson,
 	"sv_SE.json": sv_seJson,
 	"sw_KE.json": sw_keJson,
 	"sw_TZ.json": sw_tzJson,
@@ -6508,7 +5937,6 @@ var _bindata = map[string]func() (*asset, error){
 	"ve_ZA.json": ve_zaJson,
 	"vi_VN.json": vi_vnJson,
 	"wa_BE.json": wa_beJson,
-	"wa_BE@euro.json": wa_beEuroJson,
 	"wae_CH.json": wae_chJson,
 	"wal_ET.json": wal_etJson,
 	"wo_SN.json": wo_snJson,
@@ -6604,14 +6032,11 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"bo_CN.json": &bintree{bo_cnJson, map[string]*bintree{}},
 	"bo_IN.json": &bintree{bo_inJson, map[string]*bintree{}},
 	"br_FR.json": &bintree{br_frJson, map[string]*bintree{}},
-	"br_FR@euro.json": &bintree{br_frEuroJson, map[string]*bintree{}},
 	"brx_IN.json": &bintree{brx_inJson, map[string]*bintree{}},
 	"bs_BA.json": &bintree{bs_baJson, map[string]*bintree{}},
 	"byn_ER.json": &bintree{byn_erJson, map[string]*bintree{}},
 	"ca_AD.json": &bintree{ca_adJson, map[string]*bintree{}},
 	"ca_ES.json": &bintree{ca_esJson, map[string]*bintree{}},
-	"ca_ES@euro.json": &bintree{ca_esEuroJson, map[string]*bintree{}},
-	"ca_ES@valencia.json": &bintree{ca_esValenciaJson, map[string]*bintree{}},
 	"ca_FR.json": &bintree{ca_frJson, map[string]*bintree{}},
 	"ca_IT.json": &bintree{ca_itJson, map[string]*bintree{}},
 	"crh_UA.json": &bintree{crh_uaJson, map[string]*bintree{}},
@@ -6621,20 +6046,15 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"cy_GB.json": &bintree{cy_gbJson, map[string]*bintree{}},
 	"da_DK.json": &bintree{da_dkJson, map[string]*bintree{}},
 	"de_AT.json": &bintree{de_atJson, map[string]*bintree{}},
-	"de_AT@euro.json": &bintree{de_atEuroJson, map[string]*bintree{}},
 	"de_BE.json": &bintree{de_beJson, map[string]*bintree{}},
-	"de_BE@euro.json": &bintree{de_beEuroJson, map[string]*bintree{}},
 	"de_CH.json": &bintree{de_chJson, map[string]*bintree{}},
 	"de_DE.json": &bintree{de_deJson, map[string]*bintree{}},
-	"de_DE@euro.json": &bintree{de_deEuroJson, map[string]*bintree{}},
 	"de_LI.json": &bintree{de_liJson, map[string]*bintree{}},
 	"de_LU.json": &bintree{de_luJson, map[string]*bintree{}},
-	"de_LU@euro.json": &bintree{de_luEuroJson, map[string]*bintree{}},
 	"dv_MV.json": &bintree{dv_mvJson, map[string]*bintree{}},
 	"dz_BT.json": &bintree{dz_btJson, map[string]*bintree{}},
 	"el_CY.json": &bintree{el_cyJson, map[string]*bintree{}},
 	"el_GR.json": &bintree{el_grJson, map[string]*bintree{}},
-	"el_GR@euro.json": &bintree{el_grEuroJson, map[string]*bintree{}},
 	"en_AG.json": &bintree{en_agJson, map[string]*bintree{}},
 	"en_AU.json": &bintree{en_auJson, map[string]*bintree{}},
 	"en_BW.json": &bintree{en_bwJson, map[string]*bintree{}},
@@ -6643,7 +6063,6 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"en_GB.json": &bintree{en_gbJson, map[string]*bintree{}},
 	"en_HK.json": &bintree{en_hkJson, map[string]*bintree{}},
 	"en_IE.json": &bintree{en_ieJson, map[string]*bintree{}},
-	"en_IE@euro.json": &bintree{en_ieEuroJson, map[string]*bintree{}},
 	"en_IN.json": &bintree{en_inJson, map[string]*bintree{}},
 	"en_NG.json": &bintree{en_ngJson, map[string]*bintree{}},
 	"en_NZ.json": &bintree{en_nzJson, map[string]*bintree{}},
@@ -6664,7 +6083,6 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"es_DO.json": &bintree{es_doJson, map[string]*bintree{}},
 	"es_EC.json": &bintree{es_ecJson, map[string]*bintree{}},
 	"es_ES.json": &bintree{es_esJson, map[string]*bintree{}},
-	"es_ES@euro.json": &bintree{es_esEuroJson, map[string]*bintree{}},
 	"es_GT.json": &bintree{es_gtJson, map[string]*bintree{}},
 	"es_HN.json": &bintree{es_hnJson, map[string]*bintree{}},
 	"es_MX.json": &bintree{es_mxJson, map[string]*bintree{}},
@@ -6679,34 +6097,24 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"es_VE.json": &bintree{es_veJson, map[string]*bintree{}},
 	"et_EE.json": &bintree{et_eeJson, map[string]*bintree{}},
 	"eu_ES.json": &bintree{eu_esJson, map[string]*bintree{}},
-	"eu_ES@euro.json": &bintree{eu_esEuroJson, map[string]*bintree{}},
 	"eu_FR.json": &bintree{eu_frJson, map[string]*bintree{}},
-	"eu_FR@euro.json": &bintree{eu_frEuroJson, map[string]*bintree{}},
 	"fa_IR.json": &bintree{fa_irJson, map[string]*bintree{}},
 	"ff_SN.json": &bintree{ff_snJson, map[string]*bintree{}},
 	"fi_FI.json": &bintree{fi_fiJson, map[string]*bintree{}},
-	"fi_FI@euro.json": &bintree{fi_fiEuroJson, map[string]*bintree{}},
 	"fil_PH.json": &bintree{fil_phJson, map[string]*bintree{}},
 	"fo_FO.json": &bintree{fo_foJson, map[string]*bintree{}},
 	"fr_BE.json": &bintree{fr_beJson, map[string]*bintree{}},
-	"fr_BE@euro.json": &bintree{fr_beEuroJson, map[string]*bintree{}},
 	"fr_CA.json": &bintree{fr_caJson, map[string]*bintree{}},
 	"fr_CH.json": &bintree{fr_chJson, map[string]*bintree{}},
 	"fr_FR.json": &bintree{fr_frJson, map[string]*bintree{}},
-	"fr_FR@euro.json": &bintree{fr_frEuroJson, map[string]*bintree{}},
 	"fr_LU.json": &bintree{fr_luJson, map[string]*bintree{}},
-	"fr_LU@euro.json": &bintree{fr_luEuroJson, map[string]*bintree{}},
 	"fur_IT.json": &bintree{fur_itJson, map[string]*bintree{}},
 	"fy_NL.json": &bintree{fy_nlJson, map[string]*bintree{}},
 	"ga_IE.json": &bintree{ga_ieJson, map[string]*bintree{}},
-	"ga_IE@euro.json": &bintree{ga_ieEuroJson, map[string]*bintree{}},
 	"gd_GB.json": &bintree{gd_gbJson, map[string]*bintree{}},
 	"gez_ER.json": &bintree{gez_erJson, map[string]*bintree{}},
-	"gez_ER@abegede.json": &bintree{gez_erAbegedeJson, map[string]*bintree{}},
 	"gez_ET.json": &bintree{gez_etJson, map[string]*bintree{}},
-	"gez_ET@abegede.json": &bintree{gez_etAbegedeJson, map[string]*bintree{}},
 	"gl_ES.json": &bintree{gl_esJson, map[string]*bintree{}},
-	"gl_ES@euro.json": &bintree{gl_esEuroJson, map[string]*bintree{}},
 	"gu_IN.json": &bintree{gu_inJson, map[string]*bintree{}},
 	"gv_GB.json": &bintree{gv_gbJson, map[string]*bintree{}},
 	"ha_NG.json": &bintree{ha_ngJson, map[string]*bintree{}},
@@ -6726,7 +6134,6 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"is_IS.json": &bintree{is_isJson, map[string]*bintree{}},
 	"it_CH.json": &bintree{it_chJson, map[string]*bintree{}},
 	"it_IT.json": &bintree{it_itJson, map[string]*bintree{}},
-	"it_IT@euro.json": &bintree{it_itEuroJson, map[string]*bintree{}},
 	"iu_CA.json": &bintree{iu_caJson, map[string]*bintree{}},
 	"iw_IL.json": &bintree{iw_ilJson, map[string]*bintree{}},
 	"ja_JP.json": &bintree{ja_jpJson, map[string]*bintree{}},
@@ -6764,9 +6171,7 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"ne_NP.json": &bintree{ne_npJson, map[string]*bintree{}},
 	"nl_AW.json": &bintree{nl_awJson, map[string]*bintree{}},
 	"nl_BE.json": &bintree{nl_beJson, map[string]*bintree{}},
-	"nl_BE@euro.json": &bintree{nl_beEuroJson, map[string]*bintree{}},
 	"nl_NL.json": &bintree{nl_nlJson, map[string]*bintree{}},
-	"nl_NL@euro.json": &bintree{nl_nlEuroJson, map[string]*bintree{}},
 	"nn_NO.json": &bintree{nn_noJson, map[string]*bintree{}},
 	"nr_ZA.json": &bintree{nr_zaJson, map[string]*bintree{}},
 	"nso_ZA.json": &bintree{nso_zaJson, map[string]*bintree{}},
@@ -6782,7 +6187,6 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"ps_AF.json": &bintree{ps_afJson, map[string]*bintree{}},
 	"pt_BR.json": &bintree{pt_brJson, map[string]*bintree{}},
 	"pt_PT.json": &bintree{pt_ptJson, map[string]*bintree{}},
-	"pt_PT@euro.json": &bintree{pt_ptEuroJson, map[string]*bintree{}},
 	"ro_RO.json": &bintree{ro_roJson, map[string]*bintree{}},
 	"ru_RU.json": &bintree{ru_ruJson, map[string]*bintree{}},
 	"ru_UA.json": &bintree{ru_uaJson, map[string]*bintree{}},
@@ -6810,7 +6214,6 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"ss_ZA.json": &bintree{ss_zaJson, map[string]*bintree{}},
 	"st_ZA.json": &bintree{st_zaJson, map[string]*bintree{}},
 	"sv_FI.json": &bintree{sv_fiJson, map[string]*bintree{}},
-	"sv_FI@euro.json": &bintree{sv_fiEuroJson, map[string]*bintree{}},
 	"sv_SE.json": &bintree{sv_seJson, map[string]*bintree{}},
 	"sw_KE.json": &bintree{sw_keJson, map[string]*bintree{}},
 	"sw_TZ.json": &bintree{sw_tzJson, map[string]*bintree{}},
@@ -6841,7 +6244,6 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	"ve_ZA.json": &bintree{ve_zaJson, map[string]*bintree{}},
 	"vi_VN.json": &bintree{vi_vnJson, map[string]*bintree{}},
 	"wa_BE.json": &bintree{wa_beJson, map[string]*bintree{}},
-	"wa_BE@euro.json": &bintree{wa_beEuroJson, map[string]*bintree{}},
 	"wae_CH.json": &bintree{wae_chJson, map[string]*bintree{}},
 	"wal_ET.json": &bintree{wal_etJson, map[string]*bintree{}},
 	"wo_SN.json": &bintree{wo_snJson, map[string]*bintree{}},
