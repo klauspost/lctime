@@ -182,8 +182,8 @@ func peru(t time.Time) string {
 // first Sunday of January is the first day of week 1; days in the new year
 // before this are in week 0.
 func perU(t time.Time) string {
-	// BUG(jaime): %U not implemented
-	return "-1"
+	_, wn := t.ISOWeek()
+	return fmt.Sprintf("%02d", wn)
 }
 
 // perV returns the week number of the year (Monday as the first day of the
@@ -206,8 +206,8 @@ func perw(t time.Time) string {
 // first Monday of January is the first day of week 1; days in the new year
 // before this are in week 0.
 func perW(t time.Time) string {
-	// BUG(jaime): %W not implemented
-	return "-1"
+	_, wn := t.ISOWeek()
+	return fmt.Sprintf("%02d", wn-1)
 }
 
 // perx returns the locale's appropriate date representation.

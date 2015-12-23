@@ -428,24 +428,16 @@ func TestPeru(t *testing.T) {
 }
 
 func TestPerU(t *testing.T) {
-	t.SkipNow()
-
 	tests := []struct {
-		input  time.Time
-		locale string
-		want   string
+		input time.Time
+		want  string
 	}{
-		{time.Date(1949, 8, 16, 21, 54, 30, 113731, time.UTC),
-			"en_US", "33"},
-		{time.Date(1954, 11, 29, 0, 33, 29, 550957, time.UTC),
-			"es_MX", "48"},
+		{time.Date(1949, 8, 16, 21, 54, 30, 113731, time.UTC), "33"},
+		{time.Date(1956, 11, 29, 0, 33, 29, 550957, time.UTC), "48"},
 	}
 
 	for i, test := range tests {
-		SetLocale(test.locale)
-
 		if got := perU(test.input); got != test.want {
-			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -482,24 +474,16 @@ func TestPerw(t *testing.T) {
 }
 
 func TestPerW(t *testing.T) {
-	t.SkipNow()
-
 	tests := []struct {
-		input  time.Time
-		locale string
-		want   string
+		input time.Time
+		want  string
 	}{
-		{time.Date(2081, 9, 29, 0, 22, 12, 982588, time.UTC),
-			"en_US", "39"},
-		{time.Date(1824, 1, 8, 4, 6, 57, 252617, time.UTC),
-			"es_MX", "01"},
+		{time.Date(2081, 9, 29, 0, 22, 12, 982588, time.UTC), "39"},
+		{time.Date(1824, 1, 8, 4, 6, 57, 252617, time.UTC), "01"},
 	}
 
 	for i, test := range tests {
-		SetLocale(test.locale)
-
 		if got := perW(test.input); got != test.want {
-			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}

@@ -27,7 +27,7 @@ http://pubs.opengroup.org/onlinepubs/9699919799/functions/strftime.html.
    %d  day of the month as a decimal number [01,31]
    %D  %m/%d/%y
    %e  day of the month as a decimal number [1,31]
-   %F  ... work in progress... not ready
+   %F  %Y/%m/%d
    %g  last 2 digits of the week-based year as a decimal number
    %G  week-based year as a decimal number (for example, 1977)
    %H  hour (24-hour clock) as a decimal number [00,23]
