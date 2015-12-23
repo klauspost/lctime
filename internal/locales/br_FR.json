@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"sul",
-		"lun",
-		"meu",
-		"mer",
-		"yao",
-		"gwe",
-		"sad"
-	],
-	"abmon": [
-		"Gen",
-		"C'hw",
-		"Meu",
-		"Ebr",
-		"Mae",
-		"Eve",
-		"Gou",
-		"Eos",
-		"Gwe",
-		"Her",
-		"Du",
-		"Ker"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"D'ar %A %d a viz %B %Y"
-	],
-	"day": [
+	"ID": "br_FR",
+	"Days": [
 		"sul",
 		"lun",
 		"meurzh",
@@ -41,7 +9,16 @@
 		"gwener",
 		"sadorn"
 	],
-	"mon": [
+	"ShortDays": [
+		"sul",
+		"lun",
+		"meu",
+		"mer",
+		"yao",
+		"gwe",
+		"sad"
+	],
+	"Months": [
 		"Genver",
 		"C'hwevrer",
 		"Meurzh",
@@ -55,10 +32,26 @@
 		"Du",
 		"Kerzu"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Gen",
+		"C'hw",
+		"Meu",
+		"Ebr",
+		"Mae",
+		"Eve",
+		"Gou",
+		"Eos",
+		"Gwe",
+		"Her",
+		"Du",
+		"Ker"
 	],
-	"t_fmt_ampm": [
-		"%Ie%M:%S %p"
-	]
+	"AMPM": [
+		"",
+		""
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "D'ar %A %d a viz %B %Y",
+	"Time": "%T",
+	"TimeAMPM": "%Ie%M:%S %p"
 }

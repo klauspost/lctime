@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sv",
-		"P",
-		"O",
-		"T",
-		"C",
-		"Pk",
-		"S"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mar",
-		"apr",
-		"mai",
-		"jūn",
-		"jūl",
-		"aug",
-		"sep",
-		"okt",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%Y.%m.%d."
-	],
-	"d_t_fmt": [
-		"%A, %Y. gada %e. %B, plkst. %H un %M"
-	],
-	"day": [
+	"ID": "lv_LV",
+	"Days": [
 		"svētdiena",
 		"pirmdiena",
 		"otrdiena",
@@ -41,7 +9,16 @@
 		"piektdiena",
 		"sestdiena"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sv",
+		"P",
+		"O",
+		"T",
+		"C",
+		"Pk",
+		"S"
+	],
+	"Months": [
 		"janvāris",
 		"februāris",
 		"marts",
@@ -55,10 +32,26 @@
 		"novembris",
 		"decembris"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"mai",
+		"jūn",
+		"jūl",
+		"aug",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%Y.%m.%d.",
+	"DateTime": "%A, %Y. gada %e. %B, plkst. %H un %M",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

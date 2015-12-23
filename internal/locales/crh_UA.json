@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Baz",
-		"Ber",
-		"Sal",
-		"Çar",
-		"Caq",
-		"Cum",
-		"Cer"
-	],
-	"abmon": [
-		"Yan",
-		"Fev",
-		"Mar",
-		"Apr",
-		"May",
-		"İyn",
-		"İyl",
-		"Avg",
-		"Sen",
-		"Okt",
-		"Noy",
-		"Dek"
-	],
-	"am_pm": [
-		"ÜE",
-		"ÜS"
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T"
-	],
-	"day": [
+	"ID": "crh_UA",
+	"Days": [
 		"Bazar",
 		"Bazarertesi",
 		"Salı",
@@ -41,7 +9,16 @@
 		"Cuma",
 		"Cumaertesi"
 	],
-	"mon": [
+	"ShortDays": [
+		"Baz",
+		"Ber",
+		"Sal",
+		"Çar",
+		"Caq",
+		"Cum",
+		"Cer"
+	],
+	"Months": [
 		"Yanvar",
 		"Fevral",
 		"Mart",
@@ -55,10 +32,26 @@
 		"Noyabr",
 		"Dekabr"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Yan",
+		"Fev",
+		"Mar",
+		"Apr",
+		"May",
+		"İyn",
+		"İyl",
+		"Avg",
+		"Sen",
+		"Okt",
+		"Noy",
+		"Dek"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"ÜE",
+		"ÜS"
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T",
+	"Time": "%T",
+	"TimeAMPM": "%I:%M:%S %p"
 }

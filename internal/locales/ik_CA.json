@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Min",
-		"Sav",
-		"Ila",
-		"Qit",
-		"Sis",
-		"Tal",
-		"Maq"
-	],
-	"abmon": [
-		"Sñt",
-		"Sñs",
-		"Pan",
-		"Qil",
-		"Sup",
-		"Iġñ",
-		"Itc",
-		"Tiñ",
-		"Ami",
-		"Sik",
-		"Nip",
-		"Siq"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %r %Z"
-	],
-	"day": [
+	"ID": "ik_CA",
+	"Days": [
 		"Minġuiqsioiq",
 		"Savałłiq",
 		"Ilaqtchiioiq",
@@ -41,7 +9,16 @@
 		"Tallimmiioiq",
 		"Maqinġuoiq"
 	],
-	"mon": [
+	"ShortDays": [
+		"Min",
+		"Sav",
+		"Ila",
+		"Qit",
+		"Sis",
+		"Tal",
+		"Maq"
+	],
+	"Months": [
 		"Siqiññaatchiaq",
 		"Siqiññaasrugruk",
 		"Paniqsiqsiivik",
@@ -55,10 +32,26 @@
 		"Nippivik",
 		"Siqiñġiḷaq"
 	],
-	"t_fmt": [
-		"%r"
+	"ShortMonths": [
+		"Sñt",
+		"Sñs",
+		"Pan",
+		"Qil",
+		"Sup",
+		"Iġñ",
+		"Itc",
+		"Tiñ",
+		"Ami",
+		"Sik",
+		"Nip",
+		"Siq"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %r %Z",
+	"Time": "%r",
+	"TimeAMPM": "%I:%M:%S %p"
 }

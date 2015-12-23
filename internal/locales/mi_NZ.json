@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Ta",
-		"Ma",
-		"Tū",
-		"We",
-		"Tāi",
-		"Pa",
-		"Hā"
-	],
-	"abmon": [
-		"Kohi",
-		"Hui",
-		"Pou",
-		"Pae",
-		"Hara",
-		"Pipi",
-		"Hōngoi",
-		"Here",
-		"Mahu",
-		"Whi-nu",
-		"Whi-ra",
-		"Haki"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"Te %A, te %d o %B, %Y %T %Z"
-	],
-	"day": [
+	"ID": "mi_NZ",
+	"Days": [
 		"Rātapu",
 		"Mane",
 		"Tūrei",
@@ -41,7 +9,16 @@
 		"Paraire",
 		"Hātarei"
 	],
-	"mon": [
+	"ShortDays": [
+		"Ta",
+		"Ma",
+		"Tū",
+		"We",
+		"Tāi",
+		"Pa",
+		"Hā"
+	],
+	"Months": [
 		"Kohi-tātea",
 		"Hui-tanguru",
 		"Poutū-te-rangi",
@@ -55,10 +32,26 @@
 		"Whiringa-ā-rangi",
 		"Hakihea"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Kohi",
+		"Hui",
+		"Pou",
+		"Pae",
+		"Hara",
+		"Pipi",
+		"Hōngoi",
+		"Here",
+		"Mahu",
+		"Whi-nu",
+		"Whi-ra",
+		"Haki"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "Te %A, te %d o %B, %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

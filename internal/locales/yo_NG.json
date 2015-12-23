@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"SUN",
-		"MON",
-		"TUE",
-		"WED",
-		"THU",
-		"FRI",
-		"SAT"
-	],
-	"abmon": [
-		"JAN",
-		"FEB",
-		"MAR",
-		"APR",
-		"MAY",
-		"JUN",
-		"JUL",
-		"AUG",
-		"SEP",
-		"OCT",
-		"NOV",
-		"DEC"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"ọjọ́ %A, %d oṣù %B ọdún %Y %T %Z"
-	],
-	"day": [
+	"ID": "yo_NG",
+	"Days": [
 		"Àìkú",
 		"Ajé",
 		"Ìṣẹ́gun",
@@ -41,7 +9,16 @@
 		"Ẹ̀tì",
 		"Àbámẹ́ta"
 	],
-	"mon": [
+	"ShortDays": [
+		"SUN",
+		"MON",
+		"TUE",
+		"WED",
+		"THU",
+		"FRI",
+		"SAT"
+	],
+	"Months": [
 		"Jánúárì",
 		"Fẹ́búárì",
 		"Máàṣì",
@@ -55,10 +32,26 @@
 		"Nòfẹ̀ńbà",
 		"Dìsẹ̀ńbà"
 	],
-	"t_fmt": [
-		"%r"
+	"ShortMonths": [
+		"JAN",
+		"FEB",
+		"MAR",
+		"APR",
+		"MAY",
+		"JUN",
+		"JUL",
+		"AUG",
+		"SEP",
+		"OCT",
+		"NOV",
+		"DEC"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "ọjọ́ %A, %d oṣù %B ọdún %Y %T %Z",
+	"Time": "%r",
+	"TimeAMPM": "%I:%M:%S %p"
 }

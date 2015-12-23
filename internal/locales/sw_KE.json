@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"J2",
-		"J3",
-		"J4",
-		"J5",
-		"Alh",
-		"Ij",
-		"J1"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mac",
-		"Apr",
-		"Mei",
-		"Jun",
-		"Jul",
-		"Ago",
-		"Sep",
-		"Okt",
-		"Nov",
-		"Des"
-	],
-	"am_pm": [
-		"asubuhi",
-		"alasiri"
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%e %B %Y %I:%M:%S %p %Z"
-	],
-	"day": [
+	"ID": "sw_KE",
+	"Days": [
 		"Jumapili",
 		"Jumatatu",
 		"Jumanne",
@@ -41,7 +9,16 @@
 		"Ijumaa",
 		"Jumamosi"
 	],
-	"mon": [
+	"ShortDays": [
+		"J2",
+		"J3",
+		"J4",
+		"J5",
+		"Alh",
+		"Ij",
+		"J1"
+	],
+	"Months": [
 		"Januari",
 		"Februari",
 		"Machi",
@@ -55,10 +32,26 @@
 		"Novemba",
 		"Desemba"
 	],
-	"t_fmt": [
-		"%I:%M:%S %p"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mac",
+		"Apr",
+		"Mei",
+		"Jun",
+		"Jul",
+		"Ago",
+		"Sep",
+		"Okt",
+		"Nov",
+		"Des"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"asubuhi",
+		"alasiri"
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%e %B %Y %I:%M:%S %p %Z",
+	"Time": "%I:%M:%S %p",
+	"TimeAMPM": "%I:%M:%S %p"
 }

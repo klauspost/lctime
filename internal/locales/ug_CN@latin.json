@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Ye",
-		"Dü",
-		"Se",
-		"Ch",
-		"Pe",
-		"Jü",
-		"Sh"
-	],
-	"abmon": [
-		"Qe",
-		"Hu",
-		"No",
-		"Üm",
-		"Ba",
-		"Se",
-		"Ch",
-		"To",
-		"Mi",
-		"Oz",
-		"Oq",
-		"Kö"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%a, %Y-%m-%d"
-	],
-	"d_t_fmt": [
-		"%a, %Y-%m-%d, %T"
-	],
-	"day": [
+	"ID": "ug_CN@latin",
+	"Days": [
 		"Yekshenbe",
 		"Düshenbe",
 		"Seyshenbe",
@@ -41,7 +9,16 @@
 		"Jüme",
 		"Shenbe"
 	],
-	"mon": [
+	"ShortDays": [
+		"Ye",
+		"Dü",
+		"Se",
+		"Ch",
+		"Pe",
+		"Jü",
+		"Sh"
+	],
+	"Months": [
 		"Qehritan",
 		"Hut",
 		"Noruz",
@@ -55,8 +32,26 @@
 		"Oghlaq",
 		"Könek"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Qe",
+		"Hu",
+		"No",
+		"Üm",
+		"Ba",
+		"Se",
+		"Ch",
+		"To",
+		"Mi",
+		"Oz",
+		"Oq",
+		"Kö"
 	],
-	"t_fmt_ampm": null
+	"AMPM": [
+		"",
+		""
+	],
+	"Date": "%a, %Y-%m-%d",
+	"DateTime": "%a, %Y-%m-%d, %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

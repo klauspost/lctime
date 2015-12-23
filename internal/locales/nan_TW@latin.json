@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"lp",
-		"p1",
-		"p2",
-		"p3",
-		"p4",
-		"p5",
-		"p6"
-	],
-	"abmon": [
-		"1g",
-		"2g",
-		"3g",
-		"4g",
-		"5g",
-		"6g",
-		"7g",
-		"8g",
-		"9g",
-		"10g",
-		"11g",
-		"12g"
-	],
-	"am_pm": [
-		"téng-po͘",
-		"ē-po͘"
-	],
-	"d_fmt": [
-		"%F"
-	],
-	"d_t_fmt": [
-		"%Y %b %d (%a) %H:%M:%S %Z"
-	],
-	"day": [
+	"ID": "nan_TW@latin",
+	"Days": [
 		"lé-pài-ji̍t",
 		"pài-it",
 		"pài-jī",
@@ -41,7 +9,16 @@
 		"pài-gō͘",
 		"pài-la̍k"
 	],
-	"mon": [
+	"ShortDays": [
+		"lp",
+		"p1",
+		"p2",
+		"p3",
+		"p4",
+		"p5",
+		"p6"
+	],
+	"Months": [
 		"1goe̍h",
 		"2goe̍h",
 		"3goe̍h",
@@ -55,10 +32,26 @@
 		"11goe̍h",
 		"12goe̍h"
 	],
-	"t_fmt": [
-		"%r"
+	"ShortMonths": [
+		"1g",
+		"2g",
+		"3g",
+		"4g",
+		"5g",
+		"6g",
+		"7g",
+		"8g",
+		"9g",
+		"10g",
+		"11g",
+		"12g"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"téng-po͘",
+		"ē-po͘"
+	],
+	"Date": "%F",
+	"DateTime": "%Y %b %d (%a) %H:%M:%S %Z",
+	"Time": "%r",
+	"TimeAMPM": "%I:%M:%S %p"
 }

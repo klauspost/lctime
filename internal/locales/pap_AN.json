@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"do",
-		"lu",
-		"ma",
-		"we",
-		"ra",
-		"bi",
-		"sa"
-	],
-	"abmon": [
-		"Yan",
-		"Feb",
-		"Mar",
-		"Apr",
-		"Mei",
-		"Yün",
-		"Yül",
-		"Oug",
-		"Sèp",
-		"Okt",
-		"Nov",
-		"Des"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d-%m-%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "pap_AN",
+	"Days": [
 		"Djadomingo",
 		"Djaluna",
 		"Djamars",
@@ -41,7 +9,16 @@
 		"Djabierne",
 		"Djasabra"
 	],
-	"mon": [
+	"ShortDays": [
+		"do",
+		"lu",
+		"ma",
+		"we",
+		"ra",
+		"bi",
+		"sa"
+	],
+	"Months": [
 		"Yanüari",
 		"Febrüari",
 		"Mart",
@@ -55,10 +32,26 @@
 		"Novèmber",
 		"Desèmber"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Yan",
+		"Feb",
+		"Mar",
+		"Apr",
+		"Mei",
+		"Yün",
+		"Yül",
+		"Oug",
+		"Sèp",
+		"Okt",
+		"Nov",
+		"Des"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d-%m-%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

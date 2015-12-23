@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"lhd",
-		"lts",
-		"tlt",
-		"lrb",
-		"lkm",
-		"zom",
-		"sab"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mar",
-		"apr",
-		"mey",
-		"jon",
-		"jol",
-		"aog",
-		"sep",
-		"okt",
-		"nov",
-		"des"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "mg_MG",
+	"Days": [
 		"alahady",
 		"alatsinainy",
 		"talata",
@@ -41,7 +9,16 @@
 		"zoma",
 		"sabotsy"
 	],
-	"mon": [
+	"ShortDays": [
+		"lhd",
+		"lts",
+		"tlt",
+		"lrb",
+		"lkm",
+		"zom",
+		"sab"
+	],
+	"Months": [
 		"janoary",
 		"febroary",
 		"martsa",
@@ -55,10 +32,26 @@
 		"novambra",
 		"desambra"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"mey",
+		"jon",
+		"jol",
+		"aog",
+		"sep",
+		"okt",
+		"nov",
+		"des"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

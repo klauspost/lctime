@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Domh",
-		"Luan",
-		"Máirt",
-		"Céad",
-		"Déar",
-		"Aoine",
-		"Sath"
-	],
-	"abmon": [
-		"Ean",
-		"Feabh",
-		"Márta",
-		"Aib",
-		"Beal",
-		"Meith",
-		"Iúil",
-		"Lún",
-		"MFómh",
-		"DFómh",
-		"Samh",
-		"Noll"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "ga_IE",
+	"Days": [
 		"Dé Domhnaigh",
 		"Dé Luain",
 		"Dé Máirt",
@@ -41,7 +9,16 @@
 		"Dé hAoine",
 		"Dé Sathairn"
 	],
-	"mon": [
+	"ShortDays": [
+		"Domh",
+		"Luan",
+		"Máirt",
+		"Céad",
+		"Déar",
+		"Aoine",
+		"Sath"
+	],
+	"Months": [
 		"Eanáir",
 		"Feabhra",
 		"Márta",
@@ -55,10 +32,26 @@
 		"Samhain",
 		"Nollaig"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Ean",
+		"Feabh",
+		"Márta",
+		"Aib",
+		"Beal",
+		"Meith",
+		"Iúil",
+		"Lún",
+		"MFómh",
+		"DFómh",
+		"Samh",
+		"Noll"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"su",
-		"ma",
-		"ti",
-		"ke",
-		"to",
-		"pe",
-		"la"
-	],
-	"abmon": [
-		"tammi",
-		"helmi",
-		"maalis",
-		"huhti",
-		"touko",
-		"kesä",
-		"heinä",
-		"elo",
-		"syys",
-		"loka",
-		"marras",
-		"joulu"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %e. %Bta %Y %H.%M.%S"
-	],
-	"day": [
+	"ID": "fi_FI",
+	"Days": [
 		"sunnuntai",
 		"maanantai",
 		"tiistai",
@@ -41,7 +9,16 @@
 		"perjantai",
 		"lauantai"
 	],
-	"mon": [
+	"ShortDays": [
+		"su",
+		"ma",
+		"ti",
+		"ke",
+		"to",
+		"pe",
+		"la"
+	],
+	"Months": [
 		"tammikuu",
 		"helmikuu",
 		"maaliskuu",
@@ -55,10 +32,26 @@
 		"marraskuu",
 		"joulukuu"
 	],
-	"t_fmt": [
-		"%H.%M.%S"
+	"ShortMonths": [
+		"tammi",
+		"helmi",
+		"maalis",
+		"huhti",
+		"touko",
+		"kesä",
+		"heinä",
+		"elo",
+		"syys",
+		"loka",
+		"marras",
+		"joulu"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %e. %Bta %Y %H.%M.%S",
+	"Time": "%H.%M.%S",
+	"TimeAMPM": ""
 }

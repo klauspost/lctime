@@ -11,27 +11,27 @@ import (
 
 // pera returns the locale's abbreviated weekday name.
 func pera(t time.Time) string {
-	return localeData["abday"][int(t.Weekday())]
+	return lc.ShortDays[int(t.Weekday())]
 }
 
 // perA returns the locale's full weekday name.
 func perA(t time.Time) string {
-	return localeData["day"][int(t.Weekday())]
+	return lc.Days[int(t.Weekday())]
 }
 
 // perb returns the locale's abbreviated month name.
 func perb(t time.Time) string {
-	return localeData["abmon"][int(t.Month())-1]
+	return lc.ShortMonths[int(t.Month())-1]
 }
 
 // perB returns the locale's full month name.
 func perB(t time.Time) string {
-	return localeData["mon"][int(t.Month())-1]
+	return lc.Months[int(t.Month())-1]
 }
 
 // perc returns the locale's appropriate date and time representation.
 func perc(t time.Time) string {
-	return Strftime(localeData["d_t_fmt"][0], t)
+	return Strftime(lc.DateTime, t)
 }
 
 // perC returns the year divided by 100 and truncated to an integer, as a
@@ -136,15 +136,15 @@ func pern(t time.Time) string {
 // perp returns the locale's equivalent of either a.m. or p.m.
 func perp(t time.Time) string {
 	if t.Hour() < 12 {
-		return localeData["am_pm"][0]
+		return lc.AMPM[0]
 	}
-	return localeData["am_pm"][1]
+	return lc.AMPM[1]
 }
 
 // perr returns the time in a.m. and p.m. notation. In POSIX locale this shall
 // be equivalent to %I : %M : %S %p.
 func perr(t time.Time) string {
-	return Strftime(localeData["t_fmt_ampm"][0], t)
+	return Strftime(lc.TimeAMPM, t)
 }
 
 // perR returns the time in 24-hour notation ( %H : %M ).
@@ -212,12 +212,12 @@ func perW(t time.Time) string {
 
 // perx returns the locale's appropriate date representation.
 func perx(t time.Time) string {
-	return Strftime(localeData["d_fmt"][0], t)
+	return Strftime(lc.Date, t)
 }
 
 // perX returns the locale's appropriate time representation.
 func perX(t time.Time) string {
-	return Strftime(localeData["t_fmt"][0], t)
+	return Strftime(lc.Time, t)
 }
 
 // pery returns the last two digits of the year as a decimal number [00,99].

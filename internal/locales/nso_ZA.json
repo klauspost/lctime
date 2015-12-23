@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Son",
-		"Moš",
-		"Bed",
-		"Rar",
-		"Ne",
-		"Hla",
-		"Mok"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mat",
-		"Apr",
-		"Mei",
-		"Jun",
-		"Jul",
-		"Ago",
-		"Set",
-		"Okt",
-		"Nof",
-		"Dis"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "nso_ZA",
+	"Days": [
 		"LaMorena",
 		"Mošupologo",
 		"Labobedi",
@@ -41,7 +9,16 @@
 		"Labohlano",
 		"Mokibelo"
 	],
-	"mon": [
+	"ShortDays": [
+		"Son",
+		"Moš",
+		"Bed",
+		"Rar",
+		"Ne",
+		"Hla",
+		"Mok"
+	],
+	"Months": [
 		"Janaware",
 		"Febereware",
 		"Matšhe",
@@ -55,10 +32,26 @@
 		"Nofemere",
 		"Disemere"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mat",
+		"Apr",
+		"Mei",
+		"Jun",
+		"Jul",
+		"Ago",
+		"Set",
+		"Okt",
+		"Nof",
+		"Dis"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

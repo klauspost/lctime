@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Yek",
-		"Düş",
-		"Siş",
-		"Çer",
-		"Pen",
-		"Com",
-		"Şim"
-	],
-	"abmon": [
-		"Ğın",
-		"Fiw",
-		"Mar",
-		"Apr",
-		"May",
-		"Yün",
-		"Yül",
-		"Awg",
-		"Sin",
-		"Ükt",
-		"Noy",
-		"Dik"
-	],
-	"am_pm": [
-		"ÖA",
-		"ÖS"
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T"
-	],
-	"day": [
+	"ID": "tt_RU@iqtelif",
+	"Days": [
 		"Yekşembí",
 		"Düşembí",
 		"Sişembí",
@@ -41,7 +9,16 @@
 		"Comğa",
 		"Şimbe"
 	],
-	"mon": [
+	"ShortDays": [
+		"Yek",
+		"Düş",
+		"Siş",
+		"Çer",
+		"Pen",
+		"Com",
+		"Şim"
+	],
+	"Months": [
 		"Ğınwar",
 		"Fiwral'",
 		"Mart",
@@ -55,10 +32,26 @@
 		"Noyebír",
 		"Dikebír"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Ğın",
+		"Fiw",
+		"Mar",
+		"Apr",
+		"May",
+		"Yün",
+		"Yül",
+		"Awg",
+		"Sin",
+		"Ükt",
+		"Noy",
+		"Dik"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"ÖA",
+		"ÖS"
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T",
+	"Time": "%T",
+	"TimeAMPM": "%I:%M:%S %p"
 }

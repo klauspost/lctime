@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"baz",
-		"ber",
-		"çax",
-		"çər",
-		"cax",
-		"cüm",
-		"şnb"
-	],
-	"abmon": [
-		"Yan",
-		"Fev",
-		"Mar",
-		"Apr",
-		"May",
-		"İyn",
-		"İyl",
-		"Avq",
-		"Sen",
-		"Okt",
-		"Noy",
-		"Dek"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%A, %d %B %Y %T"
-	],
-	"day": [
+	"ID": "az_AZ",
+	"Days": [
 		"bazar günü",
 		"bazar ertəsi",
 		"çərşənbə axşamı",
@@ -41,7 +9,16 @@
 		"cümə",
 		"şənbə"
 	],
-	"mon": [
+	"ShortDays": [
+		"baz",
+		"ber",
+		"çax",
+		"çər",
+		"cax",
+		"cüm",
+		"şnb"
+	],
+	"Months": [
 		"yanvar",
 		"fevral",
 		"mart",
@@ -55,10 +32,26 @@
 		"noyabr",
 		"dekabr"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Yan",
+		"Fev",
+		"Mar",
+		"Apr",
+		"May",
+		"İyn",
+		"İyl",
+		"Avq",
+		"Sen",
+		"Okt",
+		"Noy",
+		"Dek"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%A, %d %B %Y %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

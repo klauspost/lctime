@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Caw",
-		"Mvu",
-		"Bin",
-		"Tha",
-		"Sin",
-		"Hla",
-		"Mgq"
-	],
-	"abmon": [
-		"Mqu",
-		"Mdu",
-		"Kwi",
-		"Tsh",
-		"Can",
-		"Sil",
-		"Kha",
-		"Thu",
-		"Msi",
-		"Dwa",
-		"Nka",
-		"Mng"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %-e %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "xh_ZA",
+	"Days": [
 		"iCawa",
 		"uMvulo",
 		"lwesiBini",
@@ -41,7 +9,16 @@
 		"lwesiHlanu",
 		"uMgqibelo"
 	],
-	"mon": [
+	"ShortDays": [
+		"Caw",
+		"Mvu",
+		"Bin",
+		"Tha",
+		"Sin",
+		"Hla",
+		"Mgq"
+	],
+	"Months": [
 		"eyoMqungu",
 		"eyoMdumba",
 		"eyoKwindla",
@@ -55,10 +32,26 @@
 		"eyeNkanga",
 		"eyoMnga"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Mqu",
+		"Mdu",
+		"Kwi",
+		"Tsh",
+		"Can",
+		"Sil",
+		"Kha",
+		"Thu",
+		"Msi",
+		"Dwa",
+		"Nka",
+		"Mng"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %-e %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

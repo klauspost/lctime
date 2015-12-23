@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sab",
-		"Bal",
-		"Lw2",
-		"Lw3",
-		"Lw4",
-		"Lw5",
-		"Lw6"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mar",
-		"Apu",
-		"Maa",
-		"Jun",
-		"Jul",
-		"Agu",
-		"Seb",
-		"Oki",
-		"Nov",
-		"Des"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "lg_UG",
+	"Days": [
 		"Sabiiti",
 		"Balaza",
 		"Lwakubiri",
@@ -41,7 +9,16 @@
 		"Lwakutaano",
 		"Lwamukaaga"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sab",
+		"Bal",
+		"Lw2",
+		"Lw3",
+		"Lw4",
+		"Lw5",
+		"Lw6"
+	],
+	"Months": [
 		"Janwaliyo",
 		"Febwaliyo",
 		"Marisi",
@@ -55,10 +32,26 @@
 		"Novemba",
 		"Desemba"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apu",
+		"Maa",
+		"Jun",
+		"Jul",
+		"Agu",
+		"Seb",
+		"Oki",
+		"Nov",
+		"Des"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

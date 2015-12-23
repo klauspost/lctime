@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Ħad",
-		"Tne",
-		"Tli",
-		"Erb",
-		"Ħam",
-		"Ġim",
-		"Sib"
-	],
-	"abmon": [
-		"Jan",
-		"Fra",
-		"Mar",
-		"Apr",
-		"Mej",
-		"Ġun",
-		"Lul",
-		"Aww",
-		"Set",
-		"Ott",
-		"Nov",
-		"Diċ"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%A, %d ta %b, %Y"
-	],
-	"d_t_fmt": [
-		"%A, %d ta %b, %Y %I:%M:%S %p %Z"
-	],
-	"day": [
+	"ID": "mt_MT",
+	"Days": [
 		"il-Ħadd",
 		"it-Tnejn",
 		"it-Tlieta",
@@ -41,7 +9,16 @@
 		"il-Ġimgħa",
 		"is-Sibt"
 	],
-	"mon": [
+	"ShortDays": [
+		"Ħad",
+		"Tne",
+		"Tli",
+		"Erb",
+		"Ħam",
+		"Ġim",
+		"Sib"
+	],
+	"Months": [
 		"Jannar",
 		"Frar",
 		"Marzu",
@@ -55,10 +32,26 @@
 		"Novembru",
 		"Diċembru"
 	],
-	"t_fmt": [
-		"%I:%M:%S %Z"
+	"ShortMonths": [
+		"Jan",
+		"Fra",
+		"Mar",
+		"Apr",
+		"Mej",
+		"Ġun",
+		"Lul",
+		"Aww",
+		"Set",
+		"Ott",
+		"Nov",
+		"Diċ"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p %Z"
-	]
+	"AMPM": [
+		"",
+		""
+	],
+	"Date": "%A, %d ta %b, %Y",
+	"DateTime": "%A, %d ta %b, %Y %I:%M:%S %p %Z",
+	"Time": "%I:%M:%S %Z",
+	"TimeAMPM": "%I:%M:%S %p %Z"
 }

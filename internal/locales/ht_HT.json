@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"dim.",
-		"lEn.",
-		"mad.",
-		"mèk.",
-		"jEd.",
-		"van.",
-		"sam."
-	],
-	"abmon": [
-		"janv.",
-		"fEvR.",
-		"mas",
-		"avRil",
-		"mE",
-		"jEn",
-		"jiyè.",
-		"oUt",
-		"sEpt.",
-		"okt.",
-		"nov.",
-		"dEs."
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %y %t %Z"
-	],
-	"day": [
+	"ID": "ht_HT",
+	"Days": [
 		"dimanch",
 		"lEndi",
 		"madi",
@@ -41,7 +9,16 @@
 		"vandREdi",
 		"samdi"
 	],
-	"mon": [
+	"ShortDays": [
+		"dim.",
+		"lEn.",
+		"mad.",
+		"mèk.",
+		"jEd.",
+		"van.",
+		"sam."
+	],
+	"Months": [
 		"janvyE",
 		"fEvRiyE",
 		"mas",
@@ -55,10 +32,26 @@
 		"novanm",
 		"dEsanm"
 	],
-	"t_fmt": [
-		"%t"
+	"ShortMonths": [
+		"janv.",
+		"fEvR.",
+		"mas",
+		"avRil",
+		"mE",
+		"jEn",
+		"jiyè.",
+		"oUt",
+		"sEpt.",
+		"okt.",
+		"nov.",
+		"dEs."
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %y %t %Z",
+	"Time": "%t",
+	"TimeAMPM": ""
 }

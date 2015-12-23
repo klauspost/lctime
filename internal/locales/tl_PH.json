@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Lin",
-		"Lun",
-		"Mar",
-		"Miy",
-		"Huw",
-		"Biy",
-		"Sab"
-	],
-	"abmon": [
-		"Ene",
-		"Peb",
-		"Mar",
-		"Abr",
-		"May",
-		"Hun",
-		"Hul",
-		"Ago",
-		"Sep",
-		"Okt",
-		"Nob",
-		"Dis"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%m/%d/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %r %Z"
-	],
-	"day": [
+	"ID": "tl_PH",
+	"Days": [
 		"Linggo",
 		"Lunes",
 		"Martes",
@@ -41,7 +9,16 @@
 		"Biyernes",
 		"Sabado"
 	],
-	"mon": [
+	"ShortDays": [
+		"Lin",
+		"Lun",
+		"Mar",
+		"Miy",
+		"Huw",
+		"Biy",
+		"Sab"
+	],
+	"Months": [
 		"Enero",
 		"Pebrero",
 		"Marso",
@@ -55,10 +32,26 @@
 		"Nobiyembre",
 		"Disyembre"
 	],
-	"t_fmt": [
-		"%r"
+	"ShortMonths": [
+		"Ene",
+		"Peb",
+		"Mar",
+		"Abr",
+		"May",
+		"Hun",
+		"Hul",
+		"Ago",
+		"Sep",
+		"Okt",
+		"Nob",
+		"Dis"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%m/%d/%y",
+	"DateTime": "%a %d %b %Y %r %Z",
+	"Time": "%r",
+	"TimeAMPM": "%I:%M:%S %p"
 }

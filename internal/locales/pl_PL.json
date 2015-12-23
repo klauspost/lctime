@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"nie",
-		"pon",
-		"wto",
-		"śro",
-		"czw",
-		"pią",
-		"sob"
-	],
-	"abmon": [
-		"sty",
-		"lut",
-		"mar",
-		"kwi",
-		"maj",
-		"cze",
-		"lip",
-		"sie",
-		"wrz",
-		"paź",
-		"lis",
-		"gru"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a, %-d %b %Y, %T"
-	],
-	"day": [
+	"ID": "pl_PL",
+	"Days": [
 		"niedziela",
 		"poniedziałek",
 		"wtorek",
@@ -41,7 +9,16 @@
 		"piątek",
 		"sobota"
 	],
-	"mon": [
+	"ShortDays": [
+		"nie",
+		"pon",
+		"wto",
+		"śro",
+		"czw",
+		"pią",
+		"sob"
+	],
+	"Months": [
 		"styczeń",
 		"luty",
 		"marzec",
@@ -55,10 +32,26 @@
 		"listopad",
 		"grudzień"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"sty",
+		"lut",
+		"mar",
+		"kwi",
+		"maj",
+		"cze",
+		"lip",
+		"sie",
+		"wrz",
+		"paź",
+		"lis",
+		"gru"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a, %-d %b %Y, %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

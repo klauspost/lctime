@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Son",
-		"Mus",
-		"Bir",
-		"Har",
-		"Ne",
-		"Tlh",
-		"Mug"
-	],
-	"abmon": [
-		"Sun",
-		"Yan",
-		"Kul",
-		"Dzi",
-		"Mud",
-		"Kho",
-		"Maw",
-		"Mha",
-		"Ndz",
-		"Nhl",
-		"Huk",
-		"N'w"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %-e %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "ts_ZA",
+	"Days": [
 		"Sonto",
 		"Musumbhunuku",
 		"Ravumbirhi",
@@ -41,7 +9,16 @@
 		"Ravuntlhanu",
 		"Mugqivela"
 	],
-	"mon": [
+	"ShortDays": [
+		"Son",
+		"Mus",
+		"Bir",
+		"Har",
+		"Ne",
+		"Tlh",
+		"Mug"
+	],
+	"Months": [
 		"Sunguti",
 		"Nyenyenyani",
 		"Nyenyankulu",
@@ -55,10 +32,26 @@
 		"Hukuri",
 		"N'wendzamhala"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Sun",
+		"Yan",
+		"Kul",
+		"Dzi",
+		"Mud",
+		"Kho",
+		"Maw",
+		"Mha",
+		"Ndz",
+		"Nhl",
+		"Huk",
+		"N'w"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %-e %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

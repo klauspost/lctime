@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"sön",
-		"mån",
-		"tis",
-		"ons",
-		"tor",
-		"fre",
-		"lör"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mar",
-		"apr",
-		"maj",
-		"jun",
-		"jul",
-		"aug",
-		"sep",
-		"okt",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %e. %B %Y %H.%M.%S"
-	],
-	"day": [
+	"ID": "sv_FI",
+	"Days": [
 		"söndag",
 		"måndag",
 		"tisdag",
@@ -41,7 +9,16 @@
 		"fredag",
 		"lördag"
 	],
-	"mon": [
+	"ShortDays": [
+		"sön",
+		"mån",
+		"tis",
+		"ons",
+		"tor",
+		"fre",
+		"lör"
+	],
+	"Months": [
 		"januari",
 		"februari",
 		"mars",
@@ -55,10 +32,26 @@
 		"november",
 		"december"
 	],
-	"t_fmt": [
-		"%H.%M.%S"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"maj",
+		"jun",
+		"jul",
+		"aug",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %e. %B %Y %H.%M.%S",
+	"Time": "%H.%M.%S",
+	"TimeAMPM": ""
 }

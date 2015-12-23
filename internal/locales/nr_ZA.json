@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Son",
-		"Mvu",
-		"Bil",
-		"Tha",
-		"Ne",
-		"Hla",
-		"Gqi"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mat",
-		"Apr",
-		"Mey",
-		"Jun",
-		"Jul",
-		"Arh",
-		"Sep",
-		"Okt",
-		"Usi",
-		"Dis"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %-e %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "nr_ZA",
+	"Days": [
 		"uSonto",
 		"uMvulo",
 		"uLesibili",
@@ -41,7 +9,16 @@
 		"ngoLesihlanu",
 		"umGqibelo"
 	],
-	"mon": [
+	"ShortDays": [
+		"Son",
+		"Mvu",
+		"Bil",
+		"Tha",
+		"Ne",
+		"Hla",
+		"Gqi"
+	],
+	"Months": [
 		"Janabari",
 		"uFeberbari",
 		"uMatjhi",
@@ -55,10 +32,26 @@
 		"Usinyikhaba",
 		"Disemba"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mat",
+		"Apr",
+		"Mey",
+		"Jun",
+		"Jul",
+		"Arh",
+		"Sep",
+		"Okt",
+		"Usi",
+		"Dis"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %-e %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

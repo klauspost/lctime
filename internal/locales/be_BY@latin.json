@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Nia",
-		"Pan",
-		"Aŭt",
-		"Sie",
-		"Čać",
-		"Pia",
-		"Sub"
-	],
-	"abmon": [
-		"Stu",
-		"Lut",
-		"Sak",
-		"Kra",
-		"Tra",
-		"Čer",
-		"Lip",
-		"Žni",
-		"Vie",
-		"Kas",
-		"Lis",
-		"Śni"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T"
-	],
-	"day": [
+	"ID": "be_BY@latin",
+	"Days": [
 		"Niadziela",
 		"Paniadziełak",
 		"Aŭtorak",
@@ -41,7 +9,16 @@
 		"Piatnica",
 		"Subota"
 	],
-	"mon": [
+	"ShortDays": [
+		"Nia",
+		"Pan",
+		"Aŭt",
+		"Sie",
+		"Čać",
+		"Pia",
+		"Sub"
+	],
+	"Months": [
 		"Studzień",
 		"Luty",
 		"Sakavik",
@@ -55,10 +32,26 @@
 		"Listapad",
 		"Śniežań"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Stu",
+		"Lut",
+		"Sak",
+		"Kra",
+		"Tra",
+		"Čer",
+		"Lip",
+		"Žni",
+		"Vie",
+		"Kas",
+		"Lis",
+		"Śni"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

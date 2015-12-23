@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"dew",
-		"aaɓ",
-		"maw",
-		"nje",
-		"naa",
-		"mwd",
-		"hbi"
-	],
-	"abmon": [
-		"sii",
-		"col",
-		"mbo",
-		"see",
-		"duu",
-		"kor",
-		"mor",
-		"juk",
-		"slt",
-		"yar",
-		"jol",
-		"bow"
-	],
-	"am_pm": [
-		"subaka",
-		"kikiiɗe"
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %R %Z"
-	],
-	"day": [
+	"ID": "ff_SN",
+	"Days": [
 		"dewo",
 		"aaɓnde",
 		"mawbaare",
@@ -41,7 +9,16 @@
 		"mawnde",
 		"hoore-biir"
 	],
-	"mon": [
+	"ShortDays": [
+		"dew",
+		"aaɓ",
+		"maw",
+		"nje",
+		"naa",
+		"mwd",
+		"hbi"
+	],
+	"Months": [
 		"siilo",
 		"colte",
 		"mbooy",
@@ -55,8 +32,26 @@
 		"jolal",
 		"bowte"
 	],
-	"t_fmt": [
-		"%R"
+	"ShortMonths": [
+		"sii",
+		"col",
+		"mbo",
+		"see",
+		"duu",
+		"kor",
+		"mor",
+		"juk",
+		"slt",
+		"yar",
+		"jol",
+		"bow"
 	],
-	"t_fmt_ampm": null
+	"AMPM": [
+		"subaka",
+		"kikiiɗe"
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %d %b %Y %R %Z",
+	"Time": "%R",
+	"TimeAMPM": ""
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Son",
-		"Mso",
-		"Bil",
-		"Tsa",
-		"Ne",
-		"Hla",
-		"Mgc"
-	],
-	"abmon": [
-		"Bhi",
-		"Van",
-		"Vul",
-		"Mab",
-		"Khk",
-		"Nhl",
-		"Kho",
-		"Ngc",
-		"Nyo",
-		"Imp",
-		"Lwe",
-		"Ngo"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %-e %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "ss_ZA",
+	"Days": [
 		"Lisontfo",
 		"uMsombuluko",
 		"Lesibili",
@@ -41,7 +9,16 @@
 		"Lesihlanu",
 		"uMgcibelo"
 	],
-	"mon": [
+	"ShortDays": [
+		"Son",
+		"Mso",
+		"Bil",
+		"Tsa",
+		"Ne",
+		"Hla",
+		"Mgc"
+	],
+	"Months": [
 		"Bhimbidvwane",
 		"iNdlovane",
 		"iNdlovulenkhulu",
@@ -55,10 +32,26 @@
 		"Lweti",
 		"iNgongoni"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Bhi",
+		"Van",
+		"Vul",
+		"Mab",
+		"Khk",
+		"Nhl",
+		"Kho",
+		"Ngc",
+		"Nyo",
+		"Imp",
+		"Lwe",
+		"Ngo"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %-e %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

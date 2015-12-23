@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Dom",
-		"Lun",
-		"Mar",
-		"Mèr",
-		"Jòb",
-		"Cen",
-		"Sàb"
-	],
-	"abmon": [
-		"Gen",
-		"Fri",
-		"Mar",
-		"Abr",
-		"May",
-		"Làm",
-		"Arj",
-		"Aus",
-		"Cab",
-		"Lad",
-		"Don",
-		"Ida"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d. %m. %y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "sc_IT",
+	"Days": [
 		"Domìngu",
 		"Lunis",
 		"Martis",
@@ -41,7 +9,16 @@
 		"Cenàbara",
 		"Sàbadu"
 	],
-	"mon": [
+	"ShortDays": [
+		"Dom",
+		"Lun",
+		"Mar",
+		"Mèr",
+		"Jòb",
+		"Cen",
+		"Sàb"
+	],
+	"Months": [
 		"Gennarju",
 		"Friarju",
 		"Martzu",
@@ -55,10 +32,26 @@
 		"Donnyasantu",
 		"Idas"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Gen",
+		"Fri",
+		"Mar",
+		"Abr",
+		"May",
+		"Làm",
+		"Arj",
+		"Aus",
+		"Cab",
+		"Lad",
+		"Don",
+		"Ida"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d. %m. %y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

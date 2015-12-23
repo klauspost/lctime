@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sun",
-		"Mon",
-		"Tue",
-		"Wed",
-		"Thu",
-		"Fri",
-		"Sat"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mar",
-		"Apr",
-		"May",
-		"Jun",
-		"July",
-		"Aug",
-		"Sep",
-		"Oct",
-		"Nov",
-		"Dec"
-	],
-	"am_pm": [
-		"uluchelo",
-		"akasuba"
-	],
-	"d_fmt": [
-		"%m/%d/%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %R %Z"
-	],
-	"day": [
+	"ID": "bem_ZM",
+	"Days": [
 		"Pa Mulungu",
 		"Palichimo",
 		"Palichibuli",
@@ -41,7 +9,16 @@
 		"Palichisano",
 		"Pachibelushi"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sun",
+		"Mon",
+		"Tue",
+		"Wed",
+		"Thu",
+		"Fri",
+		"Sat"
+	],
+	"Months": [
 		"Januari",
 		"Februari",
 		"Machi",
@@ -55,10 +32,26 @@
 		"Novemba",
 		"Disemba"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apr",
+		"May",
+		"Jun",
+		"July",
+		"Aug",
+		"Sep",
+		"Oct",
+		"Nov",
+		"Dec"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"uluchelo",
+		"akasuba"
+	],
+	"Date": "%m/%d/%Y",
+	"DateTime": "%a %d %b %Y %R %Z",
+	"Time": "%T",
+	"TimeAMPM": "%I:%M:%S %p"
 }

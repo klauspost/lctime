@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sul",
-		"Llu",
-		"Maw",
-		"Mer",
-		"Iau",
-		"Gwe",
-		"Sad"
-	],
-	"abmon": [
-		"Ion",
-		"Chw",
-		"Maw",
-		"Ebr",
-		"Mai",
-		"Meh",
-		"Gor",
-		"Aws",
-		"Med",
-		"Hyd",
-		"Tach",
-		"Rha"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%d.%m.%y"
-	],
-	"d_t_fmt": [
-		"Dydd %A %d mis %B %Y %T %Z"
-	],
-	"day": [
+	"ID": "cy_GB",
+	"Days": [
 		"Sul",
 		"Llun",
 		"Mawrth",
@@ -41,7 +9,16 @@
 		"Gwener",
 		"Sadwrn"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sul",
+		"Llu",
+		"Maw",
+		"Mer",
+		"Iau",
+		"Gwe",
+		"Sad"
+	],
+	"Months": [
 		"Ionawr",
 		"Chwefror",
 		"Mawrth",
@@ -55,10 +32,26 @@
 		"Tachwedd",
 		"Rhagfyr"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Ion",
+		"Chw",
+		"Maw",
+		"Ebr",
+		"Mai",
+		"Meh",
+		"Gor",
+		"Aws",
+		"Med",
+		"Hyd",
+		"Tach",
+		"Rha"
 	],
-	"t_fmt_ampm": [
-		"%l:%M:%S %P %Z"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%d.%m.%y",
+	"DateTime": "Dydd %A %d mis %B %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": "%l:%M:%S %P %Z"
 }

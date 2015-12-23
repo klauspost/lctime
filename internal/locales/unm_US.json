@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"ken",
-		"man",
-		"tus",
-		"lel",
-		"tas",
-		"pel",
-		"sat"
-	],
-	"abmon": [
-		"eni",
-		"chk",
-		"xam",
-		"kwe",
-		"tai",
-		"nip",
-		"lai",
-		"win",
-		"tah",
-		"puk",
-		"kun",
-		"mux"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "unm_US",
+	"Days": [
 		"kentuwei",
 		"manteke",
 		"tusteke",
@@ -41,7 +9,16 @@
 		"pelaiteke",
 		"sateteke"
 	],
-	"mon": [
+	"ShortDays": [
+		"ken",
+		"man",
+		"tus",
+		"lel",
+		"tas",
+		"pel",
+		"sat"
+	],
+	"Months": [
 		"enikwsi",
 		"chkwali",
 		"xamokhwite",
@@ -55,10 +32,26 @@
 		"wini",
 		"muxkotae"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"eni",
+		"chk",
+		"xam",
+		"kwe",
+		"tai",
+		"nip",
+		"lai",
+		"win",
+		"tah",
+		"puk",
+		"kun",
+		"mux"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

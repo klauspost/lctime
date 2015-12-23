@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Nj",
-		"Pó",
-		"Wu",
-		"Sr",
-		"Št",
-		"Pj",
-		"So"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Měr",
-		"Apr",
-		"Mej",
-		"Jun",
-		"Jul",
-		"Awg",
-		"Sep",
-		"Okt",
-		"Now",
-		"Dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "hsb_DE",
+	"Days": [
 		"Njedźela",
 		"Póndźela",
 		"Wutora",
@@ -41,7 +9,16 @@
 		"Pjatk",
 		"Sobota"
 	],
-	"mon": [
+	"ShortDays": [
+		"Nj",
+		"Pó",
+		"Wu",
+		"Sr",
+		"Št",
+		"Pj",
+		"So"
+	],
+	"Months": [
 		"Januar",
 		"Februar",
 		"Měrc",
@@ -55,10 +32,26 @@
 		"Nowember",
 		"December"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Měr",
+		"Apr",
+		"Mej",
+		"Jun",
+		"Jul",
+		"Awg",
+		"Sep",
+		"Okt",
+		"Now",
+		"Dec"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

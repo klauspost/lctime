@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sul",
-		"Lun",
-		"Mth",
-		"Mhr",
-		"Yow",
-		"Gwe",
-		"Sad"
-	],
-	"abmon": [
-		"Gen",
-		"Whe",
-		"Mer",
-		"Ebr",
-		"Me",
-		"Evn",
-		"Gor",
-		"Est",
-		"Gwn",
-		"Hed",
-		"Du",
-		"Kev"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "kw_GB",
+	"Days": [
 		"De Sul",
 		"De Lun",
 		"De Merth",
@@ -41,7 +9,16 @@
 		"De Gwener",
 		"De Sadorn"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sul",
+		"Lun",
+		"Mth",
+		"Mhr",
+		"Yow",
+		"Gwe",
+		"Sad"
+	],
+	"Months": [
 		"Mys Genver",
 		"Mys Whevrel",
 		"Mys Merth",
@@ -55,10 +32,26 @@
 		"Mys Du",
 		"Mys Kevardhu"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Gen",
+		"Whe",
+		"Mer",
+		"Ebr",
+		"Me",
+		"Evn",
+		"Gor",
+		"Est",
+		"Gwn",
+		"Hed",
+		"Du",
+		"Kev"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

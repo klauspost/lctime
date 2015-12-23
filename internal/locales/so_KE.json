@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Axa",
-		"Isn",
-		"Sal",
-		"Arb",
-		"Kha",
-		"Jim",
-		"Sab"
-	],
-	"abmon": [
-		"Kob",
-		"Lab",
-		"Sad",
-		"Afr",
-		"Sha",
-		"Lix",
-		"Tod",
-		"Sid",
-		"Sag",
-		"Tob",
-		"KIT",
-		"LIT"
-	],
-	"am_pm": [
-		"subaxnimo",
-		"galabnimo"
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%A, %B %e, %Y %r %Z"
-	],
-	"day": [
+	"ID": "so_KE",
+	"Days": [
 		"Axad",
 		"Isniin",
 		"Salaaso",
@@ -41,7 +9,16 @@
 		"Jimco",
 		"Sabti"
 	],
-	"mon": [
+	"ShortDays": [
+		"Axa",
+		"Isn",
+		"Sal",
+		"Arb",
+		"Kha",
+		"Jim",
+		"Sab"
+	],
+	"Months": [
 		"Bisha Koobaad",
 		"Bisha Labaad",
 		"Bisha Saddexaad",
@@ -55,10 +32,26 @@
 		"Bisha Kow iyo Tobnaad",
 		"Bisha Laba iyo Tobnaad"
 	],
-	"t_fmt": [
-		"%I:%M:%S"
+	"ShortMonths": [
+		"Kob",
+		"Lab",
+		"Sad",
+		"Afr",
+		"Sha",
+		"Lix",
+		"Tod",
+		"Sid",
+		"Sag",
+		"Tob",
+		"KIT",
+		"LIT"
 	],
-	"t_fmt_ampm": [
-		"%X %p"
-	]
+	"AMPM": [
+		"subaxnimo",
+		"galabnimo"
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%A, %B %e, %Y %r %Z",
+	"Time": "%I:%M:%S",
+	"TimeAMPM": "%X %p"
 }

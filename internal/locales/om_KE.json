@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Dil",
-		"Wix",
-		"Qib",
-		"Rob",
-		"Kam",
-		"Jim",
-		"San"
-	],
-	"abmon": [
-		"Ama",
-		"Gur",
-		"Bit",
-		"Elb",
-		"Cam",
-		"Wax",
-		"Ado",
-		"Hag",
-		"Ful",
-		"Onk",
-		"Sad",
-		"Mud"
-	],
-	"am_pm": [
-		"WD",
-		"WB"
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%A, %B %e, %Y %r %Z"
-	],
-	"day": [
+	"ID": "om_KE",
+	"Days": [
 		"Dilbata",
 		"Wiixata",
 		"Qibxata",
@@ -41,7 +9,16 @@
 		"Jimaata",
 		"Sanbata"
 	],
-	"mon": [
+	"ShortDays": [
+		"Dil",
+		"Wix",
+		"Qib",
+		"Rob",
+		"Kam",
+		"Jim",
+		"San"
+	],
+	"Months": [
 		"Amajjii",
 		"Guraandhala",
 		"Bitooteessa",
@@ -55,10 +32,26 @@
 		"Sadaasa",
 		"Muddee"
 	],
-	"t_fmt": [
-		"%I:%M:%S"
+	"ShortMonths": [
+		"Ama",
+		"Gur",
+		"Bit",
+		"Elb",
+		"Cam",
+		"Wax",
+		"Ado",
+		"Hag",
+		"Ful",
+		"Onk",
+		"Sad",
+		"Mud"
 	],
-	"t_fmt_ampm": [
-		"%X %p"
-	]
+	"AMPM": [
+		"WD",
+		"WB"
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%A, %B %e, %Y %r %Z",
+	"Time": "%I:%M:%S",
+	"TimeAMPM": "%X %p"
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Aca",
-		"Etl",
-		"Tal",
-		"Arb",
-		"Kam",
-		"Gum",
-		"Sab"
-	],
-	"abmon": [
-		"Qun",
-		"Nah",
-		"Cig",
-		"Agd",
-		"Cax",
-		"Qas",
-		"Qad",
-		"Leq",
-		"Way",
-		"Dit",
-		"Xim",
-		"Kax"
-	],
-	"am_pm": [
-		"saaku",
-		"carra"
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%A, %B %e, %Y %r %Z"
-	],
-	"day": [
+	"ID": "aa_ER",
+	"Days": [
 		"Acaada",
 		"Etleeni",
 		"Talaata",
@@ -41,7 +9,16 @@
 		"Gumqata",
 		"Sabti"
 	],
-	"mon": [
+	"ShortDays": [
+		"Aca",
+		"Etl",
+		"Tal",
+		"Arb",
+		"Kam",
+		"Gum",
+		"Sab"
+	],
+	"Months": [
 		"Qunxa Garablu",
 		"Naharsi Kudo",
 		"Ciggilta Kudo",
@@ -55,10 +32,26 @@
 		"Ximoli",
 		"Kaxxa Garablu"
 	],
-	"t_fmt": [
-		"%I:%M:%S"
+	"ShortMonths": [
+		"Qun",
+		"Nah",
+		"Cig",
+		"Agd",
+		"Cax",
+		"Qas",
+		"Qad",
+		"Leq",
+		"Way",
+		"Dit",
+		"Xim",
+		"Kax"
 	],
-	"t_fmt_ampm": [
-		"%X %p"
-	]
+	"AMPM": [
+		"saaku",
+		"carra"
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%A, %B %e, %Y %r %Z",
+	"Time": "%I:%M:%S",
+	"TimeAMPM": "%X %p"
 }

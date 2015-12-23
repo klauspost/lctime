@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sun",
-		"Mon",
-		"Tue",
-		"Wed",
-		"Thu",
-		"Fri",
-		"Sat"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mar",
-		"Apr",
-		"May",
-		"Jun",
-		"Jul",
-		"Aug",
-		"Sep",
-		"Oct",
-		"Nov",
-		"Dec"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%m/%d/%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %r %Z"
-	],
-	"day": [
+	"ID": "en_US",
+	"Days": [
 		"Sunday",
 		"Monday",
 		"Tuesday",
@@ -41,7 +9,16 @@
 		"Friday",
 		"Saturday"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sun",
+		"Mon",
+		"Tue",
+		"Wed",
+		"Thu",
+		"Fri",
+		"Sat"
+	],
+	"Months": [
 		"January",
 		"February",
 		"March",
@@ -55,10 +32,26 @@
 		"November",
 		"December"
 	],
-	"t_fmt": [
-		"%r"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apr",
+		"May",
+		"Jun",
+		"Jul",
+		"Aug",
+		"Sep",
+		"Oct",
+		"Nov",
+		"Dec"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%m/%d/%Y",
+	"DateTime": "%a %d %b %Y %r %Z",
+	"Time": "%r",
+	"TimeAMPM": "%I:%M:%S %p"
 }

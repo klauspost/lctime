@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Tsh",
-		"Mos",
-		"Bed",
-		"Rar",
-		"Ne",
-		"Tlh",
-		"Mat"
-	],
-	"abmon": [
-		"Fer",
-		"Tlh",
-		"Mop",
-		"Mor",
-		"Mot",
-		"See",
-		"Phu",
-		"Pha",
-		"Lwe",
-		"Dip",
-		"Ngw",
-		"Sed"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %-e %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "tn_ZA",
+	"Days": [
 		"laTshipi",
 		"Mosupologo",
 		"Labobedi",
@@ -41,7 +9,16 @@
 		"Labotlhano",
 		"Lamatlhatso"
 	],
-	"mon": [
+	"ShortDays": [
+		"Tsh",
+		"Mos",
+		"Bed",
+		"Rar",
+		"Ne",
+		"Tlh",
+		"Mat"
+	],
+	"Months": [
 		"Ferikgong",
 		"Tlhakole",
 		"Mopitlwe",
@@ -55,10 +32,26 @@
 		"Ngwanatsele",
 		"Sedimonthole"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Fer",
+		"Tlh",
+		"Mop",
+		"Mor",
+		"Mot",
+		"See",
+		"Phu",
+		"Pha",
+		"Lwe",
+		"Dip",
+		"Ngw",
+		"Sed"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %-e %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

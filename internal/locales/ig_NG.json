@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"sọn",
-		"mọn",
-		"tuz",
-		"wen",
-		"tọs",
-		"fra",
-		"sat"
-	],
-	"abmon": [
-		"jen",
-		"feb",
-		"maa",
-		"epr",
-		"mee",
-		"juu",
-		"jul",
-		"ọgọ",
-		"sep",
-		"ọkt",
-		"nọv",
-		"dis"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%A, %d %B %Y %T %Z"
-	],
-	"day": [
+	"ID": "ig_NG",
+	"Days": [
 		"sọnde",
 		"mọnde",
 		"tuzde",
@@ -41,7 +9,16 @@
 		"fraịde",
 		"satọde"
 	],
-	"mon": [
+	"ShortDays": [
+		"sọn",
+		"mọn",
+		"tuz",
+		"wen",
+		"tọs",
+		"fra",
+		"sat"
+	],
+	"Months": [
 		"jenụwarị",
 		"febụrụwarị",
 		"maachị",
@@ -55,10 +32,26 @@
 		"nọvemba",
 		"disemba"
 	],
-	"t_fmt": [
-		"%r"
+	"ShortMonths": [
+		"jen",
+		"feb",
+		"maa",
+		"epr",
+		"mee",
+		"juu",
+		"jul",
+		"ọgọ",
+		"sep",
+		"ọkt",
+		"nọv",
+		"dis"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%A, %d %B %Y %T %Z",
+	"Time": "%r",
+	"TimeAMPM": "%I:%M:%S %p"
 }

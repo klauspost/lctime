@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"v",
-		"h",
-		"k",
-		"sze",
-		"cs",
-		"p",
-		"szo"
-	],
-	"abmon": [
-		"jan",
-		"febr",
-		"márc",
-		"ápr",
-		"máj",
-		"jún",
-		"júl",
-		"aug",
-		"szept",
-		"okt",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%Y-%m-%d"
-	],
-	"d_t_fmt": [
-		"%Y. %b. %e., %A, %H.%M.%S %Z"
-	],
-	"day": [
+	"ID": "hu_HU",
+	"Days": [
 		"vasárnap",
 		"hétfő",
 		"kedd",
@@ -41,7 +9,16 @@
 		"péntek",
 		"szombat"
 	],
-	"mon": [
+	"ShortDays": [
+		"v",
+		"h",
+		"k",
+		"sze",
+		"cs",
+		"p",
+		"szo"
+	],
+	"Months": [
 		"január",
 		"február",
 		"március",
@@ -55,10 +32,26 @@
 		"november",
 		"december"
 	],
-	"t_fmt": [
-		"%H.%M.%S"
+	"ShortMonths": [
+		"jan",
+		"febr",
+		"márc",
+		"ápr",
+		"máj",
+		"jún",
+		"júl",
+		"aug",
+		"szept",
+		"okt",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
-		"%H.%M.%S"
-	]
+	"AMPM": [
+		"",
+		""
+	],
+	"Date": "%Y-%m-%d",
+	"DateTime": "%Y. %b. %e., %A, %H.%M.%S %Z",
+	"Time": "%H.%M.%S",
+	"TimeAMPM": "%H.%M.%S"
 }

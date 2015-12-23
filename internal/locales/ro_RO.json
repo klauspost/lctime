@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Du",
-		"Lu",
-		"Ma",
-		"Mi",
-		"Jo",
-		"Vi",
-		"Sb"
-	],
-	"abmon": [
-		"ian",
-		"feb",
-		"mar",
-		"apr",
-		"mai",
-		"iun",
-		"iul",
-		"aug",
-		"sep",
-		"oct",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %z"
-	],
-	"day": [
+	"ID": "ro_RO",
+	"Days": [
 		"duminică",
 		"luni",
 		"marţi",
@@ -41,7 +9,16 @@
 		"vineri",
 		"sâmbătă"
 	],
-	"mon": [
+	"ShortDays": [
+		"Du",
+		"Lu",
+		"Ma",
+		"Mi",
+		"Jo",
+		"Vi",
+		"Sb"
+	],
+	"Months": [
 		"ianuarie",
 		"februarie",
 		"martie",
@@ -55,10 +32,26 @@
 		"noiembrie",
 		"decembrie"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"ian",
+		"feb",
+		"mar",
+		"apr",
+		"mai",
+		"iun",
+		"iul",
+		"aug",
+		"sep",
+		"oct",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T %z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

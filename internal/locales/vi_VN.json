@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"CN",
-		"T2",
-		"T3",
-		"T4",
-		"T5",
-		"T6",
-		"T7"
-	],
-	"abmon": [
-		"Th01",
-		"Th02",
-		"Th03",
-		"Th04",
-		"Th05",
-		"Th06",
-		"Th07",
-		"Th08",
-		"Th09",
-		"Th10",
-		"Th11",
-		"Th12"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%A, %d %B Năm %Y %T %Z"
-	],
-	"day": [
+	"ID": "vi_VN",
+	"Days": [
 		"Chủ nhật",
 		"Thứ hai",
 		"Thứ ba",
@@ -41,7 +9,16 @@
 		"Thứ sáu",
 		"Thứ bảy"
 	],
-	"mon": [
+	"ShortDays": [
+		"CN",
+		"T2",
+		"T3",
+		"T4",
+		"T5",
+		"T6",
+		"T7"
+	],
+	"Months": [
 		"Tháng một",
 		"Tháng hai",
 		"Tháng ba",
@@ -55,10 +32,26 @@
 		"Tháng mười một",
 		"Tháng mười hai"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Th01",
+		"Th02",
+		"Th03",
+		"Th04",
+		"Th05",
+		"Th06",
+		"Th07",
+		"Th08",
+		"Th09",
+		"Th10",
+		"Th11",
+		"Th12"
 	],
-	"t_fmt_ampm": [
-		"%I:%M %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%A, %d %B Năm %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": "%I:%M %p"
 }

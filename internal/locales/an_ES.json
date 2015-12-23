@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"dom",
-		"lun",
-		"mar",
-		"mie",
-		"chu",
-		"bie",
-		"sab"
-	],
-	"abmon": [
-		"chi",
-		"fre",
-		"mar",
-		"abr",
-		"may",
-		"chn",
-		"chl",
-		"ago",
-		"set",
-		"oct",
-		"nob",
-		"abi"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "an_ES",
+	"Days": [
 		"domingo",
 		"luns",
 		"martes",
@@ -41,7 +9,16 @@
 		"biernes",
 		"sabado"
 	],
-	"mon": [
+	"ShortDays": [
+		"dom",
+		"lun",
+		"mar",
+		"mie",
+		"chu",
+		"bie",
+		"sab"
+	],
+	"Months": [
 		"chinero",
 		"frebero",
 		"marzo",
@@ -55,10 +32,26 @@
 		"nobiembre",
 		"abiento"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"chi",
+		"fre",
+		"mar",
+		"abr",
+		"may",
+		"chn",
+		"chl",
+		"ago",
+		"set",
+		"oct",
+		"nob",
+		"abi"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

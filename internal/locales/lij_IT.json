@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"dom",
-		"lûn",
-		"mar",
-		"mer",
-		"zêu",
-		"ven",
-		"sab"
-	],
-	"abmon": [
-		"zen",
-		"fev",
-		"mar",
-		"arv",
-		"maz",
-		"zûg",
-		"lûg",
-		"ago",
-		"set",
-		"ött",
-		"nov",
-		"dix"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "lij_IT",
+	"Days": [
 		"domenega",
 		"lûnedì",
 		"martedì",
@@ -41,7 +9,16 @@
 		"venardì",
 		"sabbo"
 	],
-	"mon": [
+	"ShortDays": [
+		"dom",
+		"lûn",
+		"mar",
+		"mer",
+		"zêu",
+		"ven",
+		"sab"
+	],
+	"Months": [
 		"zenâ",
 		"fevrâ",
 		"marzo",
@@ -55,10 +32,26 @@
 		"novembre",
 		"dixembre"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"zen",
+		"fev",
+		"mar",
+		"arv",
+		"maz",
+		"zûg",
+		"lûg",
+		"ago",
+		"set",
+		"ött",
+		"nov",
+		"dix"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

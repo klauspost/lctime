@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Son",
-		"Mon",
-		"Die",
-		"Mit",
-		"Don",
-		"Fre",
-		"Sam"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mär",
-		"Apr",
-		"Mai",
-		"Jun",
-		"Jul",
-		"Aug",
-		"Sep",
-		"Okt",
-		"Nov",
-		"Dez"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "de_LI",
+	"Days": [
 		"Sonntag",
 		"Montag",
 		"Dienstag",
@@ -41,7 +9,16 @@
 		"Freitag",
 		"Samstag"
 	],
-	"mon": [
+	"ShortDays": [
+		"Son",
+		"Mon",
+		"Die",
+		"Mit",
+		"Don",
+		"Fre",
+		"Sam"
+	],
+	"Months": [
 		"Januar",
 		"Februar",
 		"März",
@@ -55,10 +32,26 @@
 		"November",
 		"Dezember"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mär",
+		"Apr",
+		"Mai",
+		"Jun",
+		"Jul",
+		"Aug",
+		"Sep",
+		"Okt",
+		"Nov",
+		"Dez"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

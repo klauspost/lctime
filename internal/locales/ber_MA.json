@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"baz",
-		"bir",
-		"iki",
-		"üçü",
-		"dör",
-		"beş",
-		"alt"
-	],
-	"abmon": [
-		"Yan",
-		"Fev",
-		"Mar",
-		"Apr",
-		"May",
-		"İyn",
-		"İyl",
-		"Avq",
-		"Sen",
-		"Okt",
-		"Noy",
-		"Dek"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%A, %d %B %Y %T"
-	],
-	"day": [
+	"ID": "ber_MA",
+	"Days": [
 		"bazar günü",
 		"birinci gün",
 		"ikinci gün",
@@ -41,7 +9,16 @@
 		"beşinci gün",
 		"altıncı gün"
 	],
-	"mon": [
+	"ShortDays": [
+		"baz",
+		"bir",
+		"iki",
+		"üçü",
+		"dör",
+		"beş",
+		"alt"
+	],
+	"Months": [
 		"yanvar",
 		"fevral",
 		"mart",
@@ -55,10 +32,26 @@
 		"noyabr",
 		"dekabr"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Yan",
+		"Fev",
+		"Mar",
+		"Apr",
+		"May",
+		"İyn",
+		"İyl",
+		"Avq",
+		"Sen",
+		"Okt",
+		"Noy",
+		"Dek"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%A, %d %B %Y %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

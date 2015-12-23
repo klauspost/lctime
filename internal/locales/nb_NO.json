@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"sø.",
-		"ma.",
-		"ti.",
-		"on.",
-		"to.",
-		"fr.",
-		"lø."
-	],
-	"abmon": [
-		"jan.",
-		"feb.",
-		"mars",
-		"april",
-		"mai",
-		"juni",
-		"juli",
-		"aug.",
-		"sep.",
-		"okt.",
-		"nov.",
-		"des."
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d. %b %Y"
-	],
-	"d_t_fmt": [
-		"%a %d. %b %Y kl. %H.%M %z"
-	],
-	"day": [
+	"ID": "nb_NO",
+	"Days": [
 		"søndag",
 		"mandag",
 		"tirsdag",
@@ -41,7 +9,16 @@
 		"fredag",
 		"lørdag"
 	],
-	"mon": [
+	"ShortDays": [
+		"sø.",
+		"ma.",
+		"ti.",
+		"on.",
+		"to.",
+		"fr.",
+		"lø."
+	],
+	"Months": [
 		"januar",
 		"februar",
 		"mars",
@@ -55,10 +32,26 @@
 		"november",
 		"desember"
 	],
-	"t_fmt": [
-		"kl. %H.%M %z"
+	"ShortMonths": [
+		"jan.",
+		"feb.",
+		"mars",
+		"april",
+		"mai",
+		"juni",
+		"juli",
+		"aug.",
+		"sep.",
+		"okt.",
+		"nov.",
+		"des."
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d. %b %Y",
+	"DateTime": "%a %d. %b %Y kl. %H.%M %z",
+	"Time": "kl. %H.%M %z",
+	"TimeAMPM": ""
 }

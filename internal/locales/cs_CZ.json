@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Ne",
-		"Po",
-		"Út",
-		"St",
-		"Čt",
-		"Pá",
-		"So"
-	],
-	"abmon": [
-		"led",
-		"úno",
-		"bře",
-		"dub",
-		"kvě",
-		"čen",
-		"čec",
-		"srp",
-		"zář",
-		"říj",
-		"lis",
-		"pro"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%-d.%-m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %-d. %B %Y, %H:%M:%S %Z"
-	],
-	"day": [
+	"ID": "cs_CZ",
+	"Days": [
 		"Neděle",
 		"Pondělí",
 		"Úterý",
@@ -41,7 +9,16 @@
 		"Pátek",
 		"Sobota"
 	],
-	"mon": [
+	"ShortDays": [
+		"Ne",
+		"Po",
+		"Út",
+		"St",
+		"Čt",
+		"Pá",
+		"So"
+	],
+	"Months": [
 		"leden",
 		"únor",
 		"březen",
@@ -55,10 +32,26 @@
 		"listopad",
 		"prosinec"
 	],
-	"t_fmt": [
-		"%H:%M:%S"
+	"ShortMonths": [
+		"led",
+		"úno",
+		"bře",
+		"dub",
+		"kvě",
+		"čen",
+		"čec",
+		"srp",
+		"zář",
+		"říj",
+		"lis",
+		"pro"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S"
-	]
+	"AMPM": [
+		"",
+		""
+	],
+	"Date": "%-d.%-m.%Y",
+	"DateTime": "%a %-d. %B %Y, %H:%M:%S %Z",
+	"Time": "%H:%M:%S",
+	"TimeAMPM": "%I:%M:%S"
 }

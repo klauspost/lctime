@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Yak",
-		"Du",
-		"Se",
-		"Cho",
-		"Pay",
-		"Ju",
-		"Sha"
-	],
-	"abmon": [
-		"Yan",
-		"Fev",
-		"Mar",
-		"Apr",
-		"May",
-		"Iyn",
-		"Iyl",
-		"Avg",
-		"Sen",
-		"Okt",
-		"Noy",
-		"Dek"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%T, %d %B, %Y yil, %A"
-	],
-	"day": [
+	"ID": "uz_UZ",
+	"Days": [
 		"Yakshanba",
 		"Dushanba",
 		"Seshanba",
@@ -41,7 +9,16 @@
 		"Juma",
 		"Shanba"
 	],
-	"mon": [
+	"ShortDays": [
+		"Yak",
+		"Du",
+		"Se",
+		"Cho",
+		"Pay",
+		"Ju",
+		"Sha"
+	],
+	"Months": [
 		"Yanvar",
 		"Fevral",
 		"Mart",
@@ -55,10 +32,26 @@
 		"Noyabr",
 		"Dekabr"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Yan",
+		"Fev",
+		"Mar",
+		"Apr",
+		"May",
+		"Iyn",
+		"Iyl",
+		"Avg",
+		"Sen",
+		"Okt",
+		"Noy",
+		"Dek"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%T, %d %B, %Y yil, %A",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sam",
-		"San",
-		"Mak",
-		"Row",
-		"Ham",
-		"Arb",
-		"Qid"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mar",
-		"Apr",
-		"May",
-		"Jun",
-		"Jul",
-		"Aug",
-		"Sep",
-		"Oct",
-		"Nov",
-		"Dec"
-	],
-	"am_pm": [
-		"soodo",
-		"hawwaro"
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%A, %B %e, %Y %r %Z"
-	],
-	"day": [
+	"ID": "sid_ET",
+	"Days": [
 		"Sambata",
 		"Sanyo",
 		"Maakisanyo",
@@ -41,7 +9,16 @@
 		"Arbe",
 		"Qidaame"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sam",
+		"San",
+		"Mak",
+		"Row",
+		"Ham",
+		"Arb",
+		"Qid"
+	],
+	"Months": [
 		"January",
 		"February",
 		"March",
@@ -55,10 +32,26 @@
 		"November",
 		"December"
 	],
-	"t_fmt": [
-		"%I:%M:%S"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apr",
+		"May",
+		"Jun",
+		"Jul",
+		"Aug",
+		"Sep",
+		"Oct",
+		"Nov",
+		"Dec"
 	],
-	"t_fmt_ampm": [
-		"%X %p"
-	]
+	"AMPM": [
+		"soodo",
+		"hawwaro"
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%A, %B %e, %Y %r %Z",
+	"Time": "%I:%M:%S",
+	"TimeAMPM": "%X %p"
 }

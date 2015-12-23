@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"ned",
-		"pon",
-		"tor",
-		"sre",
-		"čet",
-		"pet",
-		"sob"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mar",
-		"apr",
-		"maj",
-		"jun",
-		"jul",
-		"avg",
-		"sep",
-		"okt",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d. %m. %Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "sl_SI",
+	"Days": [
 		"nedelja",
 		"ponedeljek",
 		"torek",
@@ -41,7 +9,16 @@
 		"petek",
 		"sobota"
 	],
-	"mon": [
+	"ShortDays": [
+		"ned",
+		"pon",
+		"tor",
+		"sre",
+		"čet",
+		"pet",
+		"sob"
+	],
+	"Months": [
 		"januar",
 		"februar",
 		"marec",
@@ -55,10 +32,26 @@
 		"november",
 		"december"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"maj",
+		"jun",
+		"jul",
+		"avg",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d. %m. %Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

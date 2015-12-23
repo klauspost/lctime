@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sk",
-		"Pr",
-		"An",
-		"Tr",
-		"Kt",
-		"Pn",
-		"Št"
-	],
-	"abmon": [
-		"Sau",
-		"Vas",
-		"Kov",
-		"Bal",
-		"Geg",
-		"Bir",
-		"Lie",
-		"Rgp",
-		"Rgs",
-		"Spa",
-		"Lap",
-		"Grd"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%Y.%m.%d"
-	],
-	"d_t_fmt": [
-		"%Y m. %B %d d. %T"
-	],
-	"day": [
+	"ID": "lt_LT",
+	"Days": [
 		"Sekmadienis",
 		"Pirmadienis",
 		"Antradienis",
@@ -41,7 +9,16 @@
 		"Penktadienis",
 		"Šeštadienis"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sk",
+		"Pr",
+		"An",
+		"Tr",
+		"Kt",
+		"Pn",
+		"Št"
+	],
+	"Months": [
 		"sausio",
 		"vasario",
 		"kovo",
@@ -55,10 +32,26 @@
 		"lapkričio",
 		"gruodžio"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Sau",
+		"Vas",
+		"Kov",
+		"Bal",
+		"Geg",
+		"Bir",
+		"Lie",
+		"Rgp",
+		"Rgs",
+		"Spa",
+		"Lap",
+		"Grd"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%Y.%m.%d",
+	"DateTime": "%Y m. %B %d d. %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

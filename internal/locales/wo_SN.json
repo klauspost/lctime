@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"dib",
-		"alt",
-		"tal",
-		"all",
-		"alx",
-		"ajj",
-		"gaa"
-	],
-	"abmon": [
-		"san",
-		"fee",
-		"mar",
-		"awr",
-		"me",
-		"suw",
-		"sul",
-		"uut",
-		"sep",
-		"okt",
-		"now",
-		"des"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "wo_SN",
+	"Days": [
 		"dib'eer",
 		"altine",
 		"talaata",
@@ -41,7 +9,16 @@
 		"ajjuma",
 		"gaawu"
 	],
-	"mon": [
+	"ShortDays": [
+		"dib",
+		"alt",
+		"tal",
+		"all",
+		"alx",
+		"ajj",
+		"gaa"
+	],
+	"Months": [
 		"sanwiy'e",
 		"feebriy'e",
 		"mars",
@@ -55,10 +32,26 @@
 		"nowaambar",
 		"desaambar"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"san",
+		"fee",
+		"mar",
+		"awr",
+		"me",
+		"suw",
+		"sul",
+		"uut",
+		"sep",
+		"okt",
+		"now",
+		"des"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

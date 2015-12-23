@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sun",
-		"Mon",
-		"Tue",
-		"Wed",
-		"Thu",
-		"Fri",
-		"Sat"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mar",
-		"Apr",
-		"May",
-		"Jun",
-		"Jul",
-		"Aug",
-		"Sep",
-		"Oct",
-		"Nov",
-		"Dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%A %e %B %Y"
-	],
-	"d_t_fmt": [
-		"%A %e %B %Y %k:%M:%S"
-	],
-	"day": [
+	"ID": "ar_SA",
+	"Days": [
 		"الأحد",
 		"الإثنين",
 		"الثلاثاء",
@@ -41,7 +9,16 @@
 		"الجمعـة",
 		"السبت"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sun",
+		"Mon",
+		"Tue",
+		"Wed",
+		"Thu",
+		"Fri",
+		"Sat"
+	],
+	"Months": [
 		"كانون الثاني",
 		"شباط",
 		"آذار",
@@ -55,10 +32,26 @@
 		"تشرين الثاني",
 		"كانون الأول"
 	],
-	"t_fmt": [
-		"%k:%M:%S"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apr",
+		"May",
+		"Jun",
+		"Jul",
+		"Aug",
+		"Sep",
+		"Oct",
+		"Nov",
+		"Dec"
 	],
-	"t_fmt_ampm": [
-		"%k:%M:%S"
-	]
+	"AMPM": [
+		"",
+		""
+	],
+	"Date": "%A %e %B %Y",
+	"DateTime": "%A %e %B %Y %k:%M:%S",
+	"Time": "%k:%M:%S",
+	"TimeAMPM": "%k:%M:%S"
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sn",
-		"Mo",
-		"Ti",
-		"Wo",
-		"To",
-		"Fr",
-		"Sn"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Maa",
-		"Apr",
-		"Maa",
-		"Jun",
-		"Jul",
-		"Aug",
-		"Sep",
-		"Okt",
-		"Nov",
-		"Des"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d-%m-%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "fy_NL",
+	"Days": [
 		"Snein",
 		"Moandei",
 		"Tiisdei",
@@ -41,7 +9,16 @@
 		"Freed",
 		"Sneon"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sn",
+		"Mo",
+		"Ti",
+		"Wo",
+		"To",
+		"Fr",
+		"Sn"
+	],
+	"Months": [
 		"Janaris",
 		"Febrewaris",
 		"Maart",
@@ -55,10 +32,26 @@
 		"Novimber",
 		"Desimber"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Maa",
+		"Apr",
+		"Maa",
+		"Jun",
+		"Jul",
+		"Aug",
+		"Sep",
+		"Okt",
+		"Nov",
+		"Des"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d-%m-%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sun",
-		"Män",
-		"Zis",
-		"Mit",
-		"Fro",
-		"Fri",
-		"Sam"
-	],
-	"abmon": [
-		"Jen",
-		"Hor",
-		"Mär",
-		"Abr",
-		"Mei",
-		"Brá",
-		"Hei",
-		"Öig",
-		"Her",
-		"Wím",
-		"Win",
-		"Chr"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%Y-%m-%d"
-	],
-	"d_t_fmt": [
-		"%a %d. %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "wae_CH",
+	"Days": [
 		"Suntag",
 		"Mäntag",
 		"Zischtag",
@@ -41,7 +9,16 @@
 		"Fritag",
 		"Samschtag"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sun",
+		"Män",
+		"Zis",
+		"Mit",
+		"Fro",
+		"Fri",
+		"Sam"
+	],
+	"Months": [
 		"Jener",
 		"Hornig",
 		"Märze",
@@ -55,10 +32,26 @@
 		"Wintermánet",
 		"Chrischtmánet"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jen",
+		"Hor",
+		"Mär",
+		"Abr",
+		"Mei",
+		"Brá",
+		"Hei",
+		"Öig",
+		"Her",
+		"Wím",
+		"Win",
+		"Chr"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%Y-%m-%d",
+	"DateTime": "%a %d. %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"ig.",
-		"al.",
-		"ar.",
-		"az.",
-		"og.",
-		"or.",
-		"lr."
-	],
-	"abmon": [
-		"urt",
-		"ots",
-		"mar",
-		"api",
-		"mai",
-		"eka",
-		"uzt",
-		"abu",
-		"ira",
-		"urr",
-		"aza",
-		"abe"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%a, %Y.eko %bren %da"
-	],
-	"d_t_fmt": [
-		"%y-%m-%d %T %Z"
-	],
-	"day": [
+	"ID": "eu_ES",
+	"Days": [
 		"igandea",
 		"astelehena",
 		"asteartea",
@@ -41,7 +9,16 @@
 		"ostirala",
 		"larunbata"
 	],
-	"mon": [
+	"ShortDays": [
+		"ig.",
+		"al.",
+		"ar.",
+		"az.",
+		"og.",
+		"or.",
+		"lr."
+	],
+	"Months": [
 		"urtarrila",
 		"otsaila",
 		"martxoa",
@@ -55,10 +32,26 @@
 		"azaroa",
 		"abendua"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"urt",
+		"ots",
+		"mar",
+		"api",
+		"mai",
+		"eka",
+		"uzt",
+		"abu",
+		"ira",
+		"urr",
+		"aza",
+		"abe"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%a, %Y.eko %bren %da",
+	"DateTime": "%y-%m-%d %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

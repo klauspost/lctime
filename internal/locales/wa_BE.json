@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"dim",
-		"lon",
-		"mår",
-		"mie",
-		"dju",
-		"vén",
-		"sem"
-	],
-	"abmon": [
-		"dja",
-		"fev",
-		"mås",
-		"avr",
-		"may",
-		"djn",
-		"djl",
-		"awo",
-		"set",
-		"oct",
-		"nôv",
-		"dec"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"Li %A %d di %B %Y %T %Z"
-	],
-	"day": [
+	"ID": "wa_BE",
+	"Days": [
 		"dimegne",
 		"londi",
 		"mårdi",
@@ -41,7 +9,16 @@
 		"vénrdi",
 		"semdi"
 	],
-	"mon": [
+	"ShortDays": [
+		"dim",
+		"lon",
+		"mår",
+		"mie",
+		"dju",
+		"vén",
+		"sem"
+	],
+	"Months": [
 		"djanvî",
 		"fevrî",
 		"måss",
@@ -55,10 +32,26 @@
 		"nôvimbe",
 		"decimbe"
 	],
-	"t_fmt": [
-		"%H:%M:%S"
+	"ShortMonths": [
+		"dja",
+		"fev",
+		"mås",
+		"avr",
+		"may",
+		"djn",
+		"djl",
+		"awo",
+		"set",
+		"oct",
+		"nôv",
+		"dec"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "Li %A %d di %B %Y %T %Z",
+	"Time": "%H:%M:%S",
+	"TimeAMPM": "%I:%M:%S %p"
 }

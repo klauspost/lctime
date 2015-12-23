@@ -67,14 +67,28 @@ import (
 	"github.com/variadico/lctime/internal/locales"
 )
 
+type localeData struct {
+	ID string
+
+	Days        []string
+	ShortDays   []string
+	Months      []string
+	ShortMonths []string
+	AMPM        []string
+
+	Date     string
+	DateTime string
+	Time     string
+	TimeAMPM string
+}
+
 var (
 	// ErrNoLocale is returned when a given locale was not found.
 	ErrNoLocale = errors.New("Locale not found")
 	// ErrCorruptLocale is returned if a given locale file is corrupted.
 	ErrCorruptLocale = errors.New("Corrupted locale")
 
-	localeName string
-	localeData map[string][]string
+	lc localeData
 )
 
 func init() {
@@ -85,39 +99,36 @@ func init() {
 		"en_US",
 	}
 
-	for _, lc := range vars {
-		if lc != "" {
-			SetLocale(lc)
+	for _, v := range vars {
+		if v != "" {
+			SetLocale(v)
 			break
 		}
 	}
 }
 
 // SetLocale activates the given locale.
-func SetLocale(lc string) error {
+func SetLocale(id string) error {
 	// trim off ".UTF-8" suffix. All locales are UTF-8.
-	lc = strings.Split(lc, ".")[0]
+	id = strings.Split(id, ".")[0]
 
-	bys, err := locale.Asset(lc + ".json")
+	bys, err := locale.Asset(id + ".json")
 	if err != nil {
-		localeName = ""
-		localeData = make(map[string][]string)
+		lc = localeData{}
 		return ErrNoLocale
 	}
 
-	if err = json.Unmarshal(bys, &localeData); err != nil {
-		localeName = ""
-		localeData = make(map[string][]string)
+	if err = json.Unmarshal(bys, &lc); err != nil {
+		lc = localeData{}
 		return ErrCorruptLocale
 	}
 
-	localeName = lc
 	return nil
 }
 
 // GetLocale returns the currently active locale.
 func GetLocale() string {
-	return localeName
+	return lc.ID
 }
 
 // GetLocales returns a slice of available locales.
@@ -125,8 +136,8 @@ func GetLocales() []string {
 	lcs := locale.AssetNames()
 
 	names := make([]string, 0, len(lcs))
-	for _, lc := range lcs {
-		names = append(names, strings.TrimSuffix(lc, filepath.Ext(lc)))
+	for _, l := range lcs {
+		names = append(names, strings.TrimSuffix(l, filepath.Ext(l)))
 	}
 
 	return names

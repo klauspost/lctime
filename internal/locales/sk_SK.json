@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Ne",
-		"Po",
-		"Ut",
-		"St",
-		"Št",
-		"Pi",
-		"So"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mar",
-		"apr",
-		"máj",
-		"jún",
-		"júl",
-		"aug",
-		"sep",
-		"okt",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %e. %B %Y, %H:%M:%S %Z"
-	],
-	"day": [
+	"ID": "sk_SK",
+	"Days": [
 		"Nedeľa",
 		"Pondelok",
 		"Utorok",
@@ -41,7 +9,16 @@
 		"Piatok",
 		"Sobota"
 	],
-	"mon": [
+	"ShortDays": [
+		"Ne",
+		"Po",
+		"Ut",
+		"St",
+		"Št",
+		"Pi",
+		"So"
+	],
+	"Months": [
 		"január",
 		"február",
 		"marec",
@@ -55,10 +32,26 @@
 		"november",
 		"december"
 	],
-	"t_fmt": [
-		"%H:%M:%S"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"máj",
+		"jún",
+		"júl",
+		"aug",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S"
-	]
+	"AMPM": [
+		"",
+		""
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %e. %B %Y, %H:%M:%S %Z",
+	"Time": "%H:%M:%S",
+	"TimeAMPM": "%I:%M:%S"
 }

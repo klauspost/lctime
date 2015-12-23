@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Sxe",
-		"Spe",
-		"Sel",
-		"Ske",
-		"Sme",
-		"Sts",
-		"Stq"
-	],
-	"abmon": [
-		"Kwe",
-		"Tsi",
-		"Sqe",
-		"Éwt",
-		"Ell",
-		"Tsp",
-		"Tqw",
-		"Ct̓é",
-		"Qel",
-		"Wél",
-		"U7l",
-		"Tet"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %r %Z"
-	],
-	"day": [
+	"ID": "shs_CA",
+	"Days": [
 		"Sxetspesq̓t",
 		"Spetkesq̓t",
 		"Selesq̓t",
@@ -41,7 +9,16 @@
 		"Stselkstesq̓t",
 		"Stqmekstesq̓t"
 	],
-	"mon": [
+	"ShortDays": [
+		"Sxe",
+		"Spe",
+		"Sel",
+		"Ske",
+		"Sme",
+		"Sts",
+		"Stq"
+	],
+	"Months": [
 		"Pellkwet̓min",
 		"Pelctsipwen̓ten",
 		"Pellsqépts",
@@ -55,10 +32,26 @@
 		"Pellc7ell7é7llcwten̓",
 		"Pelltetétq̓em"
 	],
-	"t_fmt": [
-		"%r"
+	"ShortMonths": [
+		"Kwe",
+		"Tsi",
+		"Sqe",
+		"Éwt",
+		"Ell",
+		"Tsp",
+		"Tqw",
+		"Ct̓é",
+		"Qel",
+		"Wél",
+		"U7l",
+		"Tet"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %r %Z",
+	"Time": "%r",
+	"TimeAMPM": "%I:%M:%S %p"
 }

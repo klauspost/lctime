@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Ned",
-		"Pon",
-		"Uto",
-		"Sri",
-		"Čet",
-		"Pet",
-		"Sub"
-	],
-	"abmon": [
-		"Sij",
-		"Vel",
-		"Ožu",
-		"Tra",
-		"Svi",
-		"Lip",
-		"Srp",
-		"Kol",
-		"Ruj",
-		"Lis",
-		"Stu",
-		"Pro"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T"
-	],
-	"day": [
+	"ID": "hr_HR",
+	"Days": [
 		"Nedjelja",
 		"Ponedjeljak",
 		"Utorak",
@@ -41,7 +9,16 @@
 		"Petak",
 		"Subota"
 	],
-	"mon": [
+	"ShortDays": [
+		"Ned",
+		"Pon",
+		"Uto",
+		"Sri",
+		"Čet",
+		"Pet",
+		"Sub"
+	],
+	"Months": [
 		"Siječanj",
 		"Veljača",
 		"Ožujak",
@@ -55,10 +32,26 @@
 		"Studeni",
 		"Prosinac"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Sij",
+		"Vel",
+		"Ožu",
+		"Tra",
+		"Svi",
+		"Lip",
+		"Srp",
+		"Kol",
+		"Ruj",
+		"Lis",
+		"Stu",
+		"Pro"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

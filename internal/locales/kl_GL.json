@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"sab",
-		"ata",
-		"mar",
-		"pin",
-		"sis",
-		"tal",
-		"arf"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mar",
-		"apr",
-		"maj",
-		"jun",
-		"jul",
-		"aug",
-		"sep",
-		"okt",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d %b %Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "kl_GL",
+	"Days": [
 		"sabaat",
 		"ataasinngorneq",
 		"marlunngorneq",
@@ -41,7 +9,16 @@
 		"tallimanngorneq",
 		"arfininngorneq"
 	],
-	"mon": [
+	"ShortDays": [
+		"sab",
+		"ata",
+		"mar",
+		"pin",
+		"sis",
+		"tal",
+		"arf"
+	],
+	"Months": [
 		"januari",
 		"februari",
 		"martsi",
@@ -55,10 +32,26 @@
 		"novemberi",
 		"decemberi"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"maj",
+		"jun",
+		"jul",
+		"aug",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d %b %Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

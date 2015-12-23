@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Paz",
-		"Pzt",
-		"Sal",
-		"Çrş",
-		"Prş",
-		"Cum",
-		"Cts"
-	],
-	"abmon": [
-		"Oca",
-		"Şub",
-		"Mar",
-		"Nis",
-		"May",
-		"Haz",
-		"Tem",
-		"Ağu",
-		"Eyl",
-		"Eki",
-		"Kas",
-		"Ara"
-	],
-	"am_pm": [
-		"ÖÖ",
-		"ÖS"
-	],
-	"d_fmt": [
-		"%d-%m-%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "tr_TR",
+	"Days": [
 		"Pazar",
 		"Pazartesi",
 		"Salı",
@@ -41,7 +9,16 @@
 		"Cuma",
 		"Cumartesi"
 	],
-	"mon": [
+	"ShortDays": [
+		"Paz",
+		"Pzt",
+		"Sal",
+		"Çrş",
+		"Prş",
+		"Cum",
+		"Cts"
+	],
+	"Months": [
 		"Ocak",
 		"Şubat",
 		"Mart",
@@ -55,10 +32,26 @@
 		"Kasım",
 		"Aralık"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Oca",
+		"Şub",
+		"Mar",
+		"Nis",
+		"May",
+		"Haz",
+		"Tem",
+		"Ağu",
+		"Eyl",
+		"Eki",
+		"Kas",
+		"Ara"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"ÖÖ",
+		"ÖS"
+	],
+	"Date": "%d-%m-%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": "%I:%M:%S %p"
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Lah",
-		"Lit",
-		"Tal",
-		"Lar",
-		"Alh",
-		"Jum",
-		"Asa"
-	],
-	"abmon": [
-		"Jan",
-		"Fab",
-		"Mar",
-		"Afr",
-		"May",
-		"Yun",
-		"Yul",
-		"Agu",
-		"Sat",
-		"Okt",
-		"Nuw",
-		"Dis"
-	],
-	"am_pm": [
-		"AM",
-		"PM"
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"ranar %A, %d ga %B cikin %r %Z"
-	],
-	"day": [
+	"ID": "ha_NG",
+	"Days": [
 		"Lahadi",
 		"Litini",
 		"Talata",
@@ -41,7 +9,16 @@
 		"Juma'a",
 		"Asabar"
 	],
-	"mon": [
+	"ShortDays": [
+		"Lah",
+		"Lit",
+		"Tal",
+		"Lar",
+		"Alh",
+		"Jum",
+		"Asa"
+	],
+	"Months": [
 		"Janairu",
 		"Fabrairu",
 		"Maris",
@@ -55,10 +32,26 @@
 		"Nuwamba",
 		"Disamba"
 	],
-	"t_fmt": [
-		"%r"
+	"ShortMonths": [
+		"Jan",
+		"Fab",
+		"Mar",
+		"Afr",
+		"May",
+		"Yun",
+		"Yul",
+		"Agu",
+		"Sat",
+		"Okt",
+		"Nuw",
+		"Dis"
 	],
-	"t_fmt_ampm": [
-		"%I:%M:%S %p"
-	]
+	"AMPM": [
+		"AM",
+		"PM"
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "ranar %A, %d ga %B cikin %r %Z",
+	"Time": "%r",
+	"TimeAMPM": "%I:%M:%S %p"
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Yş",
-		"Dş",
-		"Sş",
-		"Çş",
-		"Pş",
-		"În",
-		"Ş"
-	],
-	"abmon": [
-		"Çil",
-		"Sib",
-		"Ada",
-		"Nîs",
-		"Gul",
-		"Hez",
-		"Tîr",
-		"Teb",
-		"Îlo",
-		"Cot",
-		"Mij",
-		"Kan"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%A %d %B %Y %T %Z"
-	],
-	"day": [
+	"ID": "ku_TR",
+	"Days": [
 		"Yekşem",
 		"Duşem",
 		"Sêşem",
@@ -41,7 +9,16 @@
 		"În",
 		"Şemî"
 	],
-	"mon": [
+	"ShortDays": [
+		"Yş",
+		"Dş",
+		"Sş",
+		"Çş",
+		"Pş",
+		"În",
+		"Ş"
+	],
+	"Months": [
 		"çile",
 		"sibat",
 		"adar",
@@ -55,10 +32,26 @@
 		"mijdar",
 		"kanûn"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Çil",
+		"Sib",
+		"Ada",
+		"Nîs",
+		"Gul",
+		"Hez",
+		"Tîr",
+		"Teb",
+		"Îlo",
+		"Cot",
+		"Mij",
+		"Kan"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%A %d %B %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

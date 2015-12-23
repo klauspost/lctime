@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"So",
-		"Mé",
-		"Dë",
-		"Më",
-		"Do",
-		"Fr",
-		"Sa"
-	],
-	"abmon": [
-		"Jan",
-		"Feb",
-		"Mäe",
-		"Abr",
-		"Mee",
-		"Jun",
-		"Jul",
-		"Aug",
-		"Sep",
-		"Okt",
-		"Nov",
-		"Dez"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d. %b %Y %T"
-	],
-	"day": [
+	"ID": "lb_LU",
+	"Days": [
 		"Sonndeg",
 		"Méindeg",
 		"Dënschdeg",
@@ -41,7 +9,16 @@
 		"Freideg",
 		"Samschdeg"
 	],
-	"mon": [
+	"ShortDays": [
+		"So",
+		"Mé",
+		"Dë",
+		"Më",
+		"Do",
+		"Fr",
+		"Sa"
+	],
+	"Months": [
 		"Januar",
 		"Februar",
 		"Mäerz",
@@ -55,10 +32,26 @@
 		"November",
 		"Dezember"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Feb",
+		"Mäe",
+		"Abr",
+		"Mee",
+		"Jun",
+		"Jul",
+		"Aug",
+		"Sep",
+		"Okt",
+		"Nov",
+		"Dez"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d. %b %Y %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"sun",
-		"mán",
-		"þri",
-		"mið",
-		"fim",
-		"fös",
-		"lau"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mar",
-		"apr",
-		"maí",
-		"jún",
-		"júl",
-		"ágú",
-		"sep",
-		"okt",
-		"nóv",
-		"des"
-	],
-	"am_pm": [
-		"fh",
-		"eh"
-	],
-	"d_fmt": [
-		"%a %e.%b %Y"
-	],
-	"d_t_fmt": [
-		"%a %e.%b %Y, %T %Z"
-	],
-	"day": [
+	"ID": "is_IS",
+	"Days": [
 		"sunnudagur",
 		"mánudagur",
 		"þriðjudagur",
@@ -41,7 +9,16 @@
 		"föstudagur",
 		"laugardagur"
 	],
-	"mon": [
+	"ShortDays": [
+		"sun",
+		"mán",
+		"þri",
+		"mið",
+		"fim",
+		"fös",
+		"lau"
+	],
+	"Months": [
 		"janúar",
 		"febrúar",
 		"mars",
@@ -55,10 +32,26 @@
 		"nóvember",
 		"desember"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"maí",
+		"jún",
+		"júl",
+		"ágú",
+		"sep",
+		"okt",
+		"nóv",
+		"des"
 	],
-	"t_fmt_ampm": [
-		""
-	]
+	"AMPM": [
+		"fh",
+		"eh"
+	],
+	"Date": "%a %e.%b %Y",
+	"DateTime": "%a %e.%b %Y, %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Swo",
-		"Mus",
-		"Vhi",
-		"Rar",
-		"ṋa",
-		"Ṱan",
-		"Mug"
-	],
-	"abmon": [
-		"Pha",
-		"Luh",
-		"Fam",
-		"Lam",
-		"Shu",
-		"Lwi",
-		"Lwa",
-		"Ngu",
-		"Khu",
-		"Tsh",
-		"Ḽar",
-		"Nye"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "ve_ZA",
+	"Days": [
 		"Swondaha",
 		"Musumbuluwo",
 		"Ḽavhuvhili",
@@ -41,7 +9,16 @@
 		"Ḽavhuṱanu",
 		"Mugivhela"
 	],
-	"mon": [
+	"ShortDays": [
+		"Swo",
+		"Mus",
+		"Vhi",
+		"Rar",
+		"ṋa",
+		"Ṱan",
+		"Mug"
+	],
+	"Months": [
 		"Phando",
 		"Luhuhi",
 		"Ṱhafamuhwe",
@@ -55,10 +32,26 @@
 		"Ḽara",
 		"Nyendavhusiku"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Pha",
+		"Luh",
+		"Fam",
+		"Lam",
+		"Shu",
+		"Lwi",
+		"Lwa",
+		"Ngu",
+		"Khu",
+		"Tsh",
+		"Ḽar",
+		"Nye"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

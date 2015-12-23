@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Duş",
-		"Siş",
-		"Çar",
-		"Pen",
-		"Ann",
-		"Şen",
-		"Ýek"
-	],
-	"abmon": [
-		"Ýan",
-		"Few",
-		"Mar",
-		"Apr",
-		"Maý",
-		"Iýn",
-		"Iýl",
-		"Awg",
-		"Sen",
-		"Okt",
-		"Noý",
-		"Dek"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%d.%m.%Y %T"
-	],
-	"day": [
+	"ID": "tk_TM",
+	"Days": [
 		"Duşenbe",
 		"Sişenbe",
 		"Çarşenbe",
@@ -41,7 +9,16 @@
 		"Şenbe",
 		"Ýekşenbe"
 	],
-	"mon": [
+	"ShortDays": [
+		"Duş",
+		"Siş",
+		"Çar",
+		"Pen",
+		"Ann",
+		"Şen",
+		"Ýek"
+	],
+	"Months": [
 		"Ýanwar",
 		"Fewral",
 		"Mart",
@@ -55,10 +32,26 @@
 		"Noýabr",
 		"Dekabr"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Ýan",
+		"Few",
+		"Mar",
+		"Apr",
+		"Maý",
+		"Iýn",
+		"Iýl",
+		"Awg",
+		"Sen",
+		"Okt",
+		"Noý",
+		"Dek"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%d.%m.%Y %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"nie",
-		"pòn",
-		"wtó",
-		"str",
-		"czw",
-		"pią",
-		"sob"
-	],
-	"abmon": [
-		"stë",
-		"gro",
-		"stm",
-		"łżë",
-		"môj",
-		"cze",
-		"lëp",
-		"zél",
-		"séw",
-		"ruj",
-		"lës",
-		"gòd"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%Y-%m-%d"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "csb_PL",
+	"Days": [
 		"niedzela",
 		"pòniedzôłk",
 		"wtórk",
@@ -41,7 +9,16 @@
 		"piątk",
 		"sobòta"
 	],
-	"mon": [
+	"ShortDays": [
+		"nie",
+		"pòn",
+		"wtó",
+		"str",
+		"czw",
+		"pią",
+		"sob"
+	],
+	"Months": [
 		"stëcznik",
 		"gromicznik",
 		"strumiannik",
@@ -55,10 +32,26 @@
 		"lëstopadnik",
 		"gòdnik"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"stë",
+		"gro",
+		"stm",
+		"łżë",
+		"môj",
+		"cze",
+		"lëp",
+		"zél",
+		"séw",
+		"ruj",
+		"lës",
+		"gòd"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%Y-%m-%d",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

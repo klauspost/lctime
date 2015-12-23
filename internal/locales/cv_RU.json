@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"vr",
-		"tn",
-		"yt",
-		"jn",
-		"kş",
-		"er",
-		"šm"
-	],
-	"abmon": [
-		"KĂR",
-		"NAR",
-		"PUŠ",
-		"AKA",
-		"ŞU",
-		"ŞĔR",
-		"UTĂ",
-		"ŞUR",
-		"AVĂ",
-		"JUP",
-		"CÜK",
-		"RAŠ"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T"
-	],
-	"day": [
+	"ID": "cv_RU",
+	"Days": [
 		"vyrsarnikun",
 		"tuntikun",
 		"ytlarikun",
@@ -41,7 +9,16 @@
 		"ernekun",
 		"šămatkun"
 	],
-	"mon": [
+	"ShortDays": [
+		"vr",
+		"tn",
+		"yt",
+		"jn",
+		"kş",
+		"er",
+		"šm"
+	],
+	"Months": [
 		"kărlac",
 		"narăs",
 		"puš",
@@ -55,10 +32,26 @@
 		"cük",
 		"raštav"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"KĂR",
+		"NAR",
+		"PUŠ",
+		"AKA",
+		"ŞU",
+		"ŞĔR",
+		"UTĂ",
+		"ŞUR",
+		"AVĂ",
+		"JUP",
+		"CÜK",
+		"RAŠ"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

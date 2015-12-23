@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"P",
-		"E",
-		"T",
-		"K",
-		"N",
-		"R",
-		"L"
-	],
-	"abmon": [
-		"jaan",
-		"veebr",
-		"märts",
-		"apr",
-		"mai",
-		"juuni",
-		"juuli",
-		"aug",
-		"sept",
-		"okt",
-		"nov",
-		"dets"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "et_EE",
+	"Days": [
 		"pühapäev",
 		"esmaspäev",
 		"teisipäev",
@@ -41,7 +9,16 @@
 		"reede",
 		"laupäev"
 	],
-	"mon": [
+	"ShortDays": [
+		"P",
+		"E",
+		"T",
+		"K",
+		"N",
+		"R",
+		"L"
+	],
+	"Months": [
 		"jaanuar",
 		"veebruar",
 		"märts",
@@ -55,10 +32,26 @@
 		"november",
 		"detsember"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"jaan",
+		"veebr",
+		"märts",
+		"apr",
+		"mai",
+		"juuni",
+		"juuli",
+		"aug",
+		"sept",
+		"okt",
+		"nov",
+		"dets"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d.%m.%Y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

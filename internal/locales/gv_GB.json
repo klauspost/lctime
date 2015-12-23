@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Jed",
-		"Jel",
-		"Jem",
-		"Jerc",
-		"Jerd",
-		"Jeh",
-		"Jes"
-	],
-	"abmon": [
-		"J-guer",
-		"T-arree",
-		"Mayrnt",
-		"Avrril",
-		"Boaldyn",
-		"M-souree",
-		"J-souree",
-		"Luanistyn",
-		"M-fouyir",
-		"J-fouyir",
-		"M.Houney",
-		"M.Nollick"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "gv_GB",
+	"Days": [
 		"Jedoonee",
 		"Jelhein",
 		"Jemayrt",
@@ -41,7 +9,16 @@
 		"Jeheiney",
 		"Jesarn"
 	],
-	"mon": [
+	"ShortDays": [
+		"Jed",
+		"Jel",
+		"Jem",
+		"Jerc",
+		"Jerd",
+		"Jeh",
+		"Jes"
+	],
+	"Months": [
 		"Jerrey-geuree",
 		"Toshiaght-arree",
 		"Mayrnt",
@@ -55,10 +32,26 @@
 		"Mee Houney",
 		"Mee ny Nollick"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"J-guer",
+		"T-arree",
+		"Mayrnt",
+		"Avrril",
+		"Boaldyn",
+		"M-souree",
+		"J-souree",
+		"Luanistyn",
+		"M-fouyir",
+		"J-fouyir",
+		"M.Houney",
+		"M.Nollick"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

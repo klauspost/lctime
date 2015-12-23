@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"sotn",
-		"vuos",
-		"maŋ",
-		"gask",
-		"duor",
-		"bear",
-		"láv"
-	],
-	"abmon": [
-		"ođđj",
-		"guov",
-		"njuk",
-		"cuoŋ",
-		"mies",
-		"geas",
-		"suoi",
-		"borg",
-		"čakč",
-		"golg",
-		"skáb",
-		"juov"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%Y-%m-%d"
-	],
-	"d_t_fmt": [
-		"%a, %b %e. b. %Y %T %Z"
-	],
-	"day": [
+	"ID": "se_NO",
+	"Days": [
 		"sotnabeaivi",
 		"vuossárga",
 		"maŋŋebarga",
@@ -41,7 +9,16 @@
 		"bearjadat",
 		"lávvardat"
 	],
-	"mon": [
+	"ShortDays": [
+		"sotn",
+		"vuos",
+		"maŋ",
+		"gask",
+		"duor",
+		"bear",
+		"láv"
+	],
+	"Months": [
 		"ođđajagemánu",
 		"guovvamánu",
 		"njukčamánu",
@@ -55,10 +32,26 @@
 		"skábmamánu",
 		"juovlamánu"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"ođđj",
+		"guov",
+		"njuk",
+		"cuoŋ",
+		"mies",
+		"geas",
+		"suoi",
+		"borg",
+		"čakč",
+		"golg",
+		"skáb",
+		"juov"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%Y-%m-%d",
+	"DateTime": "%a, %b %e. b. %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

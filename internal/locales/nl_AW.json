@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"zo",
-		"ma",
-		"di",
-		"wo",
-		"do",
-		"vr",
-		"za"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mrt",
-		"apr",
-		"mei",
-		"jun",
-		"jul",
-		"aug",
-		"sep",
-		"okt",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d-%m-%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "nl_AW",
+	"Days": [
 		"zondag",
 		"maandag",
 		"dinsdag",
@@ -41,7 +9,16 @@
 		"vrijdag",
 		"zaterdag"
 	],
-	"mon": [
+	"ShortDays": [
+		"zo",
+		"ma",
+		"di",
+		"wo",
+		"do",
+		"vr",
+		"za"
+	],
+	"Months": [
 		"januari",
 		"februari",
 		"maart",
@@ -55,10 +32,26 @@
 		"november",
 		"december"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mrt",
+		"apr",
+		"mei",
+		"jun",
+		"jul",
+		"aug",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d-%m-%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

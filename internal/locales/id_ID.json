@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Min",
-		"Sen",
-		"Sel",
-		"Rab",
-		"Kam",
-		"Jum",
-		"Sab"
-	],
-	"abmon": [
-		"Jan",
-		"Peb",
-		"Mar",
-		"Apr",
-		"Mei",
-		"Jun",
-		"Jul",
-		"Agu",
-		"Sep",
-		"Okt",
-		"Nov",
-		"Des"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %r %Z"
-	],
-	"day": [
+	"ID": "id_ID",
+	"Days": [
 		"Minggu",
 		"Senin",
 		"Selasa",
@@ -41,7 +9,16 @@
 		"Jumat",
 		"Sabtu"
 	],
-	"mon": [
+	"ShortDays": [
+		"Min",
+		"Sen",
+		"Sel",
+		"Rab",
+		"Kam",
+		"Jum",
+		"Sab"
+	],
+	"Months": [
 		"Januari",
 		"Pebruari",
 		"Maret",
@@ -55,10 +32,26 @@
 		"November",
 		"Desember"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Jan",
+		"Peb",
+		"Mar",
+		"Apr",
+		"Mei",
+		"Jun",
+		"Jul",
+		"Agu",
+		"Sep",
+		"Okt",
+		"Nov",
+		"Des"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %r %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }

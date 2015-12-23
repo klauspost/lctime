@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"ned",
-		"pon",
-		"uto",
-		"sre",
-		"čet",
-		"pet",
-		"sub"
-	],
-	"abmon": [
-		"jan",
-		"feb",
-		"mar",
-		"apr",
-		"maj",
-		"jun",
-		"jul",
-		"avg",
-		"sep",
-		"okt",
-		"nov",
-		"dec"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d.%m.%Y."
-	],
-	"d_t_fmt": [
-		"%A, %d. %B %Y. %T %Z"
-	],
-	"day": [
+	"ID": "sr_RS@latin",
+	"Days": [
 		"nedelja",
 		"ponedeljak",
 		"utorak",
@@ -41,7 +9,16 @@
 		"petak",
 		"subota"
 	],
-	"mon": [
+	"ShortDays": [
+		"ned",
+		"pon",
+		"uto",
+		"sre",
+		"čet",
+		"pet",
+		"sub"
+	],
+	"Months": [
 		"januar",
 		"februar",
 		"mart",
@@ -55,10 +32,26 @@
 		"novembar",
 		"decembar"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"jan",
+		"feb",
+		"mar",
+		"apr",
+		"maj",
+		"jun",
+		"jul",
+		"avg",
+		"sep",
+		"okt",
+		"nov",
+		"dec"
 	],
-	"t_fmt_ampm": [
-		"%T"
-	]
+	"AMPM": [
+		"",
+		""
+	],
+	"Date": "%d.%m.%Y.",
+	"DateTime": "%A, %d. %B %Y. %T %Z",
+	"Time": "%T",
+	"TimeAMPM": "%T"
 }

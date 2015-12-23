@@ -1,38 +1,6 @@
 {
-	"abday": [
-		"Dido",
-		"Dilu",
-		"Dim",
-		"Dic",
-		"Diar",
-		"Diha",
-		"Disa"
-	],
-	"abmon": [
-		"Fao",
-		"Gea",
-		"Màr",
-		"Gib",
-		"Mhà",
-		"OgM",
-		"luc",
-		"Lùn",
-		"Sul",
-		"Dam",
-		"Sam",
-		"Dùb"
-	],
-	"am_pm": [
-		"",
-		""
-	],
-	"d_fmt": [
-		"%d/%m/%y"
-	],
-	"d_t_fmt": [
-		"%a %d %b %Y %T %Z"
-	],
-	"day": [
+	"ID": "gd_GB",
+	"Days": [
 		"Didòmhnaich",
 		"Diluain",
 		"Dimàirt",
@@ -41,7 +9,16 @@
 		"Dihaoine",
 		"Disathairne"
 	],
-	"mon": [
+	"ShortDays": [
+		"Dido",
+		"Dilu",
+		"Dim",
+		"Dic",
+		"Diar",
+		"Diha",
+		"Disa"
+	],
+	"Months": [
 		"Am Faoilteach",
 		"An Gearran",
 		"Am Màrt",
@@ -55,10 +32,26 @@
 		"An t-Samhain",
 		"An Dùbhlachd"
 	],
-	"t_fmt": [
-		"%T"
+	"ShortMonths": [
+		"Fao",
+		"Gea",
+		"Màr",
+		"Gib",
+		"Mhà",
+		"OgM",
+		"luc",
+		"Lùn",
+		"Sul",
+		"Dam",
+		"Sam",
+		"Dùb"
 	],
-	"t_fmt_ampm": [
+	"AMPM": [
+		"",
 		""
-	]
+	],
+	"Date": "%d/%m/%y",
+	"DateTime": "%a %d %b %Y %T %Z",
+	"Time": "%T",
+	"TimeAMPM": ""
 }
