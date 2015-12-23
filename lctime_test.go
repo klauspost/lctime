@@ -24,10 +24,10 @@ func TestSetLocale(t *testing.T) {
 		{"POSIX", nil},
 		{"en_US", nil},
 		{"en_US.UTF-8", nil},
-		{"gez_ET@abegede", nil},
+		{"uz_UZ@cyrillic", nil},
 		{"es_MX", nil},
 		{"", ErrNoLocale},
-		{"eu_FR@euro", nil},
+		{"nan_TW@latin", nil},
 	}
 
 	for i, test := range tests {
@@ -44,10 +44,10 @@ func TestGetLocale(t *testing.T) {
 	}{
 		{"fake", ""},
 		{"POSIX", "POSIX"},
-		{"gez_ET@abegede", "gez_ET@abegede"},
+		{"uz_UZ@cyrillic", "uz_UZ@cyrillic"},
 		{"ab_CD", ""},
 		{"", ""},
-		{"eu_FR@euro", "eu_FR@euro"},
+		{"nan_TW@latin", "nan_TW@latin"},
 		{"en_US", "en_US"},
 		{"es_MX", "es_MX"},
 	}
