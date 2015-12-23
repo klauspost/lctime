@@ -43,7 +43,7 @@ For example: add a test case, fix a parser bug, correct a translation, add
 missing information to docs, simplify the code—make `lctime` better so people
 can have friggin' _dates_ in their language and format!
 
-#### Run Tests
+#### Run tests
 
 ```
 cd $GOPATH/src/github.com/yourusername/lctime
@@ -51,6 +51,16 @@ go test
 ```
 
 There should be no failing tests. If there is, then something is broken. Fix it.
+
+#### If necessary, regenerate locale data
+
+If you changed any of the locale data, then you'll need to regenerate the Go
+code for that data. Use these commands.
+
+```
+cd internal/locales
+go-bindata -pkg locale -o 1data.go .
+```
 
 Thank you!
 
