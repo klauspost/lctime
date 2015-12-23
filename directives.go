@@ -82,9 +82,7 @@ func pere(t time.Time) string {
 // match the ISO 8601:2000 standard subclause 4.1.2.4 complete representation,
 // expanded format date representation of a specific day.
 func perF(t time.Time) string {
-	// return fmt.Sprintf("%d-%02d-%02d", t.Year(), t.Month(), t.Day())
-	// BUG(jaime): %F not implemented
-	return "-1"
+	return Strftime("%Y-%m-%d", t)
 }
 
 // perg returns the last 2 digits of the week-based year as a decimal number

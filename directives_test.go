@@ -173,24 +173,15 @@ func TestPere(t *testing.T) {
 }
 
 func TestPerF(t *testing.T) {
-	t.SkipNow()
-
 	tests := []struct {
-		input  time.Time
-		locale string
-		want   string
+		input time.Time
+		want  string
 	}{
-		{time.Date(1873, 9, 20, 1, 56, 2, 554999, time.UTC),
-			"en_US", "1873-09-20"},
-		{time.Date(1865, 9, 26, 21, 10, 45, 687012, time.UTC),
-			"es_MX", "1865-09-26"},
+		{time.Date(1873, 9, 20, 1, 56, 2, 554999, time.UTC), "1873-09-20"},
 	}
 
 	for i, test := range tests {
-		SetLocale(test.locale)
-
 		if got := perF(test.input); got != test.want {
-			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
