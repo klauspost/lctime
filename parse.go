@@ -1,5 +1,3 @@
-// BUG(jaime): Strftime doesn't support optional flags.
-
 package lctime
 
 import (
@@ -7,7 +5,7 @@ import (
 	"time"
 )
 
-// Strftime formats a datetime. It's locale-aware, so make sure you call
+// Strftime formats a time.Time. It's locale-aware, so make sure you call
 // SetLocale if needed.
 func Strftime(format string, t time.Time) string {
 	if len(format) < 1 {

@@ -4,20 +4,21 @@ directives. More importantly, it does so in a locale-aware fashion. This
 allows developers to format time based on a user's locale.
 
 An initial locale is loaded at import time. It's determined by the first,
-non-empty value from these environment variables.
+non-empty locale identifier from these environment variables.
 
     1. LC_TIME
     2. LC_ALL
     3. LANG
 
-If all of the previous variables are empty, then en_US will be the initial
-locale used.
+If all of the previous variables are empty, then POSIX will be the initial
+locale used. All locales use UTF-8 character encoding.
 
-The formats used are based on glibc locale files.
+The formats used are loosely based on glibc locale files.
 
-These are the supported strftime directives. They're based on The Open Group
-Base Specifications Issue 7,
+These are the supported strftime directives. They're loosely based on The Open
+Group Base Specifications Issue 7,
 http://pubs.opengroup.org/onlinepubs/9699919799/functions/strftime.html.
+
    %a  locale's abbreviated weekday name
    %A  locale's full weekday name
    %b  locale's abbreviated month name
@@ -96,7 +97,7 @@ func init() {
 		os.Getenv("LC_TIME"),
 		os.Getenv("LC_ALL"),
 		os.Getenv("LANG"),
-		"en_US",
+		"POSIX",
 	}
 
 	for _, v := range vars {
