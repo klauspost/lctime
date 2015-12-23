@@ -59,8 +59,12 @@ code for that data. Use these commands.
 
 ```
 cd internal/locales
+rm 1data.go .DS_Store
 go-bindata -pkg locale -o 1data.go .
 ```
+
+Next, verify that only the locale files were picked up by `go-bindata` by
+opening `1data.go` and reading the `sources` comment at the top of the file.
 
 Thank you!
 
