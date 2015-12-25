@@ -15,6 +15,22 @@ func TestPera(t *testing.T) {
 			"en_US", "Sat"},
 		{time.Date(2037, 5, 26, 7, 51, 33, 975892, time.UTC),
 			"es_MX", "mar"},
+		{time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+			"da_DK", "fre"},
+		{time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+			"ru_RU", "Чт."},
+		{time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+			"de_DE", "Mi"},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "মঙ্গল"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "五"},
+		{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+			"pt_BR", "Qua"},
+		{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+			"fr_FR", "ven."},
+		{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+			"ar_EG", "ج"},
 	}
 
 	for i, test := range tests {
@@ -36,6 +52,22 @@ func TestPerA(t *testing.T) {
 			"en_US", "Tuesday"},
 		{time.Date(1980, 3, 28, 17, 49, 9, 914495, time.UTC),
 			"es_MX", "viernes"},
+		{time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+			"da_DK", "fredag"},
+		{time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+			"ru_RU", "Четверг"},
+		{time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+			"de_DE", "Mittwoch"},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "মঙ্গলবার"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "星期五"},
+		{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+			"pt_BR", "quarta"},
+		{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+			"fr_FR", "vendredi"},
+		{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+			"ar_EG", "الجمعة"},
 	}
 
 	for i, test := range tests {
@@ -57,6 +89,22 @@ func TestPerb(t *testing.T) {
 			"en_US", "Sep"},
 		{time.Date(1833, 7, 17, 11, 38, 3, 809041, time.UTC),
 			"es_MX", "jul"},
+		{time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+			"da_DK", "jan"},
+		{time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+			"ru_RU", "дек."},
+		{time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+			"de_DE", "Okt"},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "অক্টোবর"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "11月"},
+		{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+			"pt_BR", "Set"},
+		{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+			"fr_FR", "sept."},
+		{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+			"ar_EG", "نوف"},
 	}
 
 	for i, test := range tests {
@@ -78,6 +126,22 @@ func TestPerB(t *testing.T) {
 			"en_US", "August"},
 		{time.Date(2069, 7, 11, 9, 39, 12, 27157, time.UTC),
 			"es_MX", "julio"},
+		{time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+			"da_DK", "januar"},
+		{time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+			"ru_RU", "Декабрь"},
+		{time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+			"de_DE", "Oktober"},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "অক্টোবর"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "十一月"},
+		{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+			"pt_BR", "setembro"},
+		{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+			"fr_FR", "septembre"},
+		{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+			"ar_EG", "نوفمبر"},
 	}
 
 	for i, test := range tests {
@@ -99,6 +163,22 @@ func TestPerc(t *testing.T) {
 			"en_US", "Wed 03 Oct 2074 08:09:02 PM UTC"},
 		{time.Date(1859, 10, 11, 21, 57, 51, 269055, time.UTC),
 			"es_MX", "mar 11 oct 1859 21:57:51 UTC"},
+		{time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+			"da_DK", "fre 07 jan 1994 09:51:27 UTC"},
+		{time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+			"ru_RU", "Чт. 01 дек. 1988 17:51:22"},
+		{time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+			"de_DE", "Mi 13 Okt 1965 08:31:35 UTC"},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "মঙ্গলবার 16 অক্টোবর 1827 12:40:34 পূর্বাহ্ণ UTC"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "1849年11月23日 星期五 15时11分46秒"},
+		{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+			"pt_BR", "Qua 07 Set 1938 04:06:42 UTC"},
+		{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+			"fr_FR", "ven. 20 sept. 2024 23:33:13 UTC"},
+		//{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+		//	"ar_EG", "01 نوف, 1805  11:12:14 ص UTC"},
 	}
 
 	for i, test := range tests {
@@ -317,6 +397,22 @@ func TestPerp(t *testing.T) {
 			"en_US", "PM"},
 		{time.Date(1866, 6, 24, 7, 46, 55, 436140, time.UTC),
 			"es_MX", ""},
+		{time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+			"da_DK", ""},
+		{time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+			"ru_RU", ""},
+		{time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+			"de_DE", ""},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "পূর্বাহ্ণ"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "下午"},
+		{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+			"pt_BR", ""},
+		{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+			"fr_FR", ""},
+		{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+			"ar_EG", "ص"},
 	}
 
 	for i, test := range tests {
@@ -339,6 +435,22 @@ func TestPerr(t *testing.T) {
 			"en_US", "03:20:31 AM"},
 		{time.Date(2096, 11, 25, 22, 53, 17, 105946, time.UTC),
 			"es_MX", ""},
+		// {time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+		//	"da_DK", "09:51:27"},
+		// {time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+		//	"ru_RU", "05:51:22"},
+		// {time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+		// 	"de_DE", "08:31:35"},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "12:40:34 পূর্বাহ্ণ UTC"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "下午 03时11分46秒"},
+		//{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+		//	"pt_BR", "04:06:42"},
+		//{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+		//	"fr_FR", "11:33:13"},
+		//{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+		//	"ar_EG", "11:12:14 ص"},
 	}
 
 	for i, test := range tests {
@@ -499,6 +611,22 @@ func TestPerx(t *testing.T) {
 			"en_US", "07/01/2004"},
 		{time.Date(1860, 4, 25, 8, 51, 49, 613045, time.UTC),
 			"es_MX", "25/04/60"},
+		{time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+			"da_DK", "07-01-1994"},
+		{time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+			"ru_RU", "01.12.1988"},
+		{time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+			"de_DE", "13.10.1965"},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "মঙ্গলবার 16 অক্টোবর 1827"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "1849年11月23日"},
+		{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+			"pt_BR", "07-09-1938"},
+		{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+			"fr_FR", "20/09/2024"},
+		{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+			"ar_EG", "01 نوف, 1805"},
 	}
 
 	for i, test := range tests {
@@ -521,6 +649,22 @@ func TestPerX(t *testing.T) {
 			"en_US", "05:52:27 PM"},
 		{time.Date(1977, 7, 18, 18, 44, 4, 794184, time.UTC),
 			"es_MX", "18:44:04"},
+		{time.Date(1994, 1, 7, 9, 51, 27, 222686, time.UTC),
+			"da_DK", "09:51:27"},
+		{time.Date(1988, 12, 1, 17, 51, 22, 853401, time.UTC),
+			"ru_RU", "17:51:22"},
+		{time.Date(1965, 10, 13, 8, 31, 35, 101666, time.UTC),
+			"de_DE", "08:31:35"},
+		{time.Date(1827, 10, 16, 0, 40, 34, 153567, time.UTC),
+			"bn_IN", "12:40:34 UTC"},
+		{time.Date(1849, 11, 23, 15, 11, 46, 889860, time.UTC),
+			"zh_CN", "15时11分46秒"},
+		{time.Date(1938, 9, 7, 4, 6, 42, 79287, time.UTC),
+			"pt_BR", "04:06:42"},
+		{time.Date(2024, 9, 20, 23, 33, 13, 961479, time.UTC),
+			"fr_FR", "23:33:13"},
+		{time.Date(1805, 11, 1, 11, 12, 14, 651205, time.UTC),
+			"ar_EG", "UTC 11:12:14"},
 	}
 
 	for i, test := range tests {
@@ -565,21 +709,14 @@ func TestPerY(t *testing.T) {
 
 func TestPerz(t *testing.T) {
 	tests := []struct {
-		input  time.Time
-		locale string
-		want   string
+		input time.Time
+		want  string
 	}{
-		{time.Date(2065, 6, 19, 5, 29, 39, 858124, time.UTC),
-			"en_US", "+0000"},
-		{time.Date(1827, 2, 10, 1, 53, 54, 444622, time.UTC),
-			"es_MX", "+0000"},
+		{time.Date(2065, 6, 19, 5, 29, 39, 858124, time.UTC), "+0000"},
 	}
 
 	for i, test := range tests {
-		SetLocale(test.locale)
-
 		if got := perz(test.input); got != test.want {
-			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
