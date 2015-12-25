@@ -36,13 +36,6 @@ func perc(t time.Time) string {
 
 // perC returns the year divided by 100 and truncated to an integer, as a
 // decimal number.
-//
-// If a minimum field width is not specified, the number of characters placed
-// into the array pointed to by s will be the number of digits in the year
-// divided by 100 or two, whichever is greater. If a minimum field width is
-// specified, the number of characters placed into the array pointed to by s
-// will be the number of digits in the year divided by 100 or the minimum field
-// width, whichever is greater.
 func perC(t time.Time) string {
 	return fmt.Sprint(t.Year() / 100)
 }
@@ -52,7 +45,7 @@ func perd(t time.Time) string {
 	return fmt.Sprintf("%02d", t.Day())
 }
 
-// perD returns %m/%d/%y.
+// perD returns the date formatted as %m/%d/%y.
 func perD(t time.Time) string {
 	return Strftime("%m/%d/%y", t)
 }
@@ -67,20 +60,7 @@ func pere(t time.Time) string {
 	return fmt.Sprintf("%d", d)
 }
 
-// perF returns %+4Y-%m-%d if no flag and no minimum field width are specified.
-//
-// If a minimum field width of x is specified, the year shall be output as if by
-// the Y specifier with whatever flag was given and a minimum field width of
-// x-6. If x is less than 6, the behavior shall be as if x equalled 6.
-//
-// If the minimum field width is specified to be 10, and the year is four digits
-// long, then the output string produced will match the ISO 8601:2000 standard
-// subclause 4.1.2.2 complete representation, extended format date
-// representation of a specific day. If a + flag is specified, a minimum field
-// width of x is specified, and x-7 bytes are sufficient to hold the digits of
-// the year (not including any needed sign character), then the output will
-// match the ISO 8601:2000 standard subclause 4.1.2.4 complete representation,
-// expanded format date representation of a specific day.
+// perF returns the date formatted as %Y-%m-%d.
 func perF(t time.Time) string {
 	return Strftime("%Y-%m-%d", t)
 }
@@ -141,15 +121,14 @@ func perp(t time.Time) string {
 	return lc.AMPM[1]
 }
 
-// perr returns the time in a.m. and p.m. notation. In POSIX locale this shall
-// be equivalent to %I : %M : %S %p.
+// perr returns the time in a.m. and p.m. notation.
 func perr(t time.Time) string {
 	return Strftime(lc.TimeAMPM, t)
 }
 
-// perR returns the time in 24-hour notation ( %H : %M ).
+// perR returns the time formatted as %H:%M.
 func perR(t time.Time) string {
-	return fmt.Sprintf("%02d:%02d", t.Hour(), t.Minute())
+	return Strftime("%H:%M", t)
 }
 
 // perS returns the second as a decimal number [00,60].
@@ -162,7 +141,7 @@ func pert(t time.Time) string {
 	return "\t"
 }
 
-// perT returns the time ( %H : %M : %S ).
+// perT returns the time formatted as %H:%M:%S
 func perT(t time.Time) string {
 	return Strftime("%H:%M:%S", t)
 }

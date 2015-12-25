@@ -76,6 +76,7 @@ func TestStrftime(t *testing.T) {
 		{"abc", "abc"},
 		{"%", "%"},
 		{"%%", "%"},
+		{"%FT%T%z", "2444-03-08T03:08:59+0000"},
 	}
 
 	for i, test := range tests {

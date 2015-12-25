@@ -273,6 +273,7 @@ func TestPerg(t *testing.T) {
 		want  string
 	}{
 		{time.Date(1805, 11, 25, 6, 54, 12, 611641, time.UTC), "05"},
+		{time.Date(1800, 11, 3, 21, 30, 57, 427721, time.UTC), "00"},
 	}
 
 	for i, test := range tests {
@@ -288,6 +289,7 @@ func TestPerG(t *testing.T) {
 		want  string
 	}{
 		{time.Date(2052, 4, 23, 3, 48, 19, 290262, time.UTC), "2052"},
+		{time.Date(1907, 4, 15, 21, 47, 4, 910983, time.UTC), "1907"},
 	}
 
 	for i, test := range tests {
@@ -318,6 +320,7 @@ func TestPerI(t *testing.T) {
 		want  string
 	}{
 		{time.Date(1847, 9, 20, 0, 42, 43, 49440, time.UTC), "12"},
+		{time.Date(1941, 3, 11, 19, 6, 28, 673085, time.UTC), "07"},
 	}
 
 	for i, test := range tests {
@@ -469,6 +472,7 @@ func TestPerR(t *testing.T) {
 		want  string
 	}{
 		{time.Date(1866, 7, 10, 18, 2, 16, 179906, time.UTC), "18:02"},
+		{time.Date(1981, 9, 17, 3, 2, 12, 378798, time.UTC), "03:02"},
 	}
 
 	for i, test := range tests {
@@ -530,6 +534,8 @@ func TestPeru(t *testing.T) {
 	}{
 		{time.Date(2025, 5, 5, 8, 1, 29, 632563, time.UTC), "1"},
 		{time.Date(1960, 9, 4, 3, 6, 47, 547101, time.UTC), "7"},
+		{time.Date(1882, 6, 16, 11, 36, 31, 317944, time.UTC), "5"},
+		{time.Date(2081, 6, 11, 0, 40, 2, 298881, time.UTC), "3"},
 	}
 
 	for i, test := range tests {
@@ -546,6 +552,7 @@ func TestPerU(t *testing.T) {
 	}{
 		{time.Date(1949, 8, 16, 21, 54, 30, 113731, time.UTC), "33"},
 		{time.Date(1956, 11, 29, 0, 33, 29, 550957, time.UTC), "48"},
+		{time.Date(1954, 1, 22, 9, 33, 5, 730246, time.UTC), "03"},
 	}
 
 	for i, test := range tests {
@@ -561,6 +568,8 @@ func TestPerV(t *testing.T) {
 		want  string
 	}{
 		{time.Date(1969, 10, 24, 1, 2, 57, 31564, time.UTC), "43"},
+		{time.Date(2052, 11, 6, 23, 58, 31, 538378, time.UTC), "45"},
+		{time.Date(2089, 7, 12, 3, 38, 23, 593912, time.UTC), "28"},
 	}
 
 	for i, test := range tests {
@@ -592,6 +601,8 @@ func TestPerW(t *testing.T) {
 	}{
 		{time.Date(2081, 9, 29, 0, 22, 12, 982588, time.UTC), "39"},
 		{time.Date(1824, 1, 8, 4, 6, 57, 252617, time.UTC), "01"},
+		{time.Date(1817, 10, 24, 3, 54, 45, 627187, time.UTC), "42"},
+		{time.Date(1834, 8, 20, 13, 5, 25, 433542, time.UTC), "33"},
 	}
 
 	for i, test := range tests {
@@ -683,6 +694,7 @@ func TestPery(t *testing.T) {
 		want  string
 	}{
 		{time.Date(1841, 9, 9, 3, 10, 9, 885689, time.UTC), "41"},
+		{time.Date(2000, 9, 2, 4, 6, 36, 41497, time.UTC), "00"},
 	}
 
 	for i, test := range tests {
