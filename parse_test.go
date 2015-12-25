@@ -87,14 +87,15 @@ func TestStrftime(t *testing.T) {
 }
 
 func ExampleStrftime() {
+	// Initial locale based on env vars. If not set, then POSIX is used.
 	t := time.Date(2000, 1, 2, 3, 4, 5, 6, time.UTC)
-	fmt.Println(Strftime("%Y-%m-%d %H:%M:%S", t))
-	// Output: 2000-01-02 03:04:05
+	fmt.Println(Strftime("%c", t))
+	// Output: Sun 02 Jan 2000 03:04:05 AM UTC
 }
 
 func ExampleStrftime_withLocale() {
 	SetLocale("es_MX")
-	t := time.Date(2000, 1, 2, 3, 4, 5, 6, time.UTC)
-	fmt.Println(Strftime("%d de %B de %Y", t))
-	// Output: 02 de enero de 2000
+	t := time.Date(2015, 12, 25, 3, 2, 1, 0, time.UTC)
+	fmt.Println(Strftime("%A, %d de %B de %Y", t))
+	// Output: viernes, 25 de diciembre de 2015
 }
