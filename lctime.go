@@ -64,9 +64,16 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
+	"time"
 
 	"github.com/variadico/lctime/internal/locales"
 )
+
+// Localizer provides translation to a locale.
+type Localizer interface {
+	Strftime(format string, t time.Time) string
+}
 
 type localeData struct {
 	ID string
@@ -89,7 +96,8 @@ var (
 	// ErrCorruptLocale is returned if a given locale file is corrupted.
 	ErrCorruptLocale = errors.New("Corrupted locale")
 
-	lc localeData
+	lc     localeData
+	loaded sync.Map
 )
 
 func init() {
@@ -110,21 +118,44 @@ func init() {
 
 // SetLocale activates the given locale.
 func SetLocale(id string) error {
-	// All locales use UTF-8.
-	id = removeCodeset(id)
+	l, err := loadLocale(id)
+	if err != nil {
+		lc = localeData{}
+		return err
+	}
+	lc = *l
+	return nil
+}
 
+// NewLocalizer provides a localizer to a specific locale.
+func NewLocalizer(id string) (Localizer, error) {
+	return loadLocale(id)
+}
+
+// loadLocale will load the locale or fetch it from cache.
+func loadLocale(id string) (*localeData, error) {
+	id = removeCodeset(id)
+	if l, ok := loaded.Load(id); ok {
+		lc, ok := l.(*localeData)
+		if !ok {
+			return lc, nil
+		}
+	}
+
+	// All locales use UTF-8.
+	var lc localeData
 	bys, err := locale.Asset(id + ".json")
 	if err != nil {
 		lc = localeData{}
-		return ErrNoLocale
+		return nil, ErrNoLocale
 	}
 
 	if err = json.Unmarshal(bys, &lc); err != nil {
 		lc = localeData{}
-		return ErrCorruptLocale
+		return nil, ErrCorruptLocale
 	}
-
-	return nil
+	loaded.Store(id, &lc)
+	return &lc, nil
 }
 
 // GetLocale returns the currently active locale.

@@ -36,7 +36,7 @@ func TestPera(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := pera(test.input); got != test.want {
+		if got := lc.pera(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -73,7 +73,7 @@ func TestPerA(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := perA(test.input); got != test.want {
+		if got := lc.perA(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -110,7 +110,7 @@ func TestPerb(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := perb(test.input); got != test.want {
+		if got := lc.perb(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -147,7 +147,7 @@ func TestPerB(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := perB(test.input); got != test.want {
+		if got := lc.perB(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -184,7 +184,7 @@ func TestPerc(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := perc(test.input); got != test.want {
+		if got := lc.perc(test.input); got != test.want {
 			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
@@ -200,7 +200,7 @@ func TestPerC(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perC(test.input); got != test.want {
+		if got := lc.perC(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -215,7 +215,7 @@ func TestPerd(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perd(test.input); got != test.want {
+		if got := lc.perd(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -230,7 +230,7 @@ func TestPerD(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perD(test.input); got != test.want {
+		if got := lc.perD(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -246,7 +246,7 @@ func TestPere(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := pere(test.input); got != test.want {
+		if got := lc.pere(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -261,7 +261,7 @@ func TestPerF(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perF(test.input); got != test.want {
+		if got := lc.perF(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -277,7 +277,7 @@ func TestPerg(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perg(test.input); got != test.want {
+		if got := lc.perg(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -293,7 +293,7 @@ func TestPerG(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perG(test.input); got != test.want {
+		if got := lc.perG(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -308,7 +308,7 @@ func TestPerH(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perH(test.input); got != test.want {
+		if got := lc.perH(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -324,7 +324,7 @@ func TestPerI(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perI(test.input); got != test.want {
+		if got := lc.perI(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -339,7 +339,7 @@ func TestPerj(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perj(test.input); got != test.want {
+		if got := lc.perj(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -354,7 +354,7 @@ func TestPerm(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perm(test.input); got != test.want {
+		if got := lc.perm(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -369,7 +369,7 @@ func TestPerM(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perM(test.input); got != test.want {
+		if got := lc.perM(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -384,7 +384,7 @@ func TestPern(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := pern(test.input); got != test.want {
+		if got := lc.pern(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -421,7 +421,7 @@ func TestPerp(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := perp(test.input); got != test.want {
+		if got := lc.perp(test.input); got != test.want {
 			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
@@ -459,7 +459,7 @@ func TestPerr(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := perr(test.input); got != test.want {
+		if got := lc.perr(test.input); got != test.want {
 			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
@@ -476,7 +476,7 @@ func TestPerR(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perR(test.input); got != test.want {
+		if got := lc.perR(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -491,7 +491,7 @@ func TestPerS(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perS(test.input); got != test.want {
+		if got := lc.perS(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -506,7 +506,7 @@ func TestPert(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := pert(test.input); got != test.want {
+		if got := lc.pert(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -521,7 +521,7 @@ func TestPerT(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perT(test.input); got != test.want {
+		if got := lc.perT(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -539,7 +539,7 @@ func TestPeru(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := peru(test.input); got != test.want {
+		if got := lc.peru(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -556,7 +556,7 @@ func TestPerU(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perU(test.input); got != test.want {
+		if got := lc.perU(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -573,7 +573,7 @@ func TestPerV(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perV(test.input); got != test.want {
+		if got := lc.perV(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -588,7 +588,7 @@ func TestPerw(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perw(test.input); got != test.want {
+		if got := lc.perw(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -606,7 +606,7 @@ func TestPerW(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perW(test.input); got != test.want {
+		if got := lc.perW(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -643,7 +643,7 @@ func TestPerx(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := perx(test.input); got != test.want {
+		if got := lc.perx(test.input); got != test.want {
 			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
@@ -681,7 +681,7 @@ func TestPerX(t *testing.T) {
 	for i, test := range tests {
 		SetLocale(test.locale)
 
-		if got := perX(test.input); got != test.want {
+		if got := lc.perX(test.input); got != test.want {
 			t.Error("locale:", test.locale)
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
@@ -698,7 +698,7 @@ func TestPery(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := pery(test.input); got != test.want {
+		if got := lc.pery(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -713,7 +713,7 @@ func TestPerY(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perY(test.input); got != test.want {
+		if got := lc.perY(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -728,7 +728,7 @@ func TestPerz(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perz(test.input); got != test.want {
+		if got := lc.perz(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -743,7 +743,7 @@ func TestPerZ(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perZ(test.input); got != test.want {
+		if got := lc.perZ(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}
@@ -758,7 +758,7 @@ func TestPerper(t *testing.T) {
 	}
 
 	for i, test := range tests {
-		if got := perper(test.input); got != test.want {
+		if got := lc.perper(test.input); got != test.want {
 			t.Errorf(gotWantIdx, i, got, test.want)
 		}
 	}

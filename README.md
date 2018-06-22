@@ -24,6 +24,42 @@ fmt.Println(lctime.Strftime("%c", time.Now()))
 // prints: lun 14 dic 2015 22:31:56 PST
 ```
 
+This is very easy if your application only has to translate to a single language.
+
+### Multiple Locales
+
+To do translation to multiple languages without having collisions, you can use 
+the [`StrftimeLoc`](https://godoc.org/github.com/variadico/lctime#StrftimeLoc) function. 
+It allows you to specify a locale along your time to be translated.
+
+```go
+	t := time.Date(2015, 12, 25, 3, 2, 1, 0, time.UTC)
+	txt, err := StrftimeLoc("es_MX", "%A, %d de %B de %Y", t)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println(txt)
+
+	// Prints viernes, 25 de diciembre de 2015
+```
+
+If you need to do several translations or need to pass your localizer as a parameter, you can use
+the [`NewLocalizer`](https://godoc.org/github.com/variadico/lctime#NewLocalizer) function.
+It allows you to localize several strings to the same language without having to specify it every time.
+
+```go
+	t := time.Date(2015, 12, 25, 3, 2, 1, 0, time.UTC)
+	l, err := NewLocalizer("da_DK")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println(l.Strftime("%A den %d. %B %Y", t))
+
+	// Prints: fredag den 25. december 2015
+```
+
 ## The problem with the Go standard library
 
 Go's standard library `time` is fine most of the time. However, it's currently
