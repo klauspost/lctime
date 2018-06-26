@@ -67,7 +67,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/variadico/lctime/internal/locales"
+	"github.com/klauspost/lctime/internal/locales"
 )
 
 // Localizer provides translation to a locale.
