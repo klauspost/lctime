@@ -8,6 +8,20 @@ import (
 // Strftime formats a time.Time. It's locale-aware, so make sure you call
 // SetLocale if needed.
 func Strftime(format string, t time.Time) string {
+	return lc.Strftime(format, t)
+}
+
+// StrftimeLoc formats a time.Time. It's locale-aware, so make sure you call
+// SetLocale if needed.
+func StrftimeLoc(locale, format string, t time.Time) (string, error) {
+	lc, err := loadLocale(locale)
+	if err != nil {
+		return "", err
+	}
+	return lc.Strftime(format, t), nil
+}
+
+func (lc *localeData) Strftime(format string, t time.Time) string {
 	if len(format) < 1 {
 		return format
 	}
@@ -17,7 +31,7 @@ func Strftime(format string, t time.Time) string {
 
 	for i := 0; i < end; i++ {
 		if format[i] == '%' && i+2 <= end {
-			buf.WriteString(parseDirective(format[i:i+2], t))
+			buf.WriteString(lc.parseDirective(format[i:i+2], t))
 			i++
 			continue
 		}
@@ -28,84 +42,84 @@ func Strftime(format string, t time.Time) string {
 	return buf.String()
 }
 
-func parseDirective(direc string, t time.Time) string {
+func (lc *localeData) parseDirective(direc string, t time.Time) string {
 	if len(direc) < 2 {
 		return direc
 	}
 
 	switch direc[:2] {
 	case "%a":
-		return pera(t)
+		return lc.pera(t)
 	case "%A":
-		return perA(t)
+		return lc.perA(t)
 	case "%b":
-		return perb(t)
+		return lc.perb(t)
 	case "%B":
-		return perB(t)
+		return lc.perB(t)
 	case "%c":
-		return perc(t)
+		return lc.perc(t)
 	case "%C":
-		return perC(t)
+		return lc.perC(t)
 	case "%d":
-		return perd(t)
+		return lc.perd(t)
 	case "%D":
-		return perD(t)
+		return lc.perD(t)
 	case "%e":
-		return pere(t)
+		return lc.pere(t)
 	case "%F":
-		return perF(t)
+		return lc.perF(t)
 	case "%g":
-		return perg(t)
+		return lc.perg(t)
 	case "%G":
-		return perG(t)
+		return lc.perG(t)
 	case "%H":
-		return perH(t)
+		return lc.perH(t)
 	case "%I":
-		return perI(t)
+		return lc.perI(t)
 	case "%j":
-		return perj(t)
+		return lc.perj(t)
 	case "%m":
-		return perm(t)
+		return lc.perm(t)
 	case "%M":
-		return perM(t)
+		return lc.perM(t)
 	case "%n":
-		return pern(t)
+		return lc.pern(t)
 	case "%p":
-		return perp(t)
+		return lc.perp(t)
 	case "%r":
-		return perr(t)
+		return lc.perr(t)
 	case "%R":
-		return perR(t)
+		return lc.perR(t)
 	case "%S":
-		return perS(t)
+		return lc.perS(t)
 	case "%t":
-		return pert(t)
+		return lc.pert(t)
 	case "%T":
-		return perT(t)
+		return lc.perT(t)
 	case "%u":
-		return peru(t)
+		return lc.peru(t)
 	case "%U":
-		return perU(t)
+		return lc.perU(t)
 	case "%V":
-		return perV(t)
+		return lc.perV(t)
 	case "%w":
-		return perw(t)
+		return lc.perw(t)
 	case "%W":
-		return perW(t)
+		return lc.perW(t)
 	case "%x":
-		return perx(t)
+		return lc.perx(t)
 	case "%X":
-		return perX(t)
+		return lc.perX(t)
 	case "%y":
-		return pery(t)
+		return lc.pery(t)
 	case "%Y":
-		return perY(t)
+		return lc.perY(t)
 	case "%z":
-		return perz(t)
+		return lc.perz(t)
 	case "%Z":
-		return perZ(t)
+		return lc.perZ(t)
 	case "%%":
-		return perper(t)
+		return lc.perper(t)
 	}
 
 	return direc
