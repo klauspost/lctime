@@ -2,14 +2,12 @@
 
 Finally, simple, familiar, locale-based datetime formatting.
 
-[![GoDoc](https://godoc.org/github.com/variadico/lctime?status.svg)](https://godoc.org/github.com/variadico/lctime)
-[![Build Status](https://drone.io/github.com/variadico/lctime/status.png)](https://drone.io/github.com/variadico/lctime/latest)
-[![Coverage Status](https://coveralls.io/repos/variadico/lctime/badge.svg?branch=master&service=github)](https://coveralls.io/github/variadico/lctime?branch=master)
+[![GoDoc](https://godoc.org/github.com/klauspost/lctime?status.svg)](https://godoc.org/github.com/klauspost/lctime)
 
 ## Install
 
 ```
-go get -u github.com/variadico/lctime
+go get -u github.com/klauspost/lctime
 ```
 
 ## Usage
@@ -24,13 +22,14 @@ fmt.Println(lctime.Strftime("%c", time.Now()))
 // prints: lun 14 dic 2015 22:31:56 PST
 ```
 
-This is very easy if your application only has to translate to a single language.
+This is very easy if your application only has to translate to a single
+language.
 
 ### Multiple Locales
 
-To do translation to multiple languages without having collisions, you can use 
-the [`StrftimeLoc`](https://godoc.org/github.com/variadico/lctime#StrftimeLoc) function. 
-It allows you to specify a locale along your time to be translated.
+To do translation to multiple languages without having collisions, you can use
+the [`StrftimeLoc`](https://godoc.org/github.com/klauspost/lctime#StrftimeLoc)
+function. It allows you to specify a locale along your time to be translated.
 
 ```go
 	t := time.Date(2015, 12, 25, 3, 2, 1, 0, time.UTC)
@@ -44,9 +43,11 @@ It allows you to specify a locale along your time to be translated.
 	// Prints viernes, 25 de diciembre de 2015
 ```
 
-If you need to do several translations or need to pass your localizer as a parameter, you can use
-the [`NewLocalizer`](https://godoc.org/github.com/variadico/lctime#NewLocalizer) function.
-It allows you to localize several strings to the same language without having to specify it every time.
+If you need to do several translations or need to pass your localizer as a
+parameter, you can use the
+[`NewLocalizer`](https://godoc.org/github.com/klauspost/lctime#NewLocalizer)
+function. It allows you to localize several strings to the same language without
+having to specify it every time.
 
 ```go
 	t := time.Date(2015, 12, 25, 3, 2, 1, 0, time.UTC)
