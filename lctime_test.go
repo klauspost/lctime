@@ -124,3 +124,18 @@ func TestRemoveCodeset(t *testing.T) {
 		}
 	}
 }
+
+var loc Localizer
+
+func BenchmarkNewLocalizer(b *testing.B) {
+	var lc Localizer
+	for i := 0; i < b.N; i++ {
+		l, err := NewLocalizer("en_US")
+		if err != nil {
+			b.Fatalf("NewLocalizer(): %s", err)
+		}
+
+		lc = l
+	}
+	loc = lc
+}

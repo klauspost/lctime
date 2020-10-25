@@ -137,23 +137,22 @@ func loadLocale(id string) (*localeData, error) {
 	id = removeCodeset(id)
 	if l, ok := loaded.Load(id); ok {
 		lc, ok := l.(*localeData)
-		if !ok {
+		if ok {
 			return lc, nil
 		}
 	}
 
-	// All locales use UTF-8.
-	var lc localeData
 	bys, err := locale.Asset(id + ".json")
 	if err != nil {
-		lc = localeData{}
 		return nil, ErrNoLocale
 	}
 
-	if err = json.Unmarshal(bys, &lc); err != nil {
-		lc = localeData{}
+	// All locales use UTF-8.
+	var lc localeData
+	if err := json.Unmarshal(bys, &lc); err != nil {
 		return nil, ErrCorruptLocale
 	}
+	
 	loaded.Store(id, &lc)
 	return &lc, nil
 }
