@@ -66,7 +66,7 @@ having to specify it every time.
 
 Go's standard library `time` is fine most of the time. However, it's currently
 impossible for the Go standard library to format dates based on a user's locale
-or langauge setting. Unfortunately, that means code like this, doesn't work.
+or language setting. Unfortunately, that means code like this, doesn't work.
 
 ```go
 d := time.Date(2015, 12, 25, 3, 2, 1, 0, time.UTC)
